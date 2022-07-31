@@ -1,0 +1,230 @@
+@use 'vars' as *;
+
+//----------------------------------------------//
+// Icons using google fonts
+//----------------------------------------------//
+
+//<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+.icon{
+    display: inline;
+    top: 0;
+    left:0;
+    position: absolute;
+    font-family: 'Material Icons';
+    font-style: normal;
+    color: $dark-accent;
+    line-height: 1.2em;
+    text-transform: lowercase;
+
+    ::before{
+        color: $dark-accent;
+    }
+}
+.GI{
+    font-family: 'Material Icons';
+    font-size: 1.2em;
+    line-height: 0em;
+    position: relative;
+    top:.15em;
+}
+.I{ 
+    //icons
+    &-done::before{
+        @extend .icon;
+        content: "done";
+        color: green;
+    }
+    &-close::before{
+        @extend .icon;
+        content: "close";
+        color: red;
+    }
+    &-h-rule::before{
+        @extend .icon;
+        content: "horizontal_rule";
+        color: orange;
+    }
+    &-flag::before {
+        @extend .icon;
+        content: "outlined_flag";
+    }
+    &-flag-fill::before {
+        @extend .icon;
+        content: "flag";
+    }
+    &-done-all::before{
+        @extend .icon;
+        content: "done_all";
+        color:green;
+    }
+    &-priority::before{
+        @extend .icon;
+        content: "priority_high";
+        color:red;
+    }
+    &-quote::before{
+        @extend .icon;
+        content: "format_quote";
+    }
+    &-groups::before{
+        @extend .icon;
+        content: "groups";
+    }
+    &-location::before{
+        @extend .icon;
+        content: 'location_on';
+    }
+    &-music::before{
+        @extend .icon;
+        content: 'music_note';
+    }
+    &-date::before{
+        @extend .icon;
+        content: 'event';
+        // top:10%;
+    }
+    &-movie::before{
+        @extend .icon;
+        content: 'live_tv';
+    }
+    &-lamp::before{
+        @extend .icon;
+        content: 'emoji_objects';
+    }
+    &-earth::before{
+        @extend .icon;
+        content: 'Public';
+    }
+    &-document::before{
+        @extend .icon;
+        content: 'Document';
+    }
+    &-question::before{
+        @extend .icon;
+        content: 'Question_mark';
+    }
+    &-education::before{
+        @extend .icon;
+        content: 'history_edu';
+    }
+    &-interests::before{
+        @extend .icon;
+        content: 'interests';
+    }
+    &-code::before{
+        @extend .icon;
+        content: 'code';
+    }
+    &-engineering::before{
+        @extend .icon;
+        content: 'engineering';
+    }
+
+    &-engineering, &-code, &-interests, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location,&-music,&-date,&-movie,&-lamp,&-earth,&-document,&-question,&-education{
+        list-style-type: none;
+        position: relative;
+        padding-left:1.2rem;
+
+        &.I-big{
+            padding-left: 3rem;
+            margin-bottom: 1rem;
+        
+            &::before{
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+                left:0;
+                // top: 0.25rem;
+            }
+        }
+        &.I-card{
+            padding: 1.25rem 4rem;
+            border-radius: $border-radius;
+            margin: 0.75rem 0;
+            &::before{
+                font-size: 3rem;
+                left:0.5rem;
+                top:0.25rem;
+            }
+        }
+        &.I-dark::before{color: $dark;}
+        
+        &.I-light::before{color: $light;}
+        
+        &.I-dark-accent::before{color: $dark-accent;}
+        
+        &.I-light-accent::before{color: $light-accent;}
+
+        &.I-right{
+            padding-left: 0;
+            padding-right:1.2rem;
+
+            &::before{
+                right:0;
+            }
+        }
+    }
+}
+
+//style modefieres
+.-list{
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin-left: 1.25rem;
+    &::before{
+        left: -1rem;
+    }
+}
+
+
+//----------------------------------------------//
+// Unicode flags
+//----------------------------------------------//
+.F{
+    &-RU::before{
+        content: '🇷🇺 ';
+    }
+    &-FR::before{
+        content: '🇫🇷 ';
+    }
+    &-PL::before{
+        content: '🇵🇱 ';
+    }
+    &-IR::before{
+        content: '🇮🇷 ';
+    }
+    &-IL::before{
+        content: '🇮🇱  ';
+    }
+    &-NL::before{
+        content: '🇳🇱 ';
+    }
+    &-DE::before{
+        content: '🇩🇪 ';
+    }
+    &-IT::before{
+        content: '🇮🇹 ';
+    }
+    &-EU::before{
+        content: '🇪🇺 ';
+    }
+    &-BE::before{
+        content: '🇧🇪 ';
+    }
+    &-LU::before{
+        content: '🇱🇺 ';
+    }
+    &-BY::before{
+        content: '🇧🇾 ';
+    }
+    &-UK::before{
+        content: '🇬🇧 ';
+    }
+    &-SE::before{
+        content: '🇸🇪 ';
+    }
+    &-x::before{
+        content: 'x ';
+    }
+}

@@ -1,0 +1,536 @@
+@charset "UTF-8";
+.icon, .I-engineering::before, .I-code::before, .I-interests::before, .I-education::before, .I-question::before, .I-document::before, .I-earth::before, .I-lamp::before, .I-movie::before, .I-date::before, .I-music::before, .I-location::before, .I-groups::before, .I-quote::before, .I-priority::before, .I-done-all::before, .I-flag-fill::before, .I-flag::before, .I-h-rule::before, .I-close::before, .I-done::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: #004799;
+  line-height: 1.2em;
+  text-transform: lowercase;
+}
+.icon ::before, .I-engineering::before ::before, .I-code::before ::before, .I-interests::before ::before, .I-education::before ::before, .I-question::before ::before, .I-document::before ::before, .I-earth::before ::before, .I-lamp::before ::before, .I-movie::before ::before, .I-date::before ::before, .I-music::before ::before, .I-location::before ::before, .I-groups::before ::before, .I-quote::before ::before, .I-priority::before ::before, .I-done-all::before ::before, .I-flag-fill::before ::before, .I-flag::before ::before, .I-h-rule::before ::before, .I-close::before ::before, .I-done::before ::before {
+  color: #004799;
+}
+
+.GI {
+  font-family: "Material Icons";
+  font-size: 1.2em;
+  line-height: 0em;
+  position: relative;
+  top: 0.15em;
+}
+
+.I-done::before {
+  content: "done";
+  color: green;
+}
+.I-close::before {
+  content: "close";
+  color: red;
+}
+.I-h-rule::before {
+  content: "horizontal_rule";
+  color: orange;
+}
+.I-flag::before {
+  content: "outlined_flag";
+}
+.I-flag-fill::before {
+  content: "flag";
+}
+.I-done-all::before {
+  content: "done_all";
+  color: green;
+}
+.I-priority::before {
+  content: "priority_high";
+  color: red;
+}
+.I-quote::before {
+  content: "format_quote";
+}
+.I-groups::before {
+  content: "groups";
+}
+.I-location::before {
+  content: "location_on";
+}
+.I-music::before {
+  content: "music_note";
+}
+.I-date::before {
+  content: "event";
+}
+.I-movie::before {
+  content: "live_tv";
+}
+.I-lamp::before {
+  content: "emoji_objects";
+}
+.I-earth::before {
+  content: "Public";
+}
+.I-document::before {
+  content: "Document";
+}
+.I-question::before {
+  content: "Question_mark";
+}
+.I-education::before {
+  content: "history_edu";
+}
+.I-interests::before {
+  content: "interests";
+}
+.I-code::before {
+  content: "code";
+}
+.I-engineering::before {
+  content: "engineering";
+}
+.I-engineering, .I-code, .I-interests, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-education {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.2rem;
+}
+.I-engineering.I-big, .I-code.I-big, .I-interests.I-big, .I-done.I-big, .I-done-all.I-big, .I-close.I-big, .I-h-rule.I-big, .I-flag.I-big, .I-flag-fill.I-big, .I-priority.I-big, .I-quote.I-big, .I-groups.I-big, .I-location.I-big, .I-music.I-big, .I-date.I-big, .I-movie.I-big, .I-lamp.I-big, .I-earth.I-big, .I-document.I-big, .I-question.I-big, .I-education.I-big {
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+.I-engineering.I-big::before, .I-code.I-big::before, .I-interests.I-big::before, .I-done.I-big::before, .I-done-all.I-big::before, .I-close.I-big::before, .I-h-rule.I-big::before, .I-flag.I-big::before, .I-flag-fill.I-big::before, .I-priority.I-big::before, .I-quote.I-big::before, .I-groups.I-big::before, .I-location.I-big::before, .I-music.I-big::before, .I-date.I-big::before, .I-movie.I-big::before, .I-lamp.I-big::before, .I-earth.I-big::before, .I-document.I-big::before, .I-question.I-big::before, .I-education.I-big::before {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  left: 0;
+}
+.I-engineering.I-card, .I-code.I-card, .I-interests.I-card, .I-done.I-card, .I-done-all.I-card, .I-close.I-card, .I-h-rule.I-card, .I-flag.I-card, .I-flag-fill.I-card, .I-priority.I-card, .I-quote.I-card, .I-groups.I-card, .I-location.I-card, .I-music.I-card, .I-date.I-card, .I-movie.I-card, .I-lamp.I-card, .I-earth.I-card, .I-document.I-card, .I-question.I-card, .I-education.I-card {
+  padding: 1.25rem 4rem;
+  border-radius: 0.5rem;
+  margin: 0.75rem 0;
+}
+.I-engineering.I-card::before, .I-code.I-card::before, .I-interests.I-card::before, .I-done.I-card::before, .I-done-all.I-card::before, .I-close.I-card::before, .I-h-rule.I-card::before, .I-flag.I-card::before, .I-flag-fill.I-card::before, .I-priority.I-card::before, .I-quote.I-card::before, .I-groups.I-card::before, .I-location.I-card::before, .I-music.I-card::before, .I-date.I-card::before, .I-movie.I-card::before, .I-lamp.I-card::before, .I-earth.I-card::before, .I-document.I-card::before, .I-question.I-card::before, .I-education.I-card::before {
+  font-size: 3rem;
+  left: 0.5rem;
+  top: 0.25rem;
+}
+.I-engineering.I-dark::before, .I-code.I-dark::before, .I-interests.I-dark::before, .I-done.I-dark::before, .I-done-all.I-dark::before, .I-close.I-dark::before, .I-h-rule.I-dark::before, .I-flag.I-dark::before, .I-flag-fill.I-dark::before, .I-priority.I-dark::before, .I-quote.I-dark::before, .I-groups.I-dark::before, .I-location.I-dark::before, .I-music.I-dark::before, .I-date.I-dark::before, .I-movie.I-dark::before, .I-lamp.I-dark::before, .I-earth.I-dark::before, .I-document.I-dark::before, .I-question.I-dark::before, .I-education.I-dark::before {
+  color: #14213d;
+}
+.I-engineering.I-light::before, .I-code.I-light::before, .I-interests.I-light::before, .I-done.I-light::before, .I-done-all.I-light::before, .I-close.I-light::before, .I-h-rule.I-light::before, .I-flag.I-light::before, .I-flag-fill.I-light::before, .I-priority.I-light::before, .I-quote.I-light::before, .I-groups.I-light::before, .I-location.I-light::before, .I-music.I-light::before, .I-date.I-light::before, .I-movie.I-light::before, .I-lamp.I-light::before, .I-earth.I-light::before, .I-document.I-light::before, .I-question.I-light::before, .I-education.I-light::before {
+  color: #cce4ff;
+}
+.I-engineering.I-dark-accent::before, .I-code.I-dark-accent::before, .I-interests.I-dark-accent::before, .I-done.I-dark-accent::before, .I-done-all.I-dark-accent::before, .I-close.I-dark-accent::before, .I-h-rule.I-dark-accent::before, .I-flag.I-dark-accent::before, .I-flag-fill.I-dark-accent::before, .I-priority.I-dark-accent::before, .I-quote.I-dark-accent::before, .I-groups.I-dark-accent::before, .I-location.I-dark-accent::before, .I-music.I-dark-accent::before, .I-date.I-dark-accent::before, .I-movie.I-dark-accent::before, .I-lamp.I-dark-accent::before, .I-earth.I-dark-accent::before, .I-document.I-dark-accent::before, .I-question.I-dark-accent::before, .I-education.I-dark-accent::before {
+  color: #004799;
+}
+.I-engineering.I-light-accent::before, .I-code.I-light-accent::before, .I-interests.I-light-accent::before, .I-done.I-light-accent::before, .I-done-all.I-light-accent::before, .I-close.I-light-accent::before, .I-h-rule.I-light-accent::before, .I-flag.I-light-accent::before, .I-flag-fill.I-light-accent::before, .I-priority.I-light-accent::before, .I-quote.I-light-accent::before, .I-groups.I-light-accent::before, .I-location.I-light-accent::before, .I-music.I-light-accent::before, .I-date.I-light-accent::before, .I-movie.I-light-accent::before, .I-lamp.I-light-accent::before, .I-earth.I-light-accent::before, .I-document.I-light-accent::before, .I-question.I-light-accent::before, .I-education.I-light-accent::before {
+  color: #FFCC29;
+}
+.I-engineering.I-right, .I-code.I-right, .I-interests.I-right, .I-done.I-right, .I-done-all.I-right, .I-close.I-right, .I-h-rule.I-right, .I-flag.I-right, .I-flag-fill.I-right, .I-priority.I-right, .I-quote.I-right, .I-groups.I-right, .I-location.I-right, .I-music.I-right, .I-date.I-right, .I-movie.I-right, .I-lamp.I-right, .I-earth.I-right, .I-document.I-right, .I-question.I-right, .I-education.I-right {
+  padding-left: 0;
+  padding-right: 1.2rem;
+}
+.I-engineering.I-right::before, .I-code.I-right::before, .I-interests.I-right::before, .I-done.I-right::before, .I-done-all.I-right::before, .I-close.I-right::before, .I-h-rule.I-right::before, .I-flag.I-right::before, .I-flag-fill.I-right::before, .I-priority.I-right::before, .I-quote.I-right::before, .I-groups.I-right::before, .I-location.I-right::before, .I-music.I-right::before, .I-date.I-right::before, .I-movie.I-right::before, .I-lamp.I-right::before, .I-earth.I-right::before, .I-document.I-right::before, .I-question.I-right::before, .I-education.I-right::before {
+  right: 0;
+}
+
+.-list {
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+  margin-left: 1.25rem;
+}
+.-list::before {
+  left: -1rem;
+}
+
+.F-RU::before {
+  content: "🇷🇺 ";
+}
+.F-FR::before {
+  content: "🇫🇷 ";
+}
+.F-PL::before {
+  content: "🇵🇱 ";
+}
+.F-IR::before {
+  content: "🇮🇷 ";
+}
+.F-IL::before {
+  content: "🇮🇱  ";
+}
+.F-NL::before {
+  content: "🇳🇱 ";
+}
+.F-DE::before {
+  content: "🇩🇪 ";
+}
+.F-IT::before {
+  content: "🇮🇹 ";
+}
+.F-EU::before {
+  content: "🇪🇺 ";
+}
+.F-BE::before {
+  content: "🇧🇪 ";
+}
+.F-LU::before {
+  content: "🇱🇺 ";
+}
+.F-BY::before {
+  content: "🇧🇾 ";
+}
+.F-UK::before {
+  content: "🇬🇧 ";
+}
+.F-SE::before {
+  content: "🇸🇪 ";
+}
+.F-x::before {
+  content: "x ";
+}
+
+.A4, .A4-nonum {
+  width: 794px;
+  height: 1122px;
+  position: relative;
+  background-color: white;
+  padding: 2.5cm;
+  overflow: hidden;
+}
+.A4:first-child, .A4-nonum:first-child {
+  margin-top: 0;
+}
+
+.dark > .light, .light {
+  background-color: #cce4ff;
+  color: black;
+}
+.dark > .light h1, .dark > .light .H1, .light h1, .light .H1 {
+  color: #14213d;
+}
+.dark > .light h2, .dark > .light .H2, .light h2, .light .H2 {
+  color: #004799;
+  border-bottom: 2px dotted #004799;
+}
+.dark > .light h3, .dark > .light .H3, .light h3, .light .H3 {
+  color: #004799;
+}
+.dark > .light.-grad, .light.-grad {
+  background: linear-gradient(45deg, #66adff, #cce4ff);
+}
+.dark > .light .tag, .light .tag {
+  background-color: #004799;
+  color: white;
+}
+.dark > .light .tag ::before, .light .tag ::before {
+  color: #cce4ff;
+}
+
+.dark {
+  background-color: #14213d;
+  color: white;
+}
+.dark h1, .dark .H1, .dark p, .dark li, .dark ul, .dark ol, .dark u, .dark i {
+  color: white;
+}
+.dark b {
+  color: #FFCC29;
+}
+.dark h2, .dark .H2 {
+  color: #FFCC29;
+  border: none;
+}
+.dark h3, .dark .H3 {
+  color: #cce4ff;
+}
+.dark.quote p::before {
+  color: #cce4ff;
+}
+.dark.quote i {
+  color: #cce4ff;
+}
+.dark.-grad {
+  background: linear-gradient(45deg, #14213d, #14213d, #004799);
+}
+
+.dark-accent {
+  background-color: #004799;
+  color: white;
+}
+.dark-accent h1, .dark-accent .H1, .dark-accent p, .dark-accent li, .dark-accent ul, .dark-accent ol, .dark-accent u, .dark-accent i {
+  color: white;
+}
+.dark-accent b {
+  color: #cce4ff;
+}
+.dark-accent h2, .dark-accent .H2 {
+  color: #FFCC29;
+}
+.dark-accent h3, .dark-accent .H3 {
+  color: #cce4ff;
+}
+.dark-accent.-grad {
+  background: linear-gradient(-45deg, #cce4ff, #004799, #004799);
+}
+
+.light-accent {
+  background-color: #FFCC29;
+  color: #14213d;
+}
+.light-accent h1, .light-accent .H1, .light-accent p, .light-accent li, .light-accent ul, .light-accent ol, .light-accent u, .light-accent i {
+  color: #14213d;
+}
+.light-accent h2, .light-accent .H2, .light-accent .GI {
+  color: #004799;
+}
+
+.t-dark {
+  color: #14213d;
+}
+
+.t-light {
+  color: #cce4ff;
+}
+
+.t-dark-accent {
+  color: #004799;
+}
+
+.t-light-accent {
+  color: #FFCC29;
+}
+
+#legend {
+  display: none;
+}
+
+@media screen {
+  body {
+    background-color: darkgray;
+  }
+  body .A4, body .A4-nonum {
+    margin: 0.5cm auto;
+    box-shadow: #424242 1px 0px 10px;
+  }
+}
+@media screen and (min-width: 1191px) {
+  .scrollLegend .A4, .scrollLegend .A4-nonum {
+    transform: translateX(10%);
+  }
+
+  #legend {
+    display: block;
+    direction: rtl;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  #legend div {
+    direction: ltr;
+  }
+  #legend a {
+    background-color: white;
+    border-bottom-right-radius: 100vw;
+    border-top-right-radius: 100vw;
+    list-style-type: none;
+    padding: 0.5em 1em 0.5em 1rem;
+    margin: 0.25rem 0;
+    transition: transform 0.25s ease;
+    text-decoration: none;
+    color: #14213d;
+    display: block;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #legend .H1 {
+    font-weight: 400;
+    background-color: #004799;
+    color: white;
+    width: 250px;
+    font-size: 12px;
+    margin-top: 0.75rem;
+  }
+  #legend .H2 {
+    font-weight: 400;
+    background-color: #cce4ff;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+  }
+  #legend .H3 {
+    font-weight: 400;
+    font-size: 10px;
+    padding-left: 2.5rem;
+  }
+  #legend a:hover {
+    transform: translateX(-0.75em);
+  }
+}
+.A4-nonum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5cm;
+  grid-template-rows: 150px 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.A4-nonum .card {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+}
+.A4-nonum .card p, .A4-nonum .card li, .A4-nonum .card small, .A4-nonum .card i, .A4-nonum .card u, .A4-nonum .card strong {
+  color: black;
+}
+.A4-nonum .card h1 {
+  color: #14213d;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-spacing: 0.1em;
+  letter-spacing: 0.05em;
+}
+.A4-nonum .card h2 {
+  margin-top: 0.25rem;
+  color: #FFCC29;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.A4-nonum .card p {
+  margin-top: 0.75rem;
+}
+.A4-nonum .card h1 + p, .A4-nonum .card h2 + p, .A4-nonum .card h3 + p, .A4-nonum .card h4 + p,
+.A4-nonum .card h2 + ul, .A4-nonum .card h2 + ol, .A4-nonum .card h3 + ul, .A4-nonum .card h3 + ol, .A4-nonum .card h4 + ul, .A4-nonum .card h4 + ol,
+.A4-nonum .card h1 + figure + p, .A4-nonum .card h2 + figure + p, .A4-nonum .card h3 + figure + p, .A4-nonum .card h4 + figure + p,
+.A4-nonum .card h1 + p, .A4-nonum .card h2 + p, .A4-nonum .card h3 + p, .A4-nonum .card h4 + p h1 + figure,
+.A4-nonum .card h2 + figure, .A4-nonum .card h3 + figure, .A4-nonum .card h4 + figure,
+.A4-nonum .card .H1 + p, .A4-nonum .card .H2 + p, .A4-nonum .card .H3 + p, .A4-nonum .card .H4 + p {
+  margin-top: 0.25rem;
+}
+.A4-nonum .card ul, .A4-nonum .card ol {
+  list-style-position: outside;
+}
+.A4-nonum .card ul li, .A4-nonum .card ol li {
+  margin-left: 1.25rem;
+}
+.A4-nonum strong {
+  font-weight: 600;
+}
+
+a {
+  color: white;
+}
+
+.ratings {
+  color: black;
+  margin-top: 0.25rem;
+}
+.ratings div {
+  display: inline-block;
+  width: 85px;
+  margin-bottom: 10px;
+}
+.ratings .circle {
+  display: inline-block;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  border: 1.5px solid #004799;
+  margin: 0 5px;
+  transform: translateY(1px);
+}
+.ratings .fill {
+  background-color: #004799;
+}
+.ratings .fill-half {
+  background-color: #7EA2CB;
+}
+.ratings .logo img {
+  display: inline;
+  height: 1rem;
+  line-height: 1rem;
+}
+
+.ratings .-margin {
+  margin-bottom: 0px;
+}
+
+#right, #left {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  height: 100%;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.split-card {
+  grid-column: span 2;
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+}
+.split-card figure {
+  aspect-ratio: 1/1;
+  height: 100%;
+}
+.split-card figure img {
+  border-radius: 0.5rem;
+}
+.split-card div {
+  padding: 1rem 0;
+}
+
+.white {
+  cursor: default;
+  border-radius: 6.5px;
+  border: solid 2px #004799;
+  padding: 5px 10px;
+  line-height: 40px;
+  word-spacing: 5px;
+  margin-right: 5px;
+  white-space: nowrap;
+  background-color: white;
+  overflow: hidden;
+  color: black;
+}
+
+.blue {
+  line-height: 0;
+  color: white;
+  cursor: default;
+  border: solid #004799 1px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  line-height: 40px;
+  word-spacing: 5px;
+  margin-right: 5px;
+  white-space: nowrap;
+  background-color: #004799;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  z-index: 1;
+}
+
+:root {
+  font-size: 11pt;
+}
+
+/*# sourceMappingURL=style.css.map */

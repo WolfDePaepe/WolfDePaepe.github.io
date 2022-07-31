@@ -1,0 +1,42 @@
+//----------------------------------------------//
+// Global variables
+//----------------------------------------------//
+
+// Page
+$page-padding:2.5cm;
+$page-width:794px; 
+$page-height:1122px; //normaly 1123 but this works better with firefox
+
+$border-radius:.5rem;
+$font-size:11pt;
+
+// Colours--------------------------------------//
+// ---Default
+$dark: hsla(222, 50%, 16%, 1);               //#14203C
+$dark-accent: hsla(212, 100%, 30%, 1);      //old: #00579C hsla(207, 100%, 31%, 1)
+$light:hsla(212, 100%, 90%, 1);
+$light-accent: #FFCC29;  
+
+//#ff9100 orange //#FFCC29 yellow
+
+// Parameters
+$page-numbering: true;
+$heading-numbering: true;
+$dark-mode: false;
+
+//---Empty---//
+// $dark:;
+// $dark-accent:;
+// $light:;
+// $light-accent:;
+
+// Test
+// $dark: hsla(222, 50%, 17%, 1);               //#14203C
+// $dark-accent: hsla(212, 100%, 30%, 1);      //old: #00579C hsla(207, 100%, 31%, 1)
+// $light:hsla(212, 100%, 90%, 1);
+// $light-accent: #FFCC29 ;
+
+// $dark: hsla(212, 50%, 17%, 1);               //#14203C
+// $dark-accent: hsla(212, 100%, 30%, 1);      //old: #00579C hsla(207, 100%, 31%, 1)
+// $light:hsla(212, 100%, 90%, 1);
+// $light-accent: hsla(70 , 100%, 70%, 1) ;

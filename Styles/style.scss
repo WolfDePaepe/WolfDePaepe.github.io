@@ -1,0 +1,17 @@
+@use 'Classes/vars' as *;
+@use 'Classes/_forward';
+
+// style reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    z-index:1;
+}
+
+//color theme
+:root{
+    font-size: $font-size;
+}
