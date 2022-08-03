@@ -1,5 +1,16 @@
-@use 'Classes/vars' as *;
-@use 'Classes/_forward';
+@use 'Stylegroups/vars' as *;
+
+@use 'Stylegroups/icons';
+@use 'Stylegroups/page';
+@use 'Stylegroups/sections';
+@use 'Stylegroups/text';
+@use 'Stylegroups/colours';
+@use 'Stylegroups/elements';
+@use 'Stylegroups/counters';
+@use 'Stylegroups/workenvironment';
+@use 'Stylegroups/__timeline';
+@use 'Stylegroups/tables';
+@use 'Stylegroups/utils';
 
 // style reset
 *{
@@ -10,8 +21,48 @@
     font-weight: 400;
     z-index:1;
 }
-
-//color theme
 :root{
     font-size: $font-size;
+}
+
+//----------------------------------------------//
+// specific elements
+//----------------------------------------------//
+#structure{
+    display: grid;
+    column-gap: 0.5rem;
+    row-gap:0.5rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+        img{
+            height:100px;
+            margin: 0 auto;
+        }
+        ul{
+            text-align: left;
+        }
+        div{
+            flex-grow: 1;
+        }
+    }
+}
+.legend{
+    a{
+        display: block;
+        text-decoration: none;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    .H3{
+        color: black;
+        font-weight: 400;
+    }
 }
