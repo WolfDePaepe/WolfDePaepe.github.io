@@ -1,0 +1,30 @@
+@use 'vars' as *;
+@use 'icons';
+
+//----------------------------------------------//
+// Sections and banners
+//----------------------------------------------//
+
+section{
+    width: $page-width;
+    position: relative;
+    left:calc(-1* $page-padding);
+    margin-top: 1.25rem;
+    padding: 1.25rem $page-padding;
+
+    &.banner{
+        padding: 0;
+        display: block;
+
+        img{
+            width: 100%;
+        }
+        
+        &.-columns{
+            column-gap: 0;
+        }
+    }
+}
+section + section, section + .banner{
+    margin-top: 0;
+}

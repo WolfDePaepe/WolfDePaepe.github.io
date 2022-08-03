@@ -1,0 +1,147 @@
+@use 'vars' as *;
+@use 'elements' as *;
+
+$AllHeadings: "h1, h2, h3, h4, h5, h6";
+//----------------------------------------------//
+// General text styles
+//----------------------------------------------//
+
+// Headings
+h1, .H1{
+    color: $dark;
+    font-size: 3rem;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    position: relative;
+}
+h2, .H2{
+    margin-top: 1.25rem;
+    color: $dark-accent;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid $light;
+}
+h3, .H3{
+    margin-top: 1rem;
+    color: $dark-accent;
+    font-size: 1rem;
+    font-weight: 600;
+}
+h4, .H4{
+    margin-top: 0.75rem;
+    color: $light-accent;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+// Paragraphs and lists
+p, ol, ul{
+    margin:0.75rem 0 0 0;
+    text-align: justify;
+    color: black;
+}
+h1 + p , h2 + p, h3 + p, h4 + p, 
+h2 +ul, h2 + ol, h3 + ul, h3 + ol, h4 + ul, h4 + ol,
+h1 + figure + p, h2 + figure + p, h3 +  figure + p, h4 +  figure + p,
+h1 + p, h2 + p, h3 + p, h4 + p
+h1 +  figure, h2 +  figure, h3 +  figure, h4 +  figure,
+.H1 + p, .H2 + p, .H3 + p, .H4 + p{ //paragraphs, ul, ol, and  figureictures (followded by their text) following a heading have less top-margin
+    margin-top: 0.25rem;
+}
+// text decorations
+u{
+    text-decoration: underline solid 1px $dark-accent;
+
+    &.dotted{
+        text-decoration: underline dotted 1px $dark-accent;
+    }
+}
+b,strong{
+    font-weight: 500;
+    color: $dark-accent;
+}
+em{
+    font-style: normal;
+    background-color: rgb(255, 234, 0);
+    border-radius: 2px;
+    padding: 0 .25em;
+}
+q{
+    @extend .I-quote;
+    padding:0 0.8em;
+
+    &::before{
+        position: absolute;
+        font-size: 0.75em;
+        transform: scaleX(-1);
+    }
+    &::after{
+        font-size: 0.75em;
+        position: absolute;
+        font-family: 'Material Icons';
+        content: "format_quote";
+        color:$dark-accent;
+    }
+}
+a{
+    color: $dark;
+    text-decoration: underline dotted 1px $dark-accent;
+}
+//----------------------------------------------//
+// Other block text styles
+//----------------------------------------------//
+.small{
+    font-size: .8em;
+    margin-top: .25rem;
+}
+//----------------------------------------------//
+// Other inline text styles
+//----------------------------------------------//
+
+small{
+    font-size: .8em;
+}
+//----------------------------------------------//
+// Lists and paragraphs
+//----------------------------------------------//
+ul, ol{
+    list-style-position: outside;
+
+    li{
+        margin-left: 1.25rem;
+    }
+}
+ul + li, ol + li{
+    margin-top: 0.2rem;
+}
+ul > ul, ol > ol, ol > ul, ul > ol{
+    margin-top: 0;
+    margin-left: 1.5rem;
+}
+ul > ul, ol > ol, ol > ul, ul > ol{
+    list-style-position: outside;
+    margin-left: 1.5rem;
+}
+ul > ul, ul > ol, ol > ul, ol > ol {
+    font-size: 0.8em;
+}
+
+//----------------------------------------------//
+// Other block text styles
+//----------------------------------------------//
+blockquote{
+    @extend .I-card;
+    @extend .I-quote;
+    text-align: justify;
+    
+    cite{
+        display: block;
+        text-align: right;
+    }
+}
+.col-2{
+    columns: 2;
+}

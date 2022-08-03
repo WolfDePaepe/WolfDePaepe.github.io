@@ -1,0 +1,112 @@
+@use 'vars' as *;
+
+//----------------------------------------------
+// Timeline
+//----------------------------------------------
+.timeline{
+    display: grid;
+    grid-template-columns: 3rem auto;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    position: relative;
+
+    :first-child{
+        margin-top: 0;
+    }
+
+    p,li,div{
+        text-align: left;
+    }
+
+    div{
+        place-self: start stretch;
+        margin: 0;
+    }
+    .card:first-child{
+        margin-top: 0;
+    }
+    .circle + div{
+        margin-top: 0.9rem;
+    }
+    .circle{
+        color: white;
+        padding: 1rem 0;
+        place-self: center;
+        align-self: start;
+        background-color: $dark-accent;
+        border-radius: 50%;
+        text-align: center;
+        width: 3rem;
+        line-height: 1rem;
+    }
+    .title {
+        color: $dark-accent;
+        text-align: left;
+        place-self: start;
+        line-height: 3rem;
+    }
+    .year{
+        position: relative;
+        place-self: start;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+
+        &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            border: 0.5rem solid $dark-accent;
+            border-radius: 50%;
+            left: 0;
+            top: 1.5px;
+            transform: translateX(-50%);
+        }
+    }
+
+    .-y::before{
+        border-color: $light-accent;
+    }
+
+    .arrow{
+        min-height: 5rem;
+        width: 1rem;
+        writing-mode: vertical-lr;
+        background-color: $light;
+        padding: 1rem 0.1rem;
+        // color: white;
+        position: relative;
+        border: none;
+        place-self: center;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+
+        &::after{
+            content: '';
+            $Bwidth: calc(0.5rem + 5px);
+            border-left: $Bwidth solid white;
+            border-right: $Bwidth solid white;
+            border-top: 1rem solid $light;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateY(100%) translateX(-50%);
+        }
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        height: 100%;
+        border-right: 2px solid $dark-accent;
+        top: 0;
+        left: 1.5rem;
+        transform: translateX(-50%);
+    }
+    .card{
+        margin-top: 1rem;
+        padding: 0.5rem;
+        position: relative;
+        top: -0.5rem;
+        left:-.5rem;
+        place-self: stretch;
+    }
+}

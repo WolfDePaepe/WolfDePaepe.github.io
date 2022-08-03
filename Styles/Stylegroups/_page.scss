@@ -1,0 +1,21 @@
+@use 'vars' as *;
+
+//----------------------------------------------//
+// A4 page setup & numbering
+//----------------------------------------------//
+.A4, .A4-nonum {
+    width: $page-width;
+    height: $page-height;
+    position: relative;
+    background-color: white;
+    padding: $page-padding;
+    overflow: hidden;
+    
+    &:first-child{
+        margin-top: 0;
+    }
+}
+.landscape{
+    width: $page-height;
+    height: $page-width;
+}

@@ -1,0 +1,90 @@
+@use 'vars' as *;
+
+//----------------------------------------------//
+// workspace setup (remove for print layout)
+//----------------------------------------------//
+#legend{
+    display: none;
+}
+@media screen{
+    body{   
+        background-color: darkgray;
+    
+        .A4, .A4-nonum{
+            margin: 0.5cm auto;
+            box-shadow: rgb(66, 66, 66) 1px 0px 10px;
+        }
+    }
+    
+    @media (min-width: calc($page-width *1.5)){
+        .scrollLegend .A4, .scrollLegend .A4-nonum{
+            transform: translateX(10%);
+        }
+        #legend{
+            display: block;
+            direction: rtl;
+            position: fixed;
+            top:0;
+            height: 98vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        
+            div{
+                direction: ltr;
+            }
+            a{
+                background-color: white;
+                border-bottom-right-radius: 100vw;
+                border-top-right-radius: 100vw;
+                list-style-type: none;
+                padding:0.5em 1em 0.5em 1rem;
+                margin: 0.25rem 0;
+                transition: transform 0.25s ease;
+                text-decoration: none;
+                color: $dark;
+                display: block;
+                width: fit-content;
+                max-width: 250px;
+                white-space: nowrap;
+                overflow: hidden;   
+            }
+            .H1{
+                font-weight: 400;
+                background-color: $dark-accent;
+                color: white;
+                width: 250px;
+                font-size: 12px;
+                margin-top:0.75rem;
+            }
+            .H2{
+                font-weight: 400;
+                background-color: $light;
+                font-size: 12px;
+                margin-top: 0.5rem;
+                padding-left: 2rem;
+                border: none;
+            }
+            .H3{
+                font-weight: 400;
+                font-size: 10px;
+                padding-left: 2rem;
+            }
+            a:hover{
+                transform: translateX(-0.75em);
+            }
+        }
+    }
+    @if $dark-mode == true{
+        @media (prefers-color-scheme: dark) {
+            body{
+                background-color: black;
+            }
+            .A4{
+                background-color: gray;
+            }
+            .H3 a{
+                background-color: grey;
+            }
+        }
+    }
+}

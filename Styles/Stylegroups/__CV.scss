@@ -1,0 +1,174 @@
+@use "vars.scss" as *;
+@use 'icons';
+
+.CV{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5cm;
+    grid-template-rows: 150px 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+
+    .card{
+        padding: 1rem;
+        background-color: white;
+        border-radius: $border-radius;
+        flex-grow: 1;
+        margin: 0;
+
+        p,li,small,i,u,strong{
+            color: black ;
+        }
+        .H1{
+            color: $dark;
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            word-spacing: 0.1em;
+            letter-spacing: 0.05em;
+            margin-bottom: 0;
+        }
+        .H2{
+            margin-top: .25rem;
+            color: $light-accent;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        p{
+            margin-top: 0.75rem;
+        }
+        h1 + p , h2 + p, h3 + p, h4 + p, 
+        h2 +ul, h2 + ol, h3 + ul, h3 + ol, h4 + ul, h4 + ol,
+        h1 + figure + p, h2 + figure + p, h3 +  figure + p, h4 +  figure + p,
+        h1 + p, h2 + p, h3 + p, h4 + p
+        h1 +  figure, h2 +  figure, h3 +  figure, h4 +  figure,
+        .H1 + p, .H2 + p, .H3 + p, .H4 + p{ //paragraphs, ul, ol, and  figureictures (followded by their text) following a heading have less top-margin
+            margin-top: 0.25rem;
+        }
+        ul, ol{
+            list-style-position: outside;
+        
+            li{
+                margin-left: 1.25rem;
+            }
+        }
+    }
+    strong{
+        font-weight: 600;
+    }
+    a{
+        color: white;
+        text-decoration: solid underline white 1px;
+    }
+    .ratings{
+        color: black;
+        margin-top: .25rem;
+
+        div{
+            display: inline-block;
+            width: 85px;
+            margin-bottom: 10px;
+        }
+        .circle{
+            display: inline-block;
+            height: .8rem;
+            width: .8rem;
+            border-radius: 50%;
+            border: 1.5px solid $dark-accent;
+            margin: 0 5px;
+            transform: translateY(1px)
+        }
+        .fill{
+            background-color: $dark-accent;
+        }
+        .fill-half{
+            background-color: #7EA2CB;
+        }
+        .logo img{
+            display: inline;
+            height: 1rem;
+            line-height: 1rem;
+        }
+        
+    }
+    .ratings .-margin{
+        margin-bottom: 0px;
+    }
+    #right,#left{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        height: 100%;
+    }
+    img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+    .split-card{
+        grid-column: span 2;
+        display: flex;
+        gap: 1rem;
+        height: 100%;
+        width: 100%;
+        
+        figure{
+            width: 150px;
+            height: 100%;
+            margin: 0;
+            img{border-radius: $border-radius;}
+        }
+
+        div{
+            padding: 1rem 0;
+            margin: 0;
+        }
+        .H1{
+            font-size: 1.5rem;
+        }
+    }
+
+    .white {
+        cursor: default;
+        border-radius: 6.5px;
+        border: solid 2px $dark-accent;
+        padding: 5px 10px;
+        line-height: 40px;
+        word-spacing: 5px;
+        margin-right: 5px;
+        white-space: nowrap;
+        background-color: white;
+        overflow: hidden;
+        color: black;
+    }
+    .blue {
+        line-height: 0;
+        color: white;
+        cursor: default;
+        border: solid $dark-accent 1px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        line-height: 40px;
+        word-spacing: 5px;
+        margin-right: 5px;
+        white-space: nowrap;
+        background-color: $dark-accent;
+    }
+}
+
+@media screen {
+    .responsive{
+        background-color: $dark;
+        .CV{
+            box-shadow: none;
+            margin: 0 auto;
+            height: fit-content;
+        }
+    }
+    @media (min-width: 800px){
+        .responsive{
+            background: $dark-accent url('../Assets/bg.jpg') fixed;
+        }
+    }
+}

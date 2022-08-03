@@ -1,0 +1,104 @@
+@use 'vars' as *;
+
+//----------------------------------------------//
+// Color Styles
+//----------------------------------------------//
+.dark >.light, .light{
+    background-color: $light;
+    color: black;
+    
+    h1, .H1{
+        color: $dark;
+    }
+    h2, .H2{
+        color: $dark-accent;
+        border-bottom: 2px dotted $dark-accent;
+    }
+    h3, .H3{
+        color: $dark-accent;
+    }
+    &.-grad{
+        background: linear-gradient(45deg, lighten($dark-accent,40%), $light);
+    }
+    .tag{
+        background-color: $dark-accent;
+        color: white;
+        
+        ::before{
+            color: $light;
+        }
+    }
+}
+.dark{
+    background-color: $dark;
+    color: white;
+
+    h1, .H1,p,li,ul,ol,u,i{
+        color: white;
+    }
+    b{
+        color: $light-accent;
+    }
+    h2, .H2{
+        color: $light-accent;
+        border: none;
+    }
+    h3, .H3{
+        color: $light;
+    }
+    &.quote{
+        
+        p::before{
+        color: $light;
+        }
+        i{
+            color: $light;
+        }   
+    }
+    &.-grad{
+        background:linear-gradient(45deg,$dark,$dark,$dark-accent);
+    }
+}
+.dark-accent{
+    background-color: $dark-accent;
+    color: white;
+
+    h1, .H1,p,li,ul,ol,u,i{
+        color: white;
+    }
+    b{
+        color: $light;
+    }
+    h2, .H2{
+        color: $light-accent;
+    }
+    h3, .H3{
+        color: $light;
+    }
+    &.-grad{
+        background: linear-gradient(-45deg, $light,$dark-accent,$dark-accent);
+    }
+}
+.light-accent{
+    background-color: $light-accent;
+    color: $dark;
+
+    h1, .H1,p,li,ul,ol,u,i{
+        color: $dark;
+    }
+    h2, .H2, .GI{
+        color: $dark-accent;
+    }
+}
+.t-dark{
+    color: $dark;
+}
+.t-light{
+    color: $light;
+}
+.t-dark-accent{
+    color: $dark-accent;
+}
+.t-light-accent{
+    color: $light-accent;
+}
