@@ -520,6 +520,21 @@ img {
   background-color: #004799;
 }
 
+@media screen {
+  .responsive {
+    background-color: #14213d;
+  }
+  .responsive .A4-nonum {
+    box-shadow: none;
+    margin: 0 auto;
+    height: fit-content;
+  }
+}
+@media screen and (min-width: 800px) {
+  .responsive {
+    background: #004799 url("../Assets/bg.jpg") fixed;
+  }
+}
 * {
   margin: 0;
   padding: 0;

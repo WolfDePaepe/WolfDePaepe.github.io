@@ -148,3 +148,18 @@ img{
     white-space: nowrap;
     background-color: $dark-accent;
 }
+@media screen {
+    .responsive{
+        background-color: $dark;
+        .A4-nonum{
+            box-shadow: none;
+            margin: 0 auto;
+            height: fit-content;
+        }
+    }
+    @media (min-width: 800px){
+        .responsive{
+            background: $dark-accent url('../Assets/bg.jpg') fixed;
+        }
+    }
+}
