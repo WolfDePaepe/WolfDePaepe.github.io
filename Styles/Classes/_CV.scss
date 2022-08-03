@@ -1,7 +1,7 @@
 @use "vars.scss" as *;
 @use 'icons';
 
-.A4-nonum{
+.CV{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1.5cm;
@@ -151,7 +151,7 @@ img{
 @media screen {
     .responsive{
         background-color: $dark;
-        .A4-nonum{
+        .CV{
             box-shadow: none;
             margin: 0 auto;
             height: fit-content;

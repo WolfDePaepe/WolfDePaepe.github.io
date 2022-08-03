@@ -370,7 +370,7 @@
     transform: translateX(-0.75em);
   }
 }
-.A4-nonum {
+.CV {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1.5cm;
@@ -378,16 +378,16 @@
   column-gap: 1rem;
   row-gap: 1rem;
 }
-.A4-nonum .card {
+.CV .card {
   padding: 1rem;
   background-color: white;
   border-radius: 0.5rem;
   flex-grow: 1;
 }
-.A4-nonum .card p, .A4-nonum .card li, .A4-nonum .card small, .A4-nonum .card i, .A4-nonum .card u, .A4-nonum .card strong {
+.CV .card p, .CV .card li, .CV .card small, .CV .card i, .CV .card u, .CV .card strong {
   color: black;
 }
-.A4-nonum .card h1 {
+.CV .card h1 {
   color: #14213d;
   font-size: 2rem;
   font-weight: 700;
@@ -395,30 +395,30 @@
   word-spacing: 0.1em;
   letter-spacing: 0.05em;
 }
-.A4-nonum .card h2 {
+.CV .card h2 {
   margin-top: 0.25rem;
   color: #FFCC29;
   font-size: 1.5rem;
   font-weight: 700;
 }
-.A4-nonum .card p {
+.CV .card p {
   margin-top: 0.75rem;
 }
-.A4-nonum .card h1 + p, .A4-nonum .card h2 + p, .A4-nonum .card h3 + p, .A4-nonum .card h4 + p,
-.A4-nonum .card h2 + ul, .A4-nonum .card h2 + ol, .A4-nonum .card h3 + ul, .A4-nonum .card h3 + ol, .A4-nonum .card h4 + ul, .A4-nonum .card h4 + ol,
-.A4-nonum .card h1 + figure + p, .A4-nonum .card h2 + figure + p, .A4-nonum .card h3 + figure + p, .A4-nonum .card h4 + figure + p,
-.A4-nonum .card h1 + p, .A4-nonum .card h2 + p, .A4-nonum .card h3 + p, .A4-nonum .card h4 + p h1 + figure,
-.A4-nonum .card h2 + figure, .A4-nonum .card h3 + figure, .A4-nonum .card h4 + figure,
-.A4-nonum .card .H1 + p, .A4-nonum .card .H2 + p, .A4-nonum .card .H3 + p, .A4-nonum .card .H4 + p {
+.CV .card h1 + p, .CV .card h2 + p, .CV .card h3 + p, .CV .card h4 + p,
+.CV .card h2 + ul, .CV .card h2 + ol, .CV .card h3 + ul, .CV .card h3 + ol, .CV .card h4 + ul, .CV .card h4 + ol,
+.CV .card h1 + figure + p, .CV .card h2 + figure + p, .CV .card h3 + figure + p, .CV .card h4 + figure + p,
+.CV .card h1 + p, .CV .card h2 + p, .CV .card h3 + p, .CV .card h4 + p h1 + figure,
+.CV .card h2 + figure, .CV .card h3 + figure, .CV .card h4 + figure,
+.CV .card .H1 + p, .CV .card .H2 + p, .CV .card .H3 + p, .CV .card .H4 + p {
   margin-top: 0.25rem;
 }
-.A4-nonum .card ul, .A4-nonum .card ol {
+.CV .card ul, .CV .card ol {
   list-style-position: outside;
 }
-.A4-nonum .card ul li, .A4-nonum .card ol li {
+.CV .card ul li, .CV .card ol li {
   margin-left: 1.25rem;
 }
-.A4-nonum strong {
+.CV strong {
   font-weight: 600;
 }
 
@@ -524,7 +524,7 @@ img {
   .responsive {
     background-color: #14213d;
   }
-  .responsive .A4-nonum {
+  .responsive .CV {
     box-shadow: none;
     margin: 0 auto;
     height: fit-content;
