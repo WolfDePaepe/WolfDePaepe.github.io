@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.icon, .I-history::before, .I-question::before, .I-document::before, .I-earth::before, .I-lamp::before, .I-movie::before, .I-date::before, .I-music::before, .I-location::before, .I-groups::before, .I-quote::before, q::before, blockquote::before, .I-priority::before, .I-done-all::before, .I-flag-fill::before, .I-flag::before, .I-h-rule::before, .I-close::before, .I-done::before {
+.icon, .I-engineering::before, .I-code::before, .I-interests::before, .I-education::before, .I-history::before, .I-question::before, .I-document::before, .I-earth::before, .I-lamp::before, .I-movie::before, .I-date::before, .I-music::before, .I-location::before, .I-groups::before, .I-quote::before, q::before, blockquote::before, .I-priority::before, .I-done-all::before, .I-flag-fill::before, .I-flag::before, .I-h-rule::before, .I-close::before, .I-done::before {
   display: inline;
   top: 0;
   left: 0;
@@ -10,7 +10,7 @@
   line-height: 1.2em;
   text-transform: lowercase;
 }
-.icon ::before, .I-history::before ::before, .I-question::before ::before, .I-document::before ::before, .I-earth::before ::before, .I-lamp::before ::before, .I-movie::before ::before, .I-date::before ::before, .I-music::before ::before, .I-location::before ::before, .I-groups::before ::before, .I-quote::before ::before, q::before ::before, blockquote::before ::before, .I-priority::before ::before, .I-done-all::before ::before, .I-flag-fill::before ::before, .I-flag::before ::before, .I-h-rule::before ::before, .I-close::before ::before, .I-done::before ::before {
+.icon ::before, .I-engineering::before ::before, .I-code::before ::before, .I-interests::before ::before, .I-education::before ::before, .I-history::before ::before, .I-question::before ::before, .I-document::before ::before, .I-earth::before ::before, .I-lamp::before ::before, .I-movie::before ::before, .I-date::before ::before, .I-music::before ::before, .I-location::before ::before, .I-groups::before ::before, .I-quote::before ::before, q::before ::before, blockquote::before ::before, .I-priority::before ::before, .I-done-all::before ::before, .I-flag-fill::before ::before, .I-flag::before ::before, .I-h-rule::before ::before, .I-close::before ::before, .I-done::before ::before {
   color: #003399;
 }
 
@@ -81,51 +81,62 @@
 .I-history::before {
   content: "history";
 }
-.I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history {
+.I-education::before {
+  content: "history_edu";
+}
+.I-interests::before {
+  content: "interests";
+}
+.I-code::before {
+  content: "code";
+}
+.I-engineering::before {
+  content: "engineering";
+}
+.I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;
   position: relative;
   padding-left: 1.2rem;
 }
-.I-doneli, .I-done-allli, .I-closeli, .I-h-ruleli, .I-flagli, .I-flag-fillli, .I-priorityli, .I-quoteli, .I-groupsli, .I-locationli, .I-musicli, .I-dateli, .I-movieli, .I-lampli, .I-earthli, .I-documentli, .I-questionli, .I-historyli {
+.I-doneli, .I-done-allli, .I-closeli, .I-h-ruleli, .I-flagli, .I-flag-fillli, .I-priorityli, .I-quoteli, .I-groupsli, .I-locationli, .I-musicli, .I-dateli, .I-movieli, .I-lampli, .I-earthli, .I-documentli, .I-questionli, .I-historyli, .I-questionli, .I-educationli, .I-engineeringli, .I-codeli, .I-interestsli {
   margin-left: 0;
 }
-.I-done.I-big, .I-done-all.I-big, .I-close.I-big, .I-h-rule.I-big, .I-flag.I-big, .I-flag-fill.I-big, .I-priority.I-big, .I-quote.I-big, q.I-big, blockquote.I-big, .I-groups.I-big, .I-location.I-big, .I-music.I-big, .I-date.I-big, .I-movie.I-big, .I-lamp.I-big, .I-earth.I-big, .I-document.I-big, .I-question.I-big, .I-history.I-big {
+.I-done.I-big, .I-done-all.I-big, .I-close.I-big, .I-h-rule.I-big, .I-flag.I-big, .I-flag-fill.I-big, .I-priority.I-big, .I-quote.I-big, q.I-big, blockquote.I-big, .I-groups.I-big, .I-location.I-big, .I-music.I-big, .I-date.I-big, .I-movie.I-big, .I-lamp.I-big, .I-earth.I-big, .I-document.I-big, .I-question.I-big, .I-history.I-big, .I-education.I-big, .I-engineering.I-big, .I-code.I-big, .I-interests.I-big {
   padding-left: 3rem;
   margin-bottom: 1rem;
 }
-.I-done.I-big::before, .I-done-all.I-big::before, .I-close.I-big::before, .I-h-rule.I-big::before, .I-flag.I-big::before, .I-flag-fill.I-big::before, .I-priority.I-big::before, .I-quote.I-big::before, q.I-big::before, blockquote.I-big::before, .I-groups.I-big::before, .I-location.I-big::before, .I-music.I-big::before, .I-date.I-big::before, .I-movie.I-big::before, .I-lamp.I-big::before, .I-earth.I-big::before, .I-document.I-big::before, .I-question.I-big::before, .I-history.I-big::before {
+.I-done.I-big::before, .I-done-all.I-big::before, .I-close.I-big::before, .I-h-rule.I-big::before, .I-flag.I-big::before, .I-flag-fill.I-big::before, .I-priority.I-big::before, .I-quote.I-big::before, q.I-big::before, blockquote.I-big::before, .I-groups.I-big::before, .I-location.I-big::before, .I-music.I-big::before, .I-date.I-big::before, .I-movie.I-big::before, .I-lamp.I-big::before, .I-earth.I-big::before, .I-document.I-big::before, .I-question.I-big::before, .I-history.I-big::before, .I-education.I-big::before, .I-engineering.I-big::before, .I-code.I-big::before, .I-interests.I-big::before {
   font-size: 2.5rem;
-  line-height: 1rem;
+  line-height: 2.5rem;
   left: 0;
-  top: 0.25rem;
 }
-.I-done.I-card, .I-done-all.I-card, .I-close.I-card, .I-h-rule.I-card, .I-flag.I-card, .I-flag-fill.I-card, .I-priority.I-card, .I-quote.I-card, q.I-card, blockquote, .I-groups.I-card, .I-location.I-card, .I-music.I-card, .I-date.I-card, .I-movie.I-card, .I-lamp.I-card, .I-earth.I-card, .I-document.I-card, .I-question.I-card, .I-history.I-card {
+.I-done.I-card, .I-done-all.I-card, .I-close.I-card, .I-h-rule.I-card, .I-flag.I-card, .I-flag-fill.I-card, .I-priority.I-card, .I-quote.I-card, q.I-card, blockquote, .I-groups.I-card, .I-location.I-card, .I-music.I-card, .I-date.I-card, .I-movie.I-card, .I-lamp.I-card, .I-earth.I-card, .I-document.I-card, .I-question.I-card, .I-history.I-card, .I-education.I-card, .I-engineering.I-card, .I-code.I-card, .I-interests.I-card {
   padding: 1.25rem 4rem;
   border-radius: 0.5rem;
   margin: 0.75rem 0;
 }
-.I-done.I-card::before, .I-done-all.I-card::before, .I-close.I-card::before, .I-h-rule.I-card::before, .I-flag.I-card::before, .I-flag-fill.I-card::before, .I-priority.I-card::before, .I-quote.I-card::before, q.I-card::before, blockquote::before, .I-groups.I-card::before, .I-location.I-card::before, .I-music.I-card::before, .I-date.I-card::before, .I-movie.I-card::before, .I-lamp.I-card::before, .I-earth.I-card::before, .I-document.I-card::before, .I-question.I-card::before, .I-history.I-card::before {
+.I-done.I-card::before, .I-done-all.I-card::before, .I-close.I-card::before, .I-h-rule.I-card::before, .I-flag.I-card::before, .I-flag-fill.I-card::before, .I-priority.I-card::before, .I-quote.I-card::before, q.I-card::before, blockquote::before, .I-groups.I-card::before, .I-location.I-card::before, .I-music.I-card::before, .I-date.I-card::before, .I-movie.I-card::before, .I-lamp.I-card::before, .I-earth.I-card::before, .I-document.I-card::before, .I-question.I-card::before, .I-history.I-card::before, .I-education.I-card::before, .I-engineering.I-card::before, .I-code.I-card::before, .I-interests.I-card::before {
   font-size: 3rem;
   left: 0.5rem;
   top: 0.25rem;
 }
-.I-done.I-dark::before, .I-done-all.I-dark::before, .I-close.I-dark::before, .I-h-rule.I-dark::before, .I-flag.I-dark::before, .I-flag-fill.I-dark::before, .I-priority.I-dark::before, .I-quote.I-dark::before, q.I-dark::before, blockquote.I-dark::before, .I-groups.I-dark::before, .I-location.I-dark::before, .I-music.I-dark::before, .I-date.I-dark::before, .I-movie.I-dark::before, .I-lamp.I-dark::before, .I-earth.I-dark::before, .I-document.I-dark::before, .I-question.I-dark::before, .I-history.I-dark::before {
+.I-done.I-dark::before, .I-done-all.I-dark::before, .I-close.I-dark::before, .I-h-rule.I-dark::before, .I-flag.I-dark::before, .I-flag-fill.I-dark::before, .I-priority.I-dark::before, .I-quote.I-dark::before, q.I-dark::before, blockquote.I-dark::before, .I-groups.I-dark::before, .I-location.I-dark::before, .I-music.I-dark::before, .I-date.I-dark::before, .I-movie.I-dark::before, .I-lamp.I-dark::before, .I-earth.I-dark::before, .I-document.I-dark::before, .I-question.I-dark::before, .I-history.I-dark::before, .I-education.I-dark::before, .I-engineering.I-dark::before, .I-code.I-dark::before, .I-interests.I-dark::before {
   color: #14223d;
 }
-.I-done.I-light::before, .I-done-all.I-light::before, .I-close.I-light::before, .I-h-rule.I-light::before, .I-flag.I-light::before, .I-flag-fill.I-light::before, .I-priority.I-light::before, .I-quote.I-light::before, q.I-light::before, blockquote.I-light::before, .I-groups.I-light::before, .I-location.I-light::before, .I-music.I-light::before, .I-date.I-light::before, .I-movie.I-light::before, .I-lamp.I-light::before, .I-earth.I-light::before, .I-document.I-light::before, .I-question.I-light::before, .I-history.I-light::before {
+.I-done.I-light::before, .I-done-all.I-light::before, .I-close.I-light::before, .I-h-rule.I-light::before, .I-flag.I-light::before, .I-flag-fill.I-light::before, .I-priority.I-light::before, .I-quote.I-light::before, q.I-light::before, blockquote.I-light::before, .I-groups.I-light::before, .I-location.I-light::before, .I-music.I-light::before, .I-date.I-light::before, .I-movie.I-light::before, .I-lamp.I-light::before, .I-earth.I-light::before, .I-document.I-light::before, .I-question.I-light::before, .I-history.I-light::before, .I-education.I-light::before, .I-engineering.I-light::before, .I-code.I-light::before, .I-interests.I-light::before {
   color: #ccddff;
 }
-.I-done.I-dark-accent::before, .I-done-all.I-dark-accent::before, .I-close.I-dark-accent::before, .I-h-rule.I-dark-accent::before, .I-flag.I-dark-accent::before, .I-flag-fill.I-dark-accent::before, .I-priority.I-dark-accent::before, .I-quote.I-dark-accent::before, q.I-dark-accent::before, blockquote.I-dark-accent::before, .I-groups.I-dark-accent::before, .I-location.I-dark-accent::before, .I-music.I-dark-accent::before, .I-date.I-dark-accent::before, .I-movie.I-dark-accent::before, .I-lamp.I-dark-accent::before, .I-earth.I-dark-accent::before, .I-document.I-dark-accent::before, .I-question.I-dark-accent::before, .I-history.I-dark-accent::before {
+.I-done.I-dark-accent::before, .I-done-all.I-dark-accent::before, .I-close.I-dark-accent::before, .I-h-rule.I-dark-accent::before, .I-flag.I-dark-accent::before, .I-flag-fill.I-dark-accent::before, .I-priority.I-dark-accent::before, .I-quote.I-dark-accent::before, q.I-dark-accent::before, blockquote.I-dark-accent::before, .I-groups.I-dark-accent::before, .I-location.I-dark-accent::before, .I-music.I-dark-accent::before, .I-date.I-dark-accent::before, .I-movie.I-dark-accent::before, .I-lamp.I-dark-accent::before, .I-earth.I-dark-accent::before, .I-document.I-dark-accent::before, .I-question.I-dark-accent::before, .I-history.I-dark-accent::before, .I-education.I-dark-accent::before, .I-engineering.I-dark-accent::before, .I-code.I-dark-accent::before, .I-interests.I-dark-accent::before {
   color: #003399;
 }
-.I-done.I-light-accent::before, .I-done-all.I-light-accent::before, .I-close.I-light-accent::before, .I-h-rule.I-light-accent::before, .I-flag.I-light-accent::before, .I-flag-fill.I-light-accent::before, .I-priority.I-light-accent::before, .I-quote.I-light-accent::before, q.I-light-accent::before, blockquote.I-light-accent::before, .I-groups.I-light-accent::before, .I-location.I-light-accent::before, .I-music.I-light-accent::before, .I-date.I-light-accent::before, .I-movie.I-light-accent::before, .I-lamp.I-light-accent::before, .I-earth.I-light-accent::before, .I-document.I-light-accent::before, .I-question.I-light-accent::before, .I-history.I-light-accent::before {
+.I-done.I-light-accent::before, .I-done-all.I-light-accent::before, .I-close.I-light-accent::before, .I-h-rule.I-light-accent::before, .I-flag.I-light-accent::before, .I-flag-fill.I-light-accent::before, .I-priority.I-light-accent::before, .I-quote.I-light-accent::before, q.I-light-accent::before, blockquote.I-light-accent::before, .I-groups.I-light-accent::before, .I-location.I-light-accent::before, .I-music.I-light-accent::before, .I-date.I-light-accent::before, .I-movie.I-light-accent::before, .I-lamp.I-light-accent::before, .I-earth.I-light-accent::before, .I-document.I-light-accent::before, .I-question.I-light-accent::before, .I-history.I-light-accent::before, .I-education.I-light-accent::before, .I-engineering.I-light-accent::before, .I-code.I-light-accent::before, .I-interests.I-light-accent::before {
   color: #FFCC00;
 }
-.I-done.I-right, .I-done-all.I-right, .I-close.I-right, .I-h-rule.I-right, .I-flag.I-right, .I-flag-fill.I-right, .I-priority.I-right, .I-quote.I-right, q.I-right, blockquote.I-right, .I-groups.I-right, .I-location.I-right, .I-music.I-right, .I-date.I-right, .I-movie.I-right, .I-lamp.I-right, .I-earth.I-right, .I-document.I-right, .I-question.I-right, .I-history.I-right {
+.I-done.I-right, .I-done-all.I-right, .I-close.I-right, .I-h-rule.I-right, .I-flag.I-right, .I-flag-fill.I-right, .I-priority.I-right, .I-quote.I-right, q.I-right, blockquote.I-right, .I-groups.I-right, .I-location.I-right, .I-music.I-right, .I-date.I-right, .I-movie.I-right, .I-lamp.I-right, .I-earth.I-right, .I-document.I-right, .I-question.I-right, .I-history.I-right, .I-education.I-right, .I-engineering.I-right, .I-code.I-right, .I-interests.I-right {
   padding-left: 0;
   padding-right: 1.2rem;
 }
-.I-done.I-right::before, .I-done-all.I-right::before, .I-close.I-right::before, .I-h-rule.I-right::before, .I-flag.I-right::before, .I-flag-fill.I-right::before, .I-priority.I-right::before, .I-quote.I-right::before, q.I-right::before, blockquote.I-right::before, .I-groups.I-right::before, .I-location.I-right::before, .I-music.I-right::before, .I-date.I-right::before, .I-movie.I-right::before, .I-lamp.I-right::before, .I-earth.I-right::before, .I-document.I-right::before, .I-question.I-right::before, .I-history.I-right::before {
+.I-done.I-right::before, .I-done-all.I-right::before, .I-close.I-right::before, .I-h-rule.I-right::before, .I-flag.I-right::before, .I-flag-fill.I-right::before, .I-priority.I-right::before, .I-quote.I-right::before, q.I-right::before, blockquote.I-right::before, .I-groups.I-right::before, .I-location.I-right::before, .I-music.I-right::before, .I-date.I-right::before, .I-movie.I-right::before, .I-lamp.I-right::before, .I-earth.I-right::before, .I-document.I-right::before, .I-question.I-right::before, .I-history.I-right::before, .I-education.I-right::before, .I-engineering.I-right::before, .I-code.I-right::before, .I-interests.I-right::before {
   right: 0;
 }
 
@@ -741,6 +752,36 @@ h1::before {
     transform: translateX(-0.75em);
   }
 }
+table {
+  text-align: left;
+  font-size: 0.9rem;
+  width: 100%;
+}
+table th {
+  font-weight: 600;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.outline-dark {
+  border: 2px solid #14223d;
+}
+.outline-dark-accent {
+  border: 2px solid #003399;
+}
+.outline-light {
+  border: 2px solid #ccddff;
+}
+.outline-light-accent {
+  border: 2px solid #FFCC00;
+}
+
 .timeline {
   display: grid;
   grid-template-columns: 3rem auto;
@@ -840,36 +881,170 @@ h1::before {
   place-self: stretch;
 }
 
-table {
-  text-align: left;
-  font-size: 0.9rem;
-  width: 100%;
+.CV {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5cm;
+  grid-template-rows: 150px 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
-table th {
+.CV .card {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+  margin: 0;
+}
+.CV .card p, .CV .card li, .CV .card small, .CV .card i, .CV .card u, .CV .card strong {
+  color: black;
+}
+.CV .card .H1 {
+  color: #14223d;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-spacing: 0.1em;
+  letter-spacing: 0.05em;
+}
+.CV .card .H2 {
+  margin-top: 0.25rem;
+  color: #FFCC00;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.CV .card p {
+  margin-top: 0.75rem;
+}
+.CV .card h1 + p, .CV .card h2 + p, .CV .card h3 + p, .CV .card h4 + p,
+.CV .card h2 + ul, .CV .card h2 + ol, .CV .card h3 + ul, .CV .card h3 + ol, .CV .card h4 + ul, .CV .card h4 + ol,
+.CV .card h1 + figure + p, .CV .card h2 + figure + p, .CV .card h3 + figure + p, .CV .card h4 + figure + p,
+.CV .card h1 + p, .CV .card h2 + p, .CV .card h3 + p, .CV .card h4 + p h1 + figure,
+.CV .card h2 + figure, .CV .card h3 + figure, .CV .card h4 + figure,
+.CV .card .H1 + p, .CV .card .H2 + p, .CV .card .H3 + p, .CV .card .H4 + p {
+  margin-top: 0.25rem;
+}
+.CV .card ul, .CV .card ol {
+  list-style-position: outside;
+}
+.CV .card ul li, .CV .card ol li {
+  margin-left: 1.25rem;
+}
+.CV strong {
   font-weight: 600;
 }
-
-.red {
-  color: red;
+.CV a {
+  color: white;
+  text-decoration: solid underline white 1px;
+}
+.CV .ratings {
+  color: black;
+  margin-top: 0.25rem;
+}
+.CV .ratings div {
+  display: inline-block;
+  width: 85px;
+  margin-bottom: 10px;
+}
+.CV .ratings .circle {
+  display: inline-block;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  border: 1.5px solid #003399;
+  margin: 0 5px;
+  transform: translateY(1px);
+}
+.CV .ratings .fill {
+  background-color: #003399;
+}
+.CV .ratings .fill-half {
+  background-color: #7EA2CB;
+}
+.CV .ratings .logo img {
+  display: inline;
+  height: 1rem;
+  line-height: 1rem;
+}
+.CV .ratings .-margin {
+  margin-bottom: 0px;
+}
+.CV #right, .CV #left {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  height: 100%;
+}
+.CV img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+.CV .split-card {
+  grid-column: span 2;
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+}
+.CV .split-card figure {
+  width: 150px;
+  height: 100%;
+  margin: 0;
+}
+.CV .split-card figure img {
+  border-radius: 0.5rem;
+}
+.CV .split-card div {
+  padding: 1rem 0;
+  margin: 0;
+}
+.CV .split-card .H1 {
+  font-size: 1.5rem;
+}
+.CV .white {
+  cursor: default;
+  border-radius: 6.5px;
+  border: solid 2px #003399;
+  padding: 5px 10px;
+  line-height: 40px;
+  word-spacing: 5px;
+  margin-right: 5px;
+  white-space: nowrap;
+  background-color: white;
+  overflow: hidden;
+  color: black;
+}
+.CV .blue {
+  line-height: 0;
+  color: white;
+  cursor: default;
+  border: solid #003399 1px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  line-height: 40px;
+  word-spacing: 5px;
+  margin-right: 5px;
+  white-space: nowrap;
+  background-color: #003399;
 }
 
-.green {
-  color: green;
+@media screen {
+  .responsive {
+    background-color: #14223d;
+  }
+  .responsive .CV {
+    box-shadow: none;
+    margin: 0 auto;
+    height: fit-content;
+  }
 }
-
-.outline-dark {
-  border: 2px solid #14223d;
+@media screen and (min-width: 800px) {
+  .responsive {
+    background: #003399 url("../Assets/bg.jpg") fixed;
+  }
 }
-.outline-dark-accent {
-  border: 2px solid #003399;
-}
-.outline-light {
-  border: 2px solid #ccddff;
-}
-.outline-light-accent {
-  border: 2px solid #FFCC00;
-}
-
 * {
   margin: 0;
   padding: 0;

@@ -8,9 +8,10 @@
 @use 'Stylegroups/elements';
 @use 'Stylegroups/counters';
 @use 'Stylegroups/workenvironment';
-@use 'Stylegroups/__timeline';
 @use 'Stylegroups/tables';
 @use 'Stylegroups/utils';
+@use 'Stylegroups/__timeline';
+@use 'Stylegroups/__CV';
 
 // style reset
 *{
