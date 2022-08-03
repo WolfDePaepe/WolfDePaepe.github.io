@@ -906,6 +906,7 @@ table th {
   text-transform: uppercase;
   word-spacing: 0.1em;
   letter-spacing: 0.05em;
+  margin-bottom: 0;
 }
 .CV .card .H2 {
   margin-top: 0.25rem;
