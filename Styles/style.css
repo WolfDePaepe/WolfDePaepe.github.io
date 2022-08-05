@@ -1036,7 +1036,7 @@ table th {
 
 @media screen {
   .responsive {
-    background: hsl(220deg, 100%, 30%) url("../Assets/bg.jpg") fixed;
+    background: hsl(220deg, 50%, 16%) url("../Assets/bg.jpg") fixed;
   }
   .responsive .CV {
     box-shadow: none;
