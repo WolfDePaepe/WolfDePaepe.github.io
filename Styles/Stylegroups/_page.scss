@@ -10,10 +10,9 @@
     background-color: white;
     padding: $page-padding;
     overflow: hidden;
-    
-    &:first-child{
-        margin-top: 0;
-    }
+}
+.A4 > :first-child, .A4-nonum > :first-child{
+    margin-top: 0;
 }
 .landscape{
     width: $page-height;

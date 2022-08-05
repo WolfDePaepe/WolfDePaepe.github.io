@@ -244,7 +244,8 @@
   padding: 2.5cm;
   overflow: hidden;
 }
-.A4:first-child, .A4-nonum:first-child {
+
+.A4 > :first-child, .A4-nonum > :first-child {
   margin-top: 0;
 }
 
