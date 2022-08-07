@@ -124,7 +124,11 @@
         @extend .icon;
         content: 'engineering';
     }
-    &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
+    &-book::before{
+        @extend .icon;
+        content: 'auto_stories';
+    }
+    &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
         list-style-type: none;
         position: relative;
         padding-left:1.2rem;
@@ -134,12 +138,14 @@
         }
         &.I-big{
             padding-left: 3rem;
-            margin-bottom: 1rem;
+            margin-bottom: 2.5rem;
+            line-height: 1;
         
             &::before{
                 font-size: 2.5rem;
                 line-height: 2.5rem;
                 left:0;
+                bottom: 0;
             }
         }
         &.I-card{

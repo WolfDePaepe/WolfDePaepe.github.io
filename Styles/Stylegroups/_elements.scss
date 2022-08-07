@@ -31,6 +31,10 @@
     padding: 1.25rem;
     border-radius: $border-radius;
     margin: 0.75rem 0;
+
+    :first-child{
+        margin-top: 0;
+    }
 }
 .-columns, ._columns { // grid columns
     position: relative;
