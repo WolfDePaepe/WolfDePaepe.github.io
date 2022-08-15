@@ -6,7 +6,7 @@
 
 //<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-.icon{
+@mixin icon{
     display: inline;
     top: 0;
     left:0;
@@ -31,101 +31,101 @@
 .I{ 
     //icons
     &-done::before{
-        @extend .icon;
+        @include icon;
         content: "done";
         color: green;
     }
     &-close::before{
-        @extend .icon;
+        @include icon;
         content: "close";
         color: red;
     }
     &-h-rule::before{
-        @extend .icon;
+        @include icon;
         content: "horizontal_rule";
         color: orange;
     }
     &-flag::before {
-        @extend .icon;
+        @include icon;
         content: "outlined_flag";
     }
     &-flag-fill::before {
-        @extend .icon;
+        @include icon;
         content: "flag";
     }
     &-done-all::before{
-        @extend .icon;
+        @include icon;
         content: "done_all";
         color:green;
     }
     &-priority::before{
-        @extend .icon;
+        @include icon;
         content: "priority_high";
         color:red;
     }
     &-quote::before{
-        @extend .icon;
+        @include icon;
         content: "format_quote";
     }
     &-groups::before{
-        @extend .icon;
+        @include icon;
         content: "groups";
     }
     &-location::before{
-        @extend .icon;
+        @include icon;
         content: 'location_on';
     }
     &-music::before{
-        @extend .icon;
+        @include icon;
         content: 'music_note';
     }
     &-date::before{
-        @extend .icon;
+        @include icon;
         content: 'event';
         // top:10%;
     }
     &-movie::before{
-        @extend .icon;
+        @include icon;
         content: 'live_tv';
     }
     &-lamp::before{
-        @extend .icon;
+        @include icon;
         content: 'emoji_objects';
     }
     &-earth::before{
-        @extend .icon;
+        @include icon;
         content: 'Public';
     }
     &-document::before{
-        @extend .icon;
+        @include icon;
         content: 'Document';
     }
     &-question::before{
-        @extend .icon;
+        @include icon;
         content: 'Question_mark';
     }
     &-history::before{
-        @extend .icon;
+        @include icon;
         content: 'history';
     }
     &-education::before{
-        @extend .icon;
+        @include icon;
         content: 'history_edu';
     }
     &-interests::before{
-        @extend .icon;
+        @include icon;
         content: 'interests';
     }
     &-code::before{
-        @extend .icon;
+        @include icon;
         content: 'code';
     }
     &-engineering::before{
-        @extend .icon;
+        @include icon;
         content: 'engineering';
     }
     &-book::before{
-        @extend .icon;
+        @include icon;
         content: 'auto_stories';
     }
     &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
@@ -145,7 +145,7 @@
                 font-size: 2.5rem;
                 line-height: 2.5rem;
                 left:0;
-                bottom: 0;
+                top: 0;
             }
         }
         &.I-card{
@@ -239,7 +239,6 @@
     &-LU::before{
         content: '🇱🇺 ';
         white-space: nowrap;
-        white-space: nowrap;
     }
     &-BY::before{
         content: '🇧🇾 ';
@@ -267,6 +266,10 @@
     }
     &-PT::before{
         content: '🇵🇹 ';
+        white-space: nowrap;
+    }
+    &-SE::before{
+        content: '🇸🇪 ';
         white-space: nowrap;
     }
     &-x::before{

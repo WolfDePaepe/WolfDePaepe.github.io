@@ -1,19 +1,4 @@
 @charset "UTF-8";
-.icon, .I-book::before, .I-engineering::before, .I-code::before, .I-interests::before, .I-education::before, .I-history::before, .I-question::before, .I-document::before, .I-earth::before, .I-lamp::before, .I-movie::before, .I-date::before, .I-music::before, .I-location::before, .I-groups::before, .I-quote::before, q::before, blockquote::before, .I-priority::before, .I-done-all::before, .I-flag-fill::before, .I-flag::before, .I-h-rule::before, .I-close::before, .I-done::before {
-  display: inline;
-  top: 0;
-  left: 0;
-  position: absolute;
-  font-family: "Material Icons";
-  font-style: normal;
-  color: hsl(220deg, 100%, 30%);
-  line-height: 1.2em;
-  text-transform: lowercase;
-}
-.icon ::before, .I-book::before ::before, .I-engineering::before ::before, .I-code::before ::before, .I-interests::before ::before, .I-education::before ::before, .I-history::before ::before, .I-question::before ::before, .I-document::before ::before, .I-earth::before ::before, .I-lamp::before ::before, .I-movie::before ::before, .I-date::before ::before, .I-music::before ::before, .I-location::before ::before, .I-groups::before ::before, .I-quote::before ::before, q::before ::before, blockquote::before ::before, .I-priority::before ::before, .I-done-all::before ::before, .I-flag-fill::before ::before, .I-flag::before ::before, .I-h-rule::before ::before, .I-close::before ::before, .I-done::before ::before {
-  color: hsl(220deg, 100%, 30%);
-}
-
 .GI {
   font-family: "Material Icons";
   font-size: 1.2em;
@@ -23,78 +8,354 @@
 }
 
 .I-done::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "done";
   color: green;
 }
+.I-done::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-close::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "close";
   color: red;
 }
+.I-close::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-h-rule::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "horizontal_rule";
   color: orange;
 }
+.I-h-rule::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-flag::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "outlined_flag";
 }
+.I-flag::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-flag-fill::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "flag";
 }
+.I-flag-fill::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-done-all::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "done_all";
   color: green;
 }
+.I-done-all::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-priority::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "priority_high";
   color: red;
 }
+.I-priority::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-quote::before, q::before, blockquote::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "format_quote";
 }
+.I-quote::before ::before, q::before ::before, blockquote::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-groups::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "groups";
 }
+.I-groups::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-location::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "location_on";
 }
+.I-location::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-music::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "music_note";
 }
+.I-music::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-date::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "event";
 }
+.I-date::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-movie::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "live_tv";
 }
+.I-movie::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-lamp::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "emoji_objects";
 }
+.I-lamp::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-earth::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "Public";
 }
+.I-earth::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-document::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "Document";
 }
+.I-document::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-question::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "Question_mark";
 }
+.I-question::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-history::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "history";
 }
+.I-history::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-education::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "history_edu";
 }
+.I-education::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-interests::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "interests";
 }
+.I-interests::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-code::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "code";
 }
+.I-code::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-engineering::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "engineering";
 }
+.I-engineering::before ::before {
+  color: hsl(220deg, 100%, 30%);
+}
 .I-book::before {
+  display: inline;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220deg, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
   content: "auto_stories";
+}
+.I-book::before ::before {
+  color: hsl(220deg, 100%, 30%);
 }
 .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;
@@ -113,7 +374,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   left: 0;
-  bottom: 0;
+  top: 0;
 }
 .I-book.I-card, .I-done.I-card, .I-done-all.I-card, .I-close.I-card, .I-h-rule.I-card, .I-flag.I-card, .I-flag-fill.I-card, .I-priority.I-card, .I-quote.I-card, q.I-card, blockquote, .I-groups.I-card, .I-location.I-card, .I-music.I-card, .I-date.I-card, .I-movie.I-card, .I-lamp.I-card, .I-earth.I-card, .I-document.I-card, .I-question.I-card, .I-history.I-card, .I-education.I-card, .I-engineering.I-card, .I-code.I-card, .I-interests.I-card {
   padding: 1.25rem 4rem;
@@ -202,7 +463,6 @@
 .F-LU::before {
   content: "🇱🇺 ";
   white-space: nowrap;
-  white-space: nowrap;
 }
 .F-BY::before {
   content: "🇧🇾 ";
@@ -230,6 +490,10 @@
 }
 .F-PT::before {
   content: "🇵🇹 ";
+  white-space: nowrap;
+}
+.F-SE::before {
+  content: "🇸🇪 ";
   white-space: nowrap;
 }
 .F-x::before {
@@ -788,6 +1052,10 @@ table th {
 }
 .outline-light-accent {
   border: 2px solid #FFCC00;
+}
+
+.rounded {
+  border-radius: 0.5rem;
 }
 
 .timeline {
