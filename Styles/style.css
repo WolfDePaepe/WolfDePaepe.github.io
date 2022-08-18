@@ -380,6 +380,7 @@
   padding: 1.25rem 4rem;
   border-radius: 0.5rem;
   margin: 0.75rem 0;
+  min-height: 3rem;
 }
 .I-book.I-card::before, .I-done.I-card::before, .I-done-all.I-card::before, .I-close.I-card::before, .I-h-rule.I-card::before, .I-flag.I-card::before, .I-flag-fill.I-card::before, .I-priority.I-card::before, .I-quote.I-card::before, q.I-card::before, blockquote::before, .I-groups.I-card::before, .I-location.I-card::before, .I-music.I-card::before, .I-date.I-card::before, .I-movie.I-card::before, .I-lamp.I-card::before, .I-earth.I-card::before, .I-document.I-card::before, .I-question.I-card::before, .I-history.I-card::before, .I-education.I-card::before, .I-engineering.I-card::before, .I-code.I-card::before, .I-interests.I-card::before {
   font-size: 3rem;
