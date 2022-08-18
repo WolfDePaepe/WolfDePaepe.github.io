@@ -376,17 +376,6 @@
   left: 0;
   top: 0;
 }
-.I-book.I-card, .I-done.I-card, .I-done-all.I-card, .I-close.I-card, .I-h-rule.I-card, .I-flag.I-card, .I-flag-fill.I-card, .I-priority.I-card, .I-quote.I-card, q.I-card, blockquote, .I-groups.I-card, .I-location.I-card, .I-music.I-card, .I-date.I-card, .I-movie.I-card, .I-lamp.I-card, .I-earth.I-card, .I-document.I-card, .I-question.I-card, .I-history.I-card, .I-education.I-card, .I-engineering.I-card, .I-code.I-card, .I-interests.I-card {
-  padding: 1.25rem 4rem;
-  border-radius: 0.5rem;
-  margin: 0.75rem 0;
-  min-height: 3rem;
-}
-.I-book.I-card::before, .I-done.I-card::before, .I-done-all.I-card::before, .I-close.I-card::before, .I-h-rule.I-card::before, .I-flag.I-card::before, .I-flag-fill.I-card::before, .I-priority.I-card::before, .I-quote.I-card::before, q.I-card::before, blockquote::before, .I-groups.I-card::before, .I-location.I-card::before, .I-music.I-card::before, .I-date.I-card::before, .I-movie.I-card::before, .I-lamp.I-card::before, .I-earth.I-card::before, .I-document.I-card::before, .I-question.I-card::before, .I-history.I-card::before, .I-education.I-card::before, .I-engineering.I-card::before, .I-code.I-card::before, .I-interests.I-card::before {
-  font-size: 3rem;
-  left: 0.5rem;
-  top: 0.25rem;
-}
 .I-book.I-dark::before, .I-done.I-dark::before, .I-done-all.I-dark::before, .I-close.I-dark::before, .I-h-rule.I-dark::before, .I-flag.I-dark::before, .I-flag-fill.I-dark::before, .I-priority.I-dark::before, .I-quote.I-dark::before, q.I-dark::before, blockquote.I-dark::before, .I-groups.I-dark::before, .I-location.I-dark::before, .I-music.I-dark::before, .I-date.I-dark::before, .I-movie.I-dark::before, .I-lamp.I-dark::before, .I-earth.I-dark::before, .I-document.I-dark::before, .I-question.I-dark::before, .I-history.I-dark::before, .I-education.I-dark::before, .I-engineering.I-dark::before, .I-code.I-dark::before, .I-interests.I-dark::before {
   color: hsl(220deg, 50%, 16%);
 }
@@ -559,48 +548,23 @@ section + section, section + .banner {
   line-height: 1rem;
 }
 
-.card {
+.card, .I-card, blockquote {
   padding: 1.25rem;
   border-radius: 0.5rem;
   margin: 0.75rem 0;
 }
-.card :first-child {
+.card :first-child, .I-card :first-child, blockquote :first-child {
   margin-top: 0;
 }
 
-.-columns, ._columns {
-  position: relative;
-  margin-top: 0.75rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
+.I-card, blockquote {
+  padding: 1.25rem 4rem;
+  min-height: 3rem;
 }
-.-columns img, ._columns img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-radius: 0.5rem;
-  display: inline-block;
-}
-.-columns.__l:after, ._columns.__l:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  border-left: dotted hsl(220deg, 100%, 30%) 2px;
-  height: 100%;
-}
-.-columns p, ._columns p {
-  margin-top: 0;
-}
-
-.t-columns, .columns {
-  columns: 2;
-  column-gap: 1em;
-}
-.t-columns.__l, .columns.__l {
-  column-rule: dotted hsl(220deg, 100%, 30%) 2px;
+.I-card::before, blockquote::before {
+  font-size: 3rem;
+  left: 0.5rem;
+  top: 0.25rem;
 }
 
 figure, .picture {
@@ -1057,6 +1021,41 @@ table th {
 
 .rounded {
   border-radius: 0.5rem;
+}
+
+.-columns, ._columns {
+  position: relative;
+  margin-top: 0.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+.-columns img, ._columns img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+.-columns.__l:after, ._columns.__l:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: dotted hsl(220deg, 100%, 30%) 2px;
+  height: 100%;
+}
+.-columns p, ._columns p {
+  margin-top: 0;
+}
+
+.t-columns, .columns {
+  columns: 2;
+  column-gap: 1em;
+}
+.t-columns.__l, .columns.__l {
+  column-rule: dotted hsl(220deg, 100%, 30%) 2px;
 }
 
 .timeline {
