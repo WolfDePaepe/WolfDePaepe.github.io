@@ -1058,6 +1058,14 @@ table th {
   column-rule: dotted hsl(220deg, 100%, 30%) 2px;
 }
 
+.bg-green {
+  background-color: hsl(99deg, 55%, 58%);
+}
+
+.shadow {
+  box-shadow: 1px 1px 0.5rem -1px black;
+}
+
 .timeline {
   display: grid;
   grid-template-columns: 3rem auto;
@@ -1356,41 +1364,6 @@ table th {
 
 :root {
   font-size: 11pt;
-}
-
-#structure {
-  display: grid;
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr;
-  width: 100%;
-}
-#structure div {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-#structure div img {
-  height: 100px;
-  margin: 0 auto;
-}
-#structure div ul {
-  text-align: left;
-}
-#structure div div {
-  flex-grow: 1;
-}
-
-.legend a {
-  display: block;
-  text-decoration: none;
-  font-size: 1rem;
-  margin-top: 0.5rem;
-}
-.legend .H3 {
-  color: black;
-  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
