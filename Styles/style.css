@@ -923,6 +923,10 @@ h1::before {
   display: none;
 }
 
+#menuRight {
+  display: none;
+}
+
 @media screen {
   body {
     background-color: darkgray;
@@ -935,6 +939,22 @@ h1::before {
 @media screen and (min-width: 1191px) {
   .scrollLegend .A4, .scrollLegend .A4-nonum {
     transform: translateX(10%);
+  }
+  #menuRight {
+    display: block;
+    position: fixed;
+    top: 2rem;
+    right: 1rem;
+  }
+  #menuRight .UI-circle {
+    background-color: hsl(220deg, 100%, 30%);
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
   }
   #legend {
     display: block;

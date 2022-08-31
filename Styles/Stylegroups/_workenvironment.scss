@@ -6,6 +6,9 @@
 #legend{
     display: none;
 }
+#menuRight{
+    display: none;
+}
 @media screen{
     body{   
         background-color: darkgray;
@@ -19,6 +22,23 @@
     @media (min-width: calc($page-width *1.5)){
         .scrollLegend .A4, .scrollLegend .A4-nonum{
             transform: translateX(10%);
+        }
+        #menuRight{
+            display: block;
+            position: fixed;
+            top: 2rem;
+            right: 1rem;
+            
+            .UI-circle{
+                background-color: $dark-accent;
+                color: white;
+                font-size: 1rem;
+                line-height: 1rem;
+                padding: 1rem;
+                width: 1rem;
+                border-radius: 50%;
+                cursor: pointer;
+            }
         }
         #legend{
             display: block;
