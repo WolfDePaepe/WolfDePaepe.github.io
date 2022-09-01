@@ -486,6 +486,10 @@
   content: "🇸🇪 ";
   white-space: nowrap;
 }
+.F-UA::before {
+  content: "🇺🇦 ";
+  white-space: nowrap;
+}
 .F-x::before {
   content: "x ";
   white-space: nowrap;
