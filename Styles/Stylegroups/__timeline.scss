@@ -110,3 +110,7 @@
         place-self: stretch;
     }
 }
+
+.timeline, .timeline > *, .timeline > * > *{
+    text-align: left !important;
+}

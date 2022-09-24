@@ -727,7 +727,6 @@ a {
 
 .small {
   font-size: 0.8em;
-  margin-top: 0.25rem;
 }
 
 small {
@@ -1086,8 +1085,16 @@ table th {
   background-color: hsl(99deg, 55%, 58%);
 }
 
+.bg-light {
+  background-color: hsl(220deg, 100%, 90%);
+}
+
 .shadow {
   box-shadow: 1px 1px 0.5rem -1px black;
+}
+
+.no-marker {
+  list-style-type: none;
 }
 
 .timeline {
@@ -1187,6 +1194,10 @@ table th {
   top: -0.5rem;
   left: -0.5rem;
   place-self: stretch;
+}
+
+.timeline, .timeline > *, .timeline > * > * {
+  text-align: left !important;
 }
 
 .CV {

@@ -63,6 +63,12 @@
 .bg-green{
     background-color: hsl(99, 55%, 58%);
 }
+.bg-light{
+    background-color: $light;
+}
 .shadow{
     box-shadow: 1px 1px .5rem -1px black;
+}
+.no-marker{
+    list-style-type: none;
 }
