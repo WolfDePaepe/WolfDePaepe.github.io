@@ -1204,7 +1204,7 @@ table th {
   place-self: stretch;
 }
 
-.timeline, .timeline > *, .timeline > * > * {
+.timeline > * > p, .timeline > * > ol, .timeline > * > ul {
   text-align: left !important;
 }
 
