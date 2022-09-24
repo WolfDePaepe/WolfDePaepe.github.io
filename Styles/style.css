@@ -490,6 +490,10 @@
   content: "🇺🇦 ";
   white-space: nowrap;
 }
+.F-UN::before {
+  content: "🇺🇳 ";
+  white-space: nowrap;
+}
 .F-x::before {
   content: "x ";
   white-space: nowrap;
@@ -755,6 +759,10 @@ ul > ul, ol > ol, ol > ul, ul > ol {
 }
 
 ul > ul, ul > ol, ol > ul, ol > ol {
+  font-size: 0.8em;
+}
+
+.li-small > li {
   font-size: 0.8em;
 }
 

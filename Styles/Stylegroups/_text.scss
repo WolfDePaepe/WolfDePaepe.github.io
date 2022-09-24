@@ -104,7 +104,7 @@ small{
     font-size: .8em;
 }
 //----------------------------------------------//
-// Lists and paragraphs
+// Lists
 //----------------------------------------------//
 ul, ol{
     list-style-position: outside;
@@ -127,7 +127,10 @@ ul > ul, ol > ol, ol > ul, ul > ol{
 ul > ul, ul > ol, ol > ul, ol > ol {
     font-size: 0.8em;
 }
-
+// text inside the ul/ol is big, inside the list elements it will be small
+.li-small > li{
+    font-size: 0.8em;
+}
 //----------------------------------------------//
 // Other block text styles
 //----------------------------------------------//

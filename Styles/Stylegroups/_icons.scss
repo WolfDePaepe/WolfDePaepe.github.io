@@ -266,6 +266,10 @@
         content: '🇺🇦 ';
         white-space: nowrap;
     }
+    &-UN::before{
+        content: '🇺🇳 ';
+        white-space: nowrap;
+    }
     &-x::before{
         content: 'x ';
         white-space: nowrap;
