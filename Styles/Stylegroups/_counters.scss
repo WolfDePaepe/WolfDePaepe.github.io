@@ -44,50 +44,58 @@
 body{
     counter-set: h1 h2 h3 h4 h5 h6 ;
 }
-@if $h1-numbering {
-    h1{
-        counter-set: h2 0;
-        counter-increment: h1;
-    }
-    h1::before{
-        content: counter(h1);
-        position: absolute;
-        opacity: 0.25;
-        color: $dark;
-        left:-1.5cm;
-        bottom:-1pc;
-        line-height: 8rem;
-        font-size: 9rem;
-        z-index: 0;
-    }
-} 
 
-@if $heading-numbering == true {
-    h2{
-        counter-increment: h2;
-        counter-set: h3 0;
-    }
-    h3{
-        counter-increment: h3;
-        counter-reset: h4 0;
-    }
-    h4{
-        counter-increment: h4;
-        counter-reset: h5;
-    }
-    h5{
-        counter-reset: h6;
-        counter-increment: h5;
-    }
-    h6{
-        counter-increment: h6;
-    }
-    h2::before { content: counter(h2) ". ";width: 2.5rem;display: inline-block;}
-    h3:before { content: counter(h2) "." counter(h3) ". ";width: 2.5rem;display: inline-block;}
-    h4:before { content: counter(h2) "." counter(h3) "." counter(h4) ". ";width: 5rem;}
-    h5:before { content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". ";width: 2.5rem;display: inline-block;}
-    h6:before { content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". ";width: 2.5rem;display: inline-block;}
-    // h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.nocount:before, h6.nocount:before {content: ""; counter-increment: none} 
+.numbering{
+    font-weight:inherit;
+    width: 3rem;
+    display: inline-block;
+    user-select: none;
+}
+
+// @if $h1-numbering {
+//     h1{
+//         counter-set: h2 0;
+//         counter-increment: h1;
+//     }
+//     h1::before{
+//         content: counter(h1);
+//         position: absolute;
+//         opacity: 0.25;
+//         color: $dark;
+//         left:-1.5cm;
+//         top:-3pc;
+//         line-height: 8rem;
+//         font-size: 9rem;
+//         z-index: 0;
+//     }
+// } 
+
+// @if $heading-numbering == true {
+//     h2{
+//         counter-increment: h2;
+//         counter-set: h3 0;
+//     }
+//     h3{
+//         counter-increment: h3;
+//         counter-reset: h4 0;
+//     }
+//     h4{
+//         counter-increment: h4;
+//         counter-reset: h5;
+//     }
+//     h5{
+//         counter-reset: h6;
+//         counter-increment: h5;
+//     }
+//     h6{
+//         counter-increment: h6;
+//     }
+//     h2::before { content: counter(h2) ". ";width: 2.5rem;display: inline-block;}
+//     h3:before { content: counter(h2) "." counter(h3) ". ";width: 2.5rem;display: inline-block;}
+//     h4:before { content: counter(h2) "." counter(h3) "." counter(h4) ". ";width: 5rem;}
+//     h5:before { content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". ";width: 2.5rem;display: inline-block;}
+//     h6:before { content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". ";width: 2.5rem;display: inline-block;}
+//     // h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.nocount:before, h6.nocount:before {content: ""; counter-increment: none} 
 
      
-}
+// }

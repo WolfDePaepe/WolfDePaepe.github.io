@@ -66,9 +66,15 @@
 .bg-light{
     background-color: $light;
 }
+.bg-light-accent{
+    background-color: $light-accent;
+}
 .shadow{
     box-shadow: 1px 1px .5rem -1px black;
 }
 .no-marker{
     list-style-type: none;
+}
+.display{
+    display: none;
 }

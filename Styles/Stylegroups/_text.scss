@@ -117,15 +117,10 @@ ul + li, ol + li{
     margin-top: 0.2rem;
 }
 ul > ul, ol > ol, ol > ul, ul > ol{
-    margin-top: 0;
-    margin-left: 1.5rem;
-}
-ul > ul, ol > ol, ol > ul, ul > ol{
     list-style-position: outside;
-    margin-left: 1.5rem;
-}
-ul > ul, ul > ol, ol > ul, ol > ol {
+    margin-left: 1.25rem;
     font-size: 0.8em;
+    margin-top: 0;
 }
 // text inside the ul/ol is big, inside the list elements it will be small
 .li-small > li{
