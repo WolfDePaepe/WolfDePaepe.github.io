@@ -922,6 +922,7 @@ body {
   width: 3rem;
   display: inline-block;
   user-select: none;
+  color: inherit;
 }
 
 #legend {
