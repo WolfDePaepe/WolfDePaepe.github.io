@@ -99,7 +99,9 @@ a{
 //----------------------------------------------//
 // Other inline text styles
 //----------------------------------------------//
-
+.strike{
+    text-decoration: line-through;
+}
 small{
     font-size: .8em;
 }
