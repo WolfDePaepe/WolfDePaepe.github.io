@@ -928,6 +928,23 @@ body {
   color: inherit;
 }
 
+h1 {
+  counter-set: h2 0;
+  counter-increment: h1;
+}
+
+h1::before {
+  content: counter(h1);
+  position: absolute;
+  opacity: 0.25;
+  color: #14223d;
+  left: -1.5cm;
+  top: -3pc;
+  line-height: 8rem;
+  font-size: 9rem;
+  z-index: 0;
+}
+
 #legend {
   display: none;
 }
