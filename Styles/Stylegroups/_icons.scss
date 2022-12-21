@@ -128,7 +128,11 @@
         @include icon;
         content: 'auto_stories';
     }
-    &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
+    &-person::before{
+        @include icon;
+        content: 'person';
+    }
+    &-person, &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
         list-style-type: none;
         position: relative;
         padding: 0;
