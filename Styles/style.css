@@ -20,7 +20,7 @@
 .I-done::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -36,7 +36,7 @@
 .I-close::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -52,7 +52,7 @@
 .I-h-rule::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -68,7 +68,7 @@
 .I-flag::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -83,7 +83,7 @@
 .I-flag-fill::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -98,7 +98,7 @@
 .I-done-all::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -114,7 +114,7 @@
 .I-priority::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -130,7 +130,7 @@
 .I-quote::before, q::before, blockquote::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -145,7 +145,7 @@
 .I-groups::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -160,7 +160,7 @@
 .I-location::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -175,7 +175,7 @@
 .I-music::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -190,7 +190,7 @@
 .I-date::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -205,7 +205,7 @@
 .I-movie::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -220,7 +220,7 @@
 .I-lamp::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -235,7 +235,7 @@
 .I-earth::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -250,7 +250,7 @@
 .I-document::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -265,7 +265,7 @@
 .I-question::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -280,7 +280,7 @@
 .I-history::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -295,7 +295,7 @@
 .I-education::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -310,7 +310,7 @@
 .I-interests::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -325,7 +325,7 @@
 .I-code::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -340,7 +340,7 @@
 .I-engineering::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -355,7 +355,7 @@
 .I-book::before {
   display: inline;
   top: 0;
-  left: 0;
+  left: -1rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -370,7 +370,8 @@
 .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;
   position: relative;
-  padding-left: 1.2rem;
+  padding: 0;
+  margin-left: 1.25rem;
 }
 .I-bookli, .I-doneli, .I-done-allli, .I-closeli, .I-h-ruleli, .I-flagli, .I-flag-fillli, .I-priorityli, .I-quoteli, .I-groupsli, .I-locationli, .I-musicli, .I-dateli, .I-movieli, .I-lampli, .I-earthli, .I-documentli, .I-questionli, .I-historyli, .I-questionli, .I-educationli, .I-engineeringli, .I-codeli, .I-interestsli {
   margin-left: 0;
@@ -405,15 +406,13 @@
 .I-book.I-right::before, .I-done.I-right::before, .I-done-all.I-right::before, .I-close.I-right::before, .I-h-rule.I-right::before, .I-flag.I-right::before, .I-flag-fill.I-right::before, .I-priority.I-right::before, .I-quote.I-right::before, q.I-right::before, blockquote.I-right::before, .I-groups.I-right::before, .I-location.I-right::before, .I-music.I-right::before, .I-date.I-right::before, .I-movie.I-right::before, .I-lamp.I-right::before, .I-earth.I-right::before, .I-document.I-right::before, .I-question.I-right::before, .I-history.I-right::before, .I-education.I-right::before, .I-engineering.I-right::before, .I-code.I-right::before, .I-interests.I-right::before {
   right: 0;
 }
-
-.-list {
-  list-style-type: none;
-  position: relative;
-  padding: 0;
-  margin-left: 1.25rem;
+.I-book.tag, .I-done.tag, .I-done-all.tag, .I-close.tag, .I-h-rule.tag, .I-flag.tag, .I-flag-fill.tag, .I-priority.tag, .I-quote.tag, q.tag, blockquote.tag, .I-groups.tag, .I-location.tag, .I-music.tag, .I-date.tag, .I-movie.tag, .I-lamp.tag, .I-earth.tag, .I-document.tag, .I-question.tag, .I-history.tag, .I-education.tag, .I-engineering.tag, .I-code.tag, .I-interests.tag {
+  padding-left: 1.25rem;
 }
-.-list::before {
-  left: -1rem;
+.I-book.tag::before, .I-done.tag::before, .I-done-all.tag::before, .I-close.tag::before, .I-h-rule.tag::before, .I-flag.tag::before, .I-flag-fill.tag::before, .I-priority.tag::before, .I-quote.tag::before, q.tag::before, blockquote.tag::before, .I-groups.tag::before, .I-location.tag::before, .I-music.tag::before, .I-date.tag::before, .I-movie.tag::before, .I-lamp.tag::before, .I-earth.tag::before, .I-document.tag::before, .I-question.tag::before, .I-history.tag::before, .I-education.tag::before, .I-engineering.tag::before, .I-code.tag::before, .I-interests.tag::before {
+  left: 0.35rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .I-list {
@@ -565,6 +564,10 @@ section + section, section + .banner {
   margin: 0.5rem 0rem 0rem 0;
   line-height: 1rem;
 }
+.tag.theme-green {
+  border-color: #009933;
+  background-color: #ccffdd;
+}
 
 .card, .I-card, blockquote {
   padding: 1.25rem;
@@ -618,7 +621,7 @@ figure img, .picture img {
   display: inline-block;
 }
 
-.picture-gallery {
+.picture-gallery, .img-gallery, .gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -626,10 +629,10 @@ figure img, .picture img {
   width: 100%;
   margin: 0.75rem 0 0 0;
 }
-.picture-gallery div {
+.picture-gallery div, .img-gallery div, .gallery div {
   min-height: 100%;
 }
-.picture-gallery div img {
+.picture-gallery div img, .img-gallery div img, .gallery div img {
   object-fit: cover;
   height: 100%;
   width: 100%;

@@ -9,7 +9,7 @@
 @mixin icon{
     display: inline;
     top: 0;
-    left:0;
+    left: -1rem;
     position: absolute;
     font-family: 'Material Icons';
     font-style: normal;
@@ -131,7 +131,8 @@
     &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
         list-style-type: none;
         position: relative;
-        padding-left:1.2rem;
+        padding: 0;
+        margin-left: 1.25rem;
 
         &li{
             margin-left: 0;
@@ -164,19 +165,15 @@
                 right:0;
             }
         }
+        &.tag{
+            padding-left: 1.25rem;
+
+            &::before{left: 0.35rem;top: 50%;transform: translateY(-50%);}
+        }
     }
 }
 
 //style modefieres
-.-list{
-    list-style-type: none;
-    position: relative;
-    padding: 0;
-    margin-left: 1.25rem;
-    &::before{
-        left: -1rem;
-    }
-}
 .I-list{
     margin-left: 0;
 }

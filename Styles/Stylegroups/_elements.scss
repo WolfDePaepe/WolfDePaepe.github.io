@@ -22,6 +22,11 @@
     text-transform: uppercase;    
     margin: 0.5rem 0rem 0rem 0;
     line-height: 1rem;
+
+    &.theme-green{
+        border-color: $green;
+        background-color: $green-light;
+    }
 }
 
 //----------------------------------------------//
@@ -85,7 +90,7 @@ figure, .picture{
         display: inline-block;
     }
 }
-.picture-gallery{
+.picture-gallery, .img-gallery, .gallery{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
