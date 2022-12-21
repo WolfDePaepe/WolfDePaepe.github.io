@@ -9,17 +9,13 @@
 @mixin icon{
     display: inline;
     top: 0;
-    left: -1rem;
+    left: -1.25rem;
     position: absolute;
     font-family: 'Material Icons';
     font-style: normal;
     color: $dark-accent;
     line-height: 1.2em;
     text-transform: lowercase;
-
-    ::before{
-        color: $dark-accent;
-    }
 }
 .GI{
     font-family: 'Material Icons';

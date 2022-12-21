@@ -20,7 +20,7 @@
 .I-done::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -30,13 +30,10 @@
   content: "done";
   color: green;
 }
-.I-done::before ::before {
-  color: #003399;
-}
 .I-close::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -46,13 +43,10 @@
   content: "close";
   color: red;
 }
-.I-close::before ::before {
-  color: #003399;
-}
 .I-h-rule::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -62,13 +56,10 @@
   content: "horizontal_rule";
   color: orange;
 }
-.I-h-rule::before ::before {
-  color: #003399;
-}
 .I-flag::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -77,13 +68,10 @@
   text-transform: lowercase;
   content: "outlined_flag";
 }
-.I-flag::before ::before {
-  color: #003399;
-}
 .I-flag-fill::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -92,13 +80,10 @@
   text-transform: lowercase;
   content: "flag";
 }
-.I-flag-fill::before ::before {
-  color: #003399;
-}
 .I-done-all::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -108,13 +93,10 @@
   content: "done_all";
   color: green;
 }
-.I-done-all::before ::before {
-  color: #003399;
-}
 .I-priority::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -124,13 +106,10 @@
   content: "priority_high";
   color: red;
 }
-.I-priority::before ::before {
-  color: #003399;
-}
 .I-quote::before, q::before, blockquote::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -139,13 +118,10 @@
   text-transform: lowercase;
   content: "format_quote";
 }
-.I-quote::before ::before, q::before ::before, blockquote::before ::before {
-  color: #003399;
-}
 .I-groups::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -154,13 +130,10 @@
   text-transform: lowercase;
   content: "groups";
 }
-.I-groups::before ::before {
-  color: #003399;
-}
 .I-location::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -169,13 +142,10 @@
   text-transform: lowercase;
   content: "location_on";
 }
-.I-location::before ::before {
-  color: #003399;
-}
 .I-music::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -184,13 +154,10 @@
   text-transform: lowercase;
   content: "music_note";
 }
-.I-music::before ::before {
-  color: #003399;
-}
 .I-date::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -199,13 +166,10 @@
   text-transform: lowercase;
   content: "event";
 }
-.I-date::before ::before {
-  color: #003399;
-}
 .I-movie::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -214,13 +178,10 @@
   text-transform: lowercase;
   content: "live_tv";
 }
-.I-movie::before ::before {
-  color: #003399;
-}
 .I-lamp::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -229,13 +190,10 @@
   text-transform: lowercase;
   content: "emoji_objects";
 }
-.I-lamp::before ::before {
-  color: #003399;
-}
 .I-earth::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -244,13 +202,10 @@
   text-transform: lowercase;
   content: "Public";
 }
-.I-earth::before ::before {
-  color: #003399;
-}
 .I-document::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -259,13 +214,10 @@
   text-transform: lowercase;
   content: "Document";
 }
-.I-document::before ::before {
-  color: #003399;
-}
 .I-question::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -274,13 +226,10 @@
   text-transform: lowercase;
   content: "Question_mark";
 }
-.I-question::before ::before {
-  color: #003399;
-}
 .I-history::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -289,13 +238,10 @@
   text-transform: lowercase;
   content: "history";
 }
-.I-history::before ::before {
-  color: #003399;
-}
 .I-education::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -304,13 +250,10 @@
   text-transform: lowercase;
   content: "history_edu";
 }
-.I-education::before ::before {
-  color: #003399;
-}
 .I-interests::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -319,13 +262,10 @@
   text-transform: lowercase;
   content: "interests";
 }
-.I-interests::before ::before {
-  color: #003399;
-}
 .I-code::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -334,13 +274,10 @@
   text-transform: lowercase;
   content: "code";
 }
-.I-code::before ::before {
-  color: #003399;
-}
 .I-engineering::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -349,13 +286,10 @@
   text-transform: lowercase;
   content: "engineering";
 }
-.I-engineering::before ::before {
-  color: #003399;
-}
 .I-book::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -364,13 +298,10 @@
   text-transform: lowercase;
   content: "auto_stories";
 }
-.I-book::before ::before {
-  color: #003399;
-}
 .I-person::before {
   display: inline;
   top: 0;
-  left: -1rem;
+  left: -1.25rem;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -378,9 +309,6 @@
   line-height: 1.2em;
   text-transform: lowercase;
   content: "person";
-}
-.I-person::before ::before {
-  color: #003399;
 }
 .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;
