@@ -1204,6 +1204,11 @@ table th {
   word-spacing: 0.1em;
   letter-spacing: 0.05em;
   margin-bottom: 0;
+  margin-top: 0;
+}
+.CV .card .H1::before {
+  left: -1rem;
+  top: -5px;
 }
 .CV .card .H2 {
   margin-top: 0.25rem;
@@ -1227,6 +1232,9 @@ table th {
 }
 .CV .card ul li, .CV .card ol li {
   margin-left: 1.25rem;
+}
+.CV .portret {
+  object-position: top;
 }
 .CV strong {
   font-weight: 600;
@@ -1334,6 +1342,7 @@ table th {
 @media screen {
   .responsive {
     background: #14223d url("../Assets/bg.jpg") fixed;
+    background-size: cover;
   }
   .responsive .CV {
     box-shadow: none;

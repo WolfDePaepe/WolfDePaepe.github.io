@@ -27,6 +27,11 @@
             word-spacing: 0.1em;
             letter-spacing: 0.05em;
             margin-bottom: 0;
+            margin-top: 0;
+        }
+        .H1::before{
+            left: -1rem;
+            top:-5px;
         }
         .H2{
             margin-top: .25rem;
@@ -52,6 +57,9 @@
                 margin-left: 1.25rem;
             }
         }
+    }
+    .portret{
+        object-position: top;
     }
     strong{
         font-weight: 600;
@@ -162,6 +170,7 @@
 @media screen {
     .responsive{
         background: $dark url('../Assets/bg.jpg') fixed;
+        background-size: cover;
         .CV{
             box-shadow: none;
             margin: 0 auto;
