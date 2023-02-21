@@ -629,10 +629,12 @@ section + section, section + .banner {
 .light > .tag.theme-green, .dark > .tag.theme-green, .dark-accent > .tag.theme-green {
   border-color: #009933;
   background-color: #ccffdd;
+  color: black;
 }
 .tag.theme-red {
   border-color: #990000;
   background-color: #ffcccc;
+  color: black;
 }
 
 .card, .I-card, blockquote {
