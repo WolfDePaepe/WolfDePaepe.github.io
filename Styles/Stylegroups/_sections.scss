@@ -12,12 +12,19 @@ section{
     margin-top: 1.25rem;
     padding: 1.25rem $page-padding;
 
+    :first-child{
+        margin-top: 0;
+    }
+
     &.banner{
         padding: 0;
         display: block;
 
         img{
+            height: 100%;
             width: 100%;
+            object-fit: cover;
+            object-position: center;
         }
         
         &.-columns{
@@ -27,4 +34,8 @@ section{
 }
 section + section, section + .banner{
     margin-top: 0;
+}
+.card > .banner{
+    width: calc(100% + 1.25rem *2);
+    left: -1.25rem;
 }

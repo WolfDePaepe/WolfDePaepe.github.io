@@ -78,3 +78,13 @@
 .display-none{
     display: none;
 }
+.hide{
+    display: none;
+}
+.indent{
+    padding-left: 1.25rem;
+
+    & .__l{
+        border-left: dotted $dark-accent 2px;
+    }
+}

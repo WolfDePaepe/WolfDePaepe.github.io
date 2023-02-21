@@ -36,12 +36,16 @@
     h1, .H1,p,li,ul,ol,u,i{
         color: white;
     }
+    h1::before{
+        color: $light;
+        z-index: -1;
+    }
     b{
         color: $light-accent;
     }
     h2, .H2{
         color: $light-accent;
-        border: none;
+        border-bottom: 2px solid $light;
     }
     h3, .H3{
         color: $light;
@@ -66,11 +70,16 @@
     h1, .H1,p,li,ul,ol,u,i{
         color: white;
     }
+    h1::before{
+        color: $light;
+        z-index: -1;
+    }
     b{
         color: $light;
     }
     h2, .H2{
         color: $light-accent;
+        border-bottom: 2px solid $light;
     }
     h3, .H3{
         color: $light;

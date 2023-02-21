@@ -9,6 +9,114 @@
   text-decoration: 0;
 }
 
+.dark > .light, .light {
+  background-color: #ccddff;
+  color: black;
+}
+.dark > .light h1, .dark > .light .H1, .light h1, .light .H1 {
+  color: #14223d;
+}
+.dark > .light h2, .dark > .light .H2, .light h2, .light .H2 {
+  color: #003399;
+  border-bottom: 2px dotted #003399;
+}
+.dark > .light h3, .dark > .light .H3, .light h3, .light .H3 {
+  color: #003399;
+}
+.dark > .light.-grad, .light.-grad {
+  background: linear-gradient(45deg, #6699ff, #ccddff);
+}
+.dark > .light .tag, .light .tag {
+  background-color: #003399;
+  color: white;
+}
+.dark > .light .tag ::before, .light .tag ::before {
+  color: #ccddff;
+}
+
+.dark {
+  background-color: #14223d;
+  color: white;
+}
+.dark h1, .dark .H1, .dark p, .dark li, .dark ul, .dark ol, .dark u, .dark i {
+  color: white;
+}
+.dark h1::before {
+  color: #ccddff;
+  z-index: -1;
+}
+.dark b {
+  color: #FFCC00;
+}
+.dark h2, .dark .H2 {
+  color: #FFCC00;
+  border-bottom: 2px solid #ccddff;
+}
+.dark h3, .dark .H3 {
+  color: #ccddff;
+}
+.dark.quote p::before {
+  color: #ccddff;
+}
+.dark.quote i {
+  color: #ccddff;
+}
+.dark.-grad {
+  background: linear-gradient(45deg, #14223d, #14223d, #003399);
+}
+
+.dark-accent {
+  background-color: #003399;
+  color: white;
+}
+.dark-accent h1, .dark-accent .H1, .dark-accent p, .dark-accent li, .dark-accent ul, .dark-accent ol, .dark-accent u, .dark-accent i {
+  color: white;
+}
+.dark-accent h1::before {
+  color: #ccddff;
+  z-index: -1;
+}
+.dark-accent b {
+  color: #ccddff;
+}
+.dark-accent h2, .dark-accent .H2 {
+  color: #FFCC00;
+  border-bottom: 2px solid #ccddff;
+}
+.dark-accent h3, .dark-accent .H3 {
+  color: #ccddff;
+}
+.dark-accent.-grad {
+  background: linear-gradient(-45deg, #ccddff, #003399, #003399);
+}
+
+.light-accent {
+  background-color: #FFCC00;
+  color: #14223d;
+}
+.light-accent h1, .light-accent .H1, .light-accent p, .light-accent li, .light-accent ul, .light-accent ol, .light-accent u, .light-accent i {
+  color: #14223d;
+}
+.light-accent h2, .light-accent .H2, .light-accent .GI {
+  color: #003399;
+}
+
+.t-dark {
+  color: #14223d;
+}
+
+.t-light {
+  color: #ccddff;
+}
+
+.t-dark-accent {
+  color: #003399;
+}
+
+.t-light-accent {
+  color: #FFCC00;
+}
+
 .GI {
   font-family: "Material Icons";
   font-size: 1.2em;
@@ -480,12 +588,18 @@ section {
   margin-top: 1.25rem;
   padding: 1.25rem 2.5cm;
 }
+section :first-child {
+  margin-top: 0;
+}
 section.banner {
   padding: 0;
   display: block;
 }
 section.banner img {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 section.banner.-columns {
   column-gap: 0;
@@ -495,27 +609,37 @@ section + section, section + .banner {
   margin-top: 0;
 }
 
+.card > .banner {
+  width: calc(100% + 2.5rem);
+  left: -1.25rem;
+}
+
 .tag {
   display: inline-block;
   padding: 0.25em 0.7em;
   border-radius: 1em;
-  border: 1.5px solid #003399;
-  background-color: #ccddff;
   color: black;
   font-size: 0.75rem;
   text-transform: uppercase;
   margin: 0.5rem 0rem 0rem 0;
   line-height: 1rem;
+  border: 1.5px solid #003399;
+  background-color: #ccddff;
 }
-.tag.theme-green {
+.light > .tag.theme-green, .dark > .tag.theme-green, .dark-accent > .tag.theme-green {
   border-color: #009933;
   background-color: #ccffdd;
+}
+.tag.theme-red {
+  border-color: #990000;
+  background-color: #ffcccc;
 }
 
 .card, .I-card, blockquote {
   padding: 1.25rem;
   border-radius: 0.5rem;
   margin: 0.75rem 0;
+  position: relative;
 }
 .card :first-child, .I-card :first-child, blockquote :first-child {
   margin-top: 0;
@@ -625,9 +749,9 @@ h3, .H3 {
 
 h4, .H4 {
   margin-top: 0.75rem;
-  color: #FFCC00;
+  color: #003399;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p, ol, ul {
@@ -729,105 +853,6 @@ blockquote cite {
 
 .col-2 {
   columns: 2;
-}
-
-.dark > .light, .light {
-  background-color: #ccddff;
-  color: black;
-}
-.dark > .light h1, .dark > .light .H1, .light h1, .light .H1 {
-  color: #14223d;
-}
-.dark > .light h2, .dark > .light .H2, .light h2, .light .H2 {
-  color: #003399;
-  border-bottom: 2px dotted #003399;
-}
-.dark > .light h3, .dark > .light .H3, .light h3, .light .H3 {
-  color: #003399;
-}
-.dark > .light.-grad, .light.-grad {
-  background: linear-gradient(45deg, #6699ff, #ccddff);
-}
-.dark > .light .tag, .light .tag {
-  background-color: #003399;
-  color: white;
-}
-.dark > .light .tag ::before, .light .tag ::before {
-  color: #ccddff;
-}
-
-.dark {
-  background-color: #14223d;
-  color: white;
-}
-.dark h1, .dark .H1, .dark p, .dark li, .dark ul, .dark ol, .dark u, .dark i {
-  color: white;
-}
-.dark b {
-  color: #FFCC00;
-}
-.dark h2, .dark .H2 {
-  color: #FFCC00;
-  border: none;
-}
-.dark h3, .dark .H3 {
-  color: #ccddff;
-}
-.dark.quote p::before {
-  color: #ccddff;
-}
-.dark.quote i {
-  color: #ccddff;
-}
-.dark.-grad {
-  background: linear-gradient(45deg, #14223d, #14223d, #003399);
-}
-
-.dark-accent {
-  background-color: #003399;
-  color: white;
-}
-.dark-accent h1, .dark-accent .H1, .dark-accent p, .dark-accent li, .dark-accent ul, .dark-accent ol, .dark-accent u, .dark-accent i {
-  color: white;
-}
-.dark-accent b {
-  color: #ccddff;
-}
-.dark-accent h2, .dark-accent .H2 {
-  color: #FFCC00;
-}
-.dark-accent h3, .dark-accent .H3 {
-  color: #ccddff;
-}
-.dark-accent.-grad {
-  background: linear-gradient(-45deg, #ccddff, #003399, #003399);
-}
-
-.light-accent {
-  background-color: #FFCC00;
-  color: #14223d;
-}
-.light-accent h1, .light-accent .H1, .light-accent p, .light-accent li, .light-accent ul, .light-accent ol, .light-accent u, .light-accent i {
-  color: #14223d;
-}
-.light-accent h2, .light-accent .H2, .light-accent .GI {
-  color: #003399;
-}
-
-.t-dark {
-  color: #14223d;
-}
-
-.t-light {
-  color: #ccddff;
-}
-
-.t-dark-accent {
-  color: #003399;
-}
-
-.t-light-accent {
-  color: #FFCC00;
 }
 
 .A4:first-of-type {
@@ -1075,6 +1100,17 @@ table th {
   display: none;
 }
 
+.hide {
+  display: none;
+}
+
+.indent {
+  padding-left: 1.25rem;
+}
+.indent .__l {
+  border-left: dotted #003399 2px;
+}
+
 .timeline {
   display: grid;
   grid-template-columns: 3rem auto;
@@ -1185,6 +1221,7 @@ table th {
   grid-template-rows: 150px 1fr;
   column-gap: 1rem;
   row-gap: 1rem;
+  text-align: left;
 }
 .CV .card {
   padding: 1rem;
@@ -1195,6 +1232,7 @@ table th {
 }
 .CV .card p, .CV .card li, .CV .card small, .CV .card i, .CV .card u, .CV .card strong {
   color: black;
+  text-align: left;
 }
 .CV .card .H1 {
   color: #14223d;
@@ -1212,9 +1250,9 @@ table th {
 }
 .CV .card .H2 {
   margin-top: 0.25rem;
-  color: #FFCC00;
-  font-size: 1.5rem;
-  font-weight: 700;
+  color: #003399;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 .CV .card p {
   margin-top: 0.75rem;
