@@ -9,114 +9,6 @@
   text-decoration: 0;
 }
 
-.dark > .light, .light {
-  background-color: #ccddff;
-  color: black;
-}
-.dark > .light h1, .dark > .light .H1, .light h1, .light .H1 {
-  color: #14223d;
-}
-.dark > .light h2, .dark > .light .H2, .light h2, .light .H2 {
-  color: #003399;
-  border-bottom: 2px dotted #003399;
-}
-.dark > .light h3, .dark > .light .H3, .light h3, .light .H3 {
-  color: #003399;
-}
-.dark > .light.-grad, .light.-grad {
-  background: linear-gradient(45deg, #6699ff, #ccddff);
-}
-.dark > .light .tag, .light .tag {
-  background-color: #003399;
-  color: white;
-}
-.dark > .light .tag ::before, .light .tag ::before {
-  color: #ccddff;
-}
-
-.dark {
-  background-color: #14223d;
-  color: white;
-}
-.dark h1, .dark .H1, .dark p, .dark li, .dark ul, .dark ol, .dark u, .dark i {
-  color: white;
-}
-.dark h1::before {
-  color: #ccddff;
-  z-index: -1;
-}
-.dark b {
-  color: #FFCC00;
-}
-.dark h2, .dark .H2 {
-  color: #FFCC00;
-  border-bottom: 2px solid #ccddff;
-}
-.dark h3, .dark .H3 {
-  color: #ccddff;
-}
-.dark.quote p::before {
-  color: #ccddff;
-}
-.dark.quote i {
-  color: #ccddff;
-}
-.dark.-grad {
-  background: linear-gradient(45deg, #14223d, #14223d, #003399);
-}
-
-.dark-accent {
-  background-color: #003399;
-  color: white;
-}
-.dark-accent h1, .dark-accent .H1, .dark-accent p, .dark-accent li, .dark-accent ul, .dark-accent ol, .dark-accent u, .dark-accent i {
-  color: white;
-}
-.dark-accent h1::before {
-  color: #ccddff;
-  z-index: -1;
-}
-.dark-accent b {
-  color: #ccddff;
-}
-.dark-accent h2, .dark-accent .H2 {
-  color: #FFCC00;
-  border-bottom: 2px solid #ccddff;
-}
-.dark-accent h3, .dark-accent .H3 {
-  color: #ccddff;
-}
-.dark-accent.-grad {
-  background: linear-gradient(-45deg, #ccddff, #003399, #003399);
-}
-
-.light-accent {
-  background-color: #FFCC00;
-  color: #14223d;
-}
-.light-accent h1, .light-accent .H1, .light-accent p, .light-accent li, .light-accent ul, .light-accent ol, .light-accent u, .light-accent i {
-  color: #14223d;
-}
-.light-accent h2, .light-accent .H2, .light-accent .GI {
-  color: #003399;
-}
-
-.t-dark {
-  color: #14223d;
-}
-
-.t-light {
-  color: #ccddff;
-}
-
-.t-dark-accent {
-  color: #003399;
-}
-
-.t-light-accent {
-  color: #FFCC00;
-}
-
 .GI {
   font-family: "Material Icons";
   font-size: 1.2em;
@@ -855,6 +747,114 @@ blockquote cite {
 
 .col-2 {
   columns: 2;
+}
+
+.dark > .light, .light {
+  background-color: #ccddff;
+  color: black;
+}
+.dark > .light h1, .dark > .light .H1, .light h1, .light .H1 {
+  color: #14223d;
+}
+.dark > .light h2, .dark > .light .H2, .light h2, .light .H2 {
+  color: #003399;
+  border-bottom: 2px dotted #003399;
+}
+.dark > .light h3, .dark > .light .H3, .light h3, .light .H3 {
+  color: #003399;
+}
+.dark > .light.-grad, .light.-grad {
+  background: linear-gradient(45deg, #6699ff, #ccddff);
+}
+.dark > .light .tag, .light .tag {
+  background-color: #003399;
+  color: white;
+}
+.dark > .light .tag ::before, .light .tag ::before {
+  color: #ccddff;
+}
+
+.dark {
+  background-color: #14223d;
+  color: white;
+}
+.dark h1, .dark .H1, .dark p, .dark li, .dark ul, .dark ol, .dark u, .dark i {
+  color: white;
+}
+.dark h1::before {
+  color: #ccddff;
+  z-index: -1;
+}
+.dark b {
+  color: #FFCC00;
+}
+.dark h2, .dark .H2 {
+  color: #FFCC00;
+  border-bottom: 2px solid #ccddff;
+}
+.dark h3, .dark .H3 {
+  color: #ccddff;
+}
+.dark.quote p::before {
+  color: #ccddff;
+}
+.dark.quote i {
+  color: #ccddff;
+}
+.dark.-grad {
+  background: linear-gradient(45deg, #14223d, #14223d, #003399);
+}
+
+.dark-accent {
+  background-color: #003399;
+  color: white;
+}
+.dark-accent h1, .dark-accent .H1, .dark-accent p, .dark-accent li, .dark-accent ul, .dark-accent ol, .dark-accent u, .dark-accent i {
+  color: white;
+}
+.dark-accent h1::before {
+  color: #ccddff;
+  z-index: -1;
+}
+.dark-accent b {
+  color: #ccddff;
+}
+.dark-accent h2, .dark-accent .H2 {
+  color: #FFCC00;
+  border-bottom: 2px solid #ccddff;
+}
+.dark-accent h3, .dark-accent .H3 {
+  color: #ccddff;
+}
+.dark-accent.-grad {
+  background: linear-gradient(-45deg, #ccddff, #003399, #003399);
+}
+
+.light-accent {
+  background-color: #FFCC00;
+  color: #14223d;
+}
+.light-accent h1, .light-accent .H1, .light-accent p, .light-accent li, .light-accent ul, .light-accent ol, .light-accent u, .light-accent i {
+  color: #14223d;
+}
+.light-accent h2, .light-accent .H2, .light-accent .GI {
+  color: #003399;
+}
+
+.t-dark {
+  color: #14223d;
+}
+
+.t-light {
+  color: #ccddff;
+}
+
+.t-dark-accent {
+  color: #003399;
+}
+
+.t-light-accent {
+  color: #FFCC00;
 }
 
 .A4:first-of-type {
