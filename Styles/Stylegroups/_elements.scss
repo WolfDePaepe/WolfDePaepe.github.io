@@ -20,11 +20,10 @@
     text-transform: uppercase;    
     margin: 0.5rem 0rem 0rem 0;
     line-height: 1rem;
-    
     border: 1.5px solid $dark-accent;
-    background-color: $light;
+    background-color: white;;
 
-    .light > &.theme-green, .dark > &.theme-green, .dark-accent > &.theme-green{
+    &.theme-green{
         border-color: $green;
         background-color: $green-light;
         color: black;
@@ -33,6 +32,12 @@
         border-color: $red;
         background-color: $red-light;
         color: black;
+    }
+    &.dark{
+        background-color: $dark;
+        &::before{
+            color: $light;
+        }
     }
 }
 

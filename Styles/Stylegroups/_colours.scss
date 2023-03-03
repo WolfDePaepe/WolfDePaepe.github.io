@@ -20,14 +20,6 @@
     &.-grad{
         background: linear-gradient(45deg, lighten($dark-accent,40%), $light);
     }
-    .tag{
-        background-color: $dark-accent;
-        color: white;
-        
-        ::before{
-            color: $light;
-        }
-    }
 }
 .dark{
     background-color: $dark;
