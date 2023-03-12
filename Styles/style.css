@@ -550,6 +550,12 @@ section + section, section + .banner {
 .tag.dark::before {
   color: #ccddff;
 }
+.tag.dark-accent {
+  background-color: #003399;
+}
+.tag.dark-accent::before {
+  color: #ccddff;
+}
 
 .card, .I-card, blockquote {
   padding: 1.25rem;
@@ -1113,11 +1119,7 @@ table th {
   list-style-type: none;
 }
 
-.display-none {
-  display: none;
-}
-
-.hide {
+.hide, .display, .display-none {
   display: none;
 }
 

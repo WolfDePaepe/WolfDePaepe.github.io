@@ -39,6 +39,12 @@
             color: $light;
         }
     }
+    &.dark-accent{
+        background-color: $dark-accent;
+        &::before{
+            color: $light;
+        }
+    }
 }
 
 //----------------------------------------------//
