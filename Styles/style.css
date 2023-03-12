@@ -1120,7 +1120,7 @@ table th {
 }
 
 .hide, .display, .display-none {
-  display: none;
+  display: none !important;
 }
 
 .indent {

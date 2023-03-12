@@ -76,7 +76,7 @@
     list-style-type: none;
 }
 .hide, .display, .display-none{
-    display: none;
+    display: none !important;
 }
 .indent{
     padding-left: 1.25rem;
