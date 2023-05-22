@@ -19,8 +19,8 @@
 
 .I-done::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -32,8 +32,8 @@
 }
 .I-close::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -45,8 +45,8 @@
 }
 .I-h-rule::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -58,8 +58,8 @@
 }
 .I-flag::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -70,8 +70,8 @@
 }
 .I-flag-fill::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -82,8 +82,8 @@
 }
 .I-done-all::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -95,8 +95,8 @@
 }
 .I-priority::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -108,8 +108,8 @@
 }
 .I-quote::before, q::before, blockquote::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -120,8 +120,8 @@
 }
 .I-groups::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -132,8 +132,8 @@
 }
 .I-location::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -144,8 +144,8 @@
 }
 .I-music::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -156,8 +156,8 @@
 }
 .I-date::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -168,8 +168,8 @@
 }
 .I-movie::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -180,8 +180,8 @@
 }
 .I-lamp::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -192,8 +192,8 @@
 }
 .I-earth::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -204,8 +204,8 @@
 }
 .I-document::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -216,8 +216,8 @@
 }
 .I-question::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -228,8 +228,8 @@
 }
 .I-history::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -240,8 +240,8 @@
 }
 .I-education::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -252,8 +252,8 @@
 }
 .I-interests::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -264,8 +264,8 @@
 }
 .I-code::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -276,8 +276,8 @@
 }
 .I-engineering::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -288,8 +288,8 @@
 }
 .I-book::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -300,8 +300,8 @@
 }
 .I-person::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -312,8 +312,8 @@
 }
 .I-task::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -324,8 +324,8 @@
 }
 .I-hotel::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -336,8 +336,8 @@
 }
 .I-train::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -348,8 +348,8 @@
 }
 .I-flight::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -360,8 +360,8 @@
 }
 .I-walk::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -372,8 +372,8 @@
 }
 .I-bike::before {
   display: inline;
-  top: 0;
-  left: -1.25rem;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
@@ -386,7 +386,7 @@
   list-style-type: none;
   position: relative;
   padding: 0;
-  margin-left: 1.25rem;
+  margin-inline-start: 1.25rem;
 }
 .I-bikeli, .I-walkli, .I-flightli, .I-trainli, .I-hotelli, .I-taskli, .I-personli, .I-bookli, .I-doneli, .I-done-allli, .I-closeli, .I-h-ruleli, .I-flagli, .I-flag-fillli, .I-priorityli, .I-quoteli, .I-groupsli, .I-locationli, .I-musicli, .I-dateli, .I-movieli, .I-lampli, .I-earthli, .I-documentli, .I-questionli, .I-historyli, .I-questionli, .I-educationli, .I-engineeringli, .I-codeli, .I-interestsli {
   margin-left: 0;

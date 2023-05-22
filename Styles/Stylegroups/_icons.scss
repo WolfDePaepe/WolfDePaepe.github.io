@@ -8,8 +8,8 @@
 
 @mixin icon{
     display: inline;
-    top: 0;
-    left: -1.25rem;
+    inset-inline-start: -1.25em;
+    inset-block-start: 0;
     position: absolute;
     font-family: 'Material Icons';
     font-style: normal;
@@ -156,7 +156,7 @@
         list-style-type: none;
         position: relative;
         padding: 0;
-        margin-left: 1.25rem;
+        margin-inline-start: 1.25rem;
 
         &li{
             margin-left: 0;
