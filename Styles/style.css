@@ -384,37 +384,49 @@ html {
   text-transform: lowercase;
   content: "directions_bike";
 }
-.I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
+.I-golf::before {
+  display: inline;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: #003399;
+  line-height: 1.2em;
+  text-transform: lowercase;
+  content: "golf_course";
+}
+.I-golf, .I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;
   position: relative;
   padding: 0;
   margin-inline-start: 1.25rem;
 }
-.I-bikeli, .I-walkli, .I-flightli, .I-trainli, .I-hotelli, .I-taskli, .I-personli, .I-bookli, .I-doneli, .I-done-allli, .I-closeli, .I-h-ruleli, .I-flagli, .I-flag-fillli, .I-priorityli, .I-quoteli, .I-groupsli, .I-locationli, .I-musicli, .I-dateli, .I-movieli, .I-lampli, .I-earthli, .I-documentli, .I-questionli, .I-historyli, .I-questionli, .I-educationli, .I-engineeringli, .I-codeli, .I-interestsli {
+.I-golfli, .I-bikeli, .I-walkli, .I-flightli, .I-trainli, .I-hotelli, .I-taskli, .I-personli, .I-bookli, .I-doneli, .I-done-allli, .I-closeli, .I-h-ruleli, .I-flagli, .I-flag-fillli, .I-priorityli, .I-quoteli, .I-groupsli, .I-locationli, .I-musicli, .I-dateli, .I-movieli, .I-lampli, .I-earthli, .I-documentli, .I-questionli, .I-historyli, .I-questionli, .I-educationli, .I-engineeringli, .I-codeli, .I-interestsli {
   margin-left: 0;
 }
-.I-bike.I-big, .I-walk.I-big, .I-flight.I-big, .I-train.I-big, .I-hotel.I-big, .I-task.I-big, .I-person.I-big, .I-book.I-big, .I-done.I-big, .I-done-all.I-big, .I-close.I-big, .I-h-rule.I-big, .I-flag.I-big, .I-flag-fill.I-big, .I-priority.I-big, .I-quote.I-big, q.I-big, blockquote.I-big, .I-groups.I-big, .I-location.I-big, .I-music.I-big, .I-date.I-big, .I-movie.I-big, .I-lamp.I-big, .I-earth.I-big, .I-document.I-big, .I-question.I-big, .I-history.I-big, .I-education.I-big, .I-engineering.I-big, .I-code.I-big, .I-interests.I-big {
+.I-golf.I-big, .I-bike.I-big, .I-walk.I-big, .I-flight.I-big, .I-train.I-big, .I-hotel.I-big, .I-task.I-big, .I-person.I-big, .I-book.I-big, .I-done.I-big, .I-done-all.I-big, .I-close.I-big, .I-h-rule.I-big, .I-flag.I-big, .I-flag-fill.I-big, .I-priority.I-big, .I-quote.I-big, q.I-big, blockquote.I-big, .I-groups.I-big, .I-location.I-big, .I-music.I-big, .I-date.I-big, .I-movie.I-big, .I-lamp.I-big, .I-earth.I-big, .I-document.I-big, .I-question.I-big, .I-history.I-big, .I-education.I-big, .I-engineering.I-big, .I-code.I-big, .I-interests.I-big {
   padding-left: 3rem;
   margin-bottom: 2.5rem;
   line-height: 1;
 }
-.I-bike.I-big::before, .I-walk.I-big::before, .I-flight.I-big::before, .I-train.I-big::before, .I-hotel.I-big::before, .I-task.I-big::before, .I-person.I-big::before, .I-book.I-big::before, .I-done.I-big::before, .I-done-all.I-big::before, .I-close.I-big::before, .I-h-rule.I-big::before, .I-flag.I-big::before, .I-flag-fill.I-big::before, .I-priority.I-big::before, .I-quote.I-big::before, q.I-big::before, blockquote.I-big::before, .I-groups.I-big::before, .I-location.I-big::before, .I-music.I-big::before, .I-date.I-big::before, .I-movie.I-big::before, .I-lamp.I-big::before, .I-earth.I-big::before, .I-document.I-big::before, .I-question.I-big::before, .I-history.I-big::before, .I-education.I-big::before, .I-engineering.I-big::before, .I-code.I-big::before, .I-interests.I-big::before {
+.I-golf.I-big::before, .I-bike.I-big::before, .I-walk.I-big::before, .I-flight.I-big::before, .I-train.I-big::before, .I-hotel.I-big::before, .I-task.I-big::before, .I-person.I-big::before, .I-book.I-big::before, .I-done.I-big::before, .I-done-all.I-big::before, .I-close.I-big::before, .I-h-rule.I-big::before, .I-flag.I-big::before, .I-flag-fill.I-big::before, .I-priority.I-big::before, .I-quote.I-big::before, q.I-big::before, blockquote.I-big::before, .I-groups.I-big::before, .I-location.I-big::before, .I-music.I-big::before, .I-date.I-big::before, .I-movie.I-big::before, .I-lamp.I-big::before, .I-earth.I-big::before, .I-document.I-big::before, .I-question.I-big::before, .I-history.I-big::before, .I-education.I-big::before, .I-engineering.I-big::before, .I-code.I-big::before, .I-interests.I-big::before {
   font-size: 2.5rem;
   line-height: 2.5rem;
   left: 0;
   top: 0;
 }
-.I-bike.I-right, .I-walk.I-right, .I-flight.I-right, .I-train.I-right, .I-hotel.I-right, .I-task.I-right, .I-person.I-right, .I-book.I-right, .I-done.I-right, .I-done-all.I-right, .I-close.I-right, .I-h-rule.I-right, .I-flag.I-right, .I-flag-fill.I-right, .I-priority.I-right, .I-quote.I-right, q.I-right, blockquote.I-right, .I-groups.I-right, .I-location.I-right, .I-music.I-right, .I-date.I-right, .I-movie.I-right, .I-lamp.I-right, .I-earth.I-right, .I-document.I-right, .I-question.I-right, .I-history.I-right, .I-education.I-right, .I-engineering.I-right, .I-code.I-right, .I-interests.I-right {
+.I-golf.I-right, .I-bike.I-right, .I-walk.I-right, .I-flight.I-right, .I-train.I-right, .I-hotel.I-right, .I-task.I-right, .I-person.I-right, .I-book.I-right, .I-done.I-right, .I-done-all.I-right, .I-close.I-right, .I-h-rule.I-right, .I-flag.I-right, .I-flag-fill.I-right, .I-priority.I-right, .I-quote.I-right, q.I-right, blockquote.I-right, .I-groups.I-right, .I-location.I-right, .I-music.I-right, .I-date.I-right, .I-movie.I-right, .I-lamp.I-right, .I-earth.I-right, .I-document.I-right, .I-question.I-right, .I-history.I-right, .I-education.I-right, .I-engineering.I-right, .I-code.I-right, .I-interests.I-right {
   padding-left: 0;
   padding-right: 1.2rem;
 }
-.I-bike.I-right::before, .I-walk.I-right::before, .I-flight.I-right::before, .I-train.I-right::before, .I-hotel.I-right::before, .I-task.I-right::before, .I-person.I-right::before, .I-book.I-right::before, .I-done.I-right::before, .I-done-all.I-right::before, .I-close.I-right::before, .I-h-rule.I-right::before, .I-flag.I-right::before, .I-flag-fill.I-right::before, .I-priority.I-right::before, .I-quote.I-right::before, q.I-right::before, blockquote.I-right::before, .I-groups.I-right::before, .I-location.I-right::before, .I-music.I-right::before, .I-date.I-right::before, .I-movie.I-right::before, .I-lamp.I-right::before, .I-earth.I-right::before, .I-document.I-right::before, .I-question.I-right::before, .I-history.I-right::before, .I-education.I-right::before, .I-engineering.I-right::before, .I-code.I-right::before, .I-interests.I-right::before {
+.I-golf.I-right::before, .I-bike.I-right::before, .I-walk.I-right::before, .I-flight.I-right::before, .I-train.I-right::before, .I-hotel.I-right::before, .I-task.I-right::before, .I-person.I-right::before, .I-book.I-right::before, .I-done.I-right::before, .I-done-all.I-right::before, .I-close.I-right::before, .I-h-rule.I-right::before, .I-flag.I-right::before, .I-flag-fill.I-right::before, .I-priority.I-right::before, .I-quote.I-right::before, q.I-right::before, blockquote.I-right::before, .I-groups.I-right::before, .I-location.I-right::before, .I-music.I-right::before, .I-date.I-right::before, .I-movie.I-right::before, .I-lamp.I-right::before, .I-earth.I-right::before, .I-document.I-right::before, .I-question.I-right::before, .I-history.I-right::before, .I-education.I-right::before, .I-engineering.I-right::before, .I-code.I-right::before, .I-interests.I-right::before {
   right: 0;
 }
-.I-bike.tag, .I-walk.tag, .I-flight.tag, .I-train.tag, .I-hotel.tag, .I-task.tag, .I-person.tag, .I-book.tag, .I-done.tag, .I-done-all.tag, .I-close.tag, .I-h-rule.tag, .I-flag.tag, .I-flag-fill.tag, .I-priority.tag, .I-quote.tag, q.tag, blockquote.tag, .I-groups.tag, .I-location.tag, .I-music.tag, .I-date.tag, .I-movie.tag, .I-lamp.tag, .I-earth.tag, .I-document.tag, .I-question.tag, .I-history.tag, .I-education.tag, .I-engineering.tag, .I-code.tag, .I-interests.tag {
+.I-golf.tag, .I-bike.tag, .I-walk.tag, .I-flight.tag, .I-train.tag, .I-hotel.tag, .I-task.tag, .I-person.tag, .I-book.tag, .I-done.tag, .I-done-all.tag, .I-close.tag, .I-h-rule.tag, .I-flag.tag, .I-flag-fill.tag, .I-priority.tag, .I-quote.tag, q.tag, blockquote.tag, .I-groups.tag, .I-location.tag, .I-music.tag, .I-date.tag, .I-movie.tag, .I-lamp.tag, .I-earth.tag, .I-document.tag, .I-question.tag, .I-history.tag, .I-education.tag, .I-engineering.tag, .I-code.tag, .I-interests.tag {
   padding-left: 1.25rem;
 }
-.I-bike.tag::before, .I-walk.tag::before, .I-flight.tag::before, .I-train.tag::before, .I-hotel.tag::before, .I-task.tag::before, .I-person.tag::before, .I-book.tag::before, .I-done.tag::before, .I-done-all.tag::before, .I-close.tag::before, .I-h-rule.tag::before, .I-flag.tag::before, .I-flag-fill.tag::before, .I-priority.tag::before, .I-quote.tag::before, q.tag::before, blockquote.tag::before, .I-groups.tag::before, .I-location.tag::before, .I-music.tag::before, .I-date.tag::before, .I-movie.tag::before, .I-lamp.tag::before, .I-earth.tag::before, .I-document.tag::before, .I-question.tag::before, .I-history.tag::before, .I-education.tag::before, .I-engineering.tag::before, .I-code.tag::before, .I-interests.tag::before {
+.I-golf.tag::before, .I-bike.tag::before, .I-walk.tag::before, .I-flight.tag::before, .I-train.tag::before, .I-hotel.tag::before, .I-task.tag::before, .I-person.tag::before, .I-book.tag::before, .I-done.tag::before, .I-done-all.tag::before, .I-close.tag::before, .I-h-rule.tag::before, .I-flag.tag::before, .I-flag-fill.tag::before, .I-priority.tag::before, .I-quote.tag::before, q.tag::before, blockquote.tag::before, .I-groups.tag::before, .I-location.tag::before, .I-music.tag::before, .I-date.tag::before, .I-movie.tag::before, .I-lamp.tag::before, .I-earth.tag::before, .I-document.tag::before, .I-question.tag::before, .I-history.tag::before, .I-education.tag::before, .I-engineering.tag::before, .I-code.tag::before, .I-interests.tag::before {
   left: 0.35rem;
   top: 50%;
   transform: translateY(-50%);
@@ -961,10 +973,6 @@ blockquote cite {
   width: 0.8cm;
   height: 0.8cm;
   text-align: center;
-}
-
-.A4-nonum {
-  counter-increment: p;
 }
 
 .-nonum::after {

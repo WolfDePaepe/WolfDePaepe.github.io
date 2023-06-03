@@ -27,9 +27,6 @@
         }
         counter-increment: p;
     }
-    .A4-nonum {
-        counter-increment: p;
-    }
     .-nonum{
         &::after{
             content: '';

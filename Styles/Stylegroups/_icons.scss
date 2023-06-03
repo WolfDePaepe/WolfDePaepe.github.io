@@ -152,7 +152,11 @@
         @include icon;
         content: 'directions_bike';
     }
-    &-bike, &-walk, &-flight, &-train, &-hotel, &-task, &-person, &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
+    &-golf::before{
+        @include icon;
+        content: 'golf_course';
+    }
+    &-golf, &-bike, &-walk, &-flight, &-train, &-hotel, &-task, &-person, &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
         list-style-type: none;
         position: relative;
         padding: 0;
