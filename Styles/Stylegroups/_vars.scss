@@ -39,6 +39,19 @@ $red-dark: hsla(0deg, 50%,30%);
 $red-light: hsla(0deg, 100%,90%);
 
 
+:root{
+    --dark: $dark;
+    --dark-accent:$dark-accent;
+    --light:$light;
+    --light-accent:$light-accent;
+    --green:$green;
+    --green-dark:$green-dark;
+    --green-light:$green-light;
+    --red:$red;
+    --red-light:$red-light;
+    --red-dark:$red-dark;
+}
+
 //#ff9100 orange //#FFCC29 yellow
 
 // Parameters

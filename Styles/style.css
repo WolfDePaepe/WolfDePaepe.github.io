@@ -11,6 +11,19 @@ html {
   text-decoration: 0;
 }
 
+:root {
+  --dark: $dark;
+  --dark-accent:$dark-accent;
+  --light:$light;
+  --light-accent:$light-accent;
+  --green:$green;
+  --green-dark:$green-dark;
+  --green-light:$green-light;
+  --red:$red;
+  --red-light:$red-light;
+  --red-dark:$red-dark;
+}
+
 .GI {
   font-family: "Material Icons";
   font-size: 1.2em;
