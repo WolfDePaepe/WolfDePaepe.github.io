@@ -8,7 +8,8 @@
 html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  text-decoration: 0;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
 }
 
 :root {
@@ -39,7 +40,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "done";
@@ -52,7 +53,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "close";
@@ -65,7 +66,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "horizontal_rule";
@@ -78,7 +79,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "outlined_flag";
@@ -90,7 +91,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "flag";
@@ -102,7 +103,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "done_all";
@@ -115,7 +116,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "priority_high";
@@ -128,7 +129,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "format_quote";
@@ -140,7 +141,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "groups";
@@ -152,7 +153,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "location_on";
@@ -164,7 +165,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "music_note";
@@ -176,7 +177,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "event";
@@ -188,7 +189,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "live_tv";
@@ -200,7 +201,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "emoji_objects";
@@ -212,7 +213,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "Public";
@@ -224,7 +225,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "Document";
@@ -236,7 +237,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "Question_mark";
@@ -248,7 +249,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "history";
@@ -260,7 +261,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "history_edu";
@@ -272,7 +273,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "interests";
@@ -284,7 +285,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "code";
@@ -296,7 +297,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "engineering";
@@ -308,7 +309,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "auto_stories";
@@ -320,7 +321,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "person";
@@ -332,7 +333,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "task_alt";
@@ -344,7 +345,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "hotel";
@@ -356,7 +357,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "train";
@@ -368,7 +369,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "flight";
@@ -380,7 +381,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "directions_walk";
@@ -392,7 +393,7 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "directions_bike";
@@ -404,10 +405,22 @@ html {
   position: absolute;
   font-family: "Material Icons";
   font-style: normal;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
   content: "golf_course";
+}
+.I-plane::before {
+  display: inline;
+  inset-inline-start: -1.25em;
+  inset-block-start: 0;
+  position: absolute;
+  font-family: "Material Icons";
+  font-style: normal;
+  color: hsl(220, 100%, 30%);
+  line-height: 1.2em;
+  text-transform: lowercase;
+  content: "travel";
 }
 .I-golf, .I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;
@@ -446,15 +459,15 @@ html {
 }
 
 .I-dark::before {
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
 }
 
 .I-light::before {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 
 .I-dark-accent::before {
-  color: #003399;
+  color: hsl(220, 100%, 30%);
 }
 
 .I-light-accent::before {
@@ -593,11 +606,14 @@ section.banner {
 section.banner img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 section.banner.-columns {
-  column-gap: 0;
+  -moz-column-gap: 0;
+       column-gap: 0;
 }
 
 section + section, section + .banner {
@@ -618,30 +634,30 @@ section + section, section + .banner {
   text-transform: uppercase;
   margin: 0.5rem 0rem 0rem 0;
   line-height: 1rem;
-  border: 1.5px solid #003399;
+  border: 1.5px solid hsl(220, 100%, 30%);
   background-color: white;
 }
 .tag.theme-green {
-  border-color: #009933;
-  background-color: #ccffdd;
+  border-color: hsl(140, 100%, 30%);
+  background-color: hsl(140, 100%, 90%);
   color: black;
 }
 .tag.theme-red {
-  border-color: #990000;
-  background-color: #ffcccc;
+  border-color: hsl(0, 100%, 30%);
+  background-color: hsl(0, 100%, 90%);
   color: black;
 }
 .tag.dark {
-  background-color: #14223d;
+  background-color: hsl(220, 50%, 16%);
 }
 .tag.dark::before {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 .tag.dark-accent {
-  background-color: #003399;
+  background-color: hsl(220, 100%, 30%);
 }
 .tag.dark-accent::before {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 
 .card, .I-card, blockquote {
@@ -674,7 +690,7 @@ figure, .picture {
   transform: translateY(3px);
 }
 figure figcaption, .picture figcaption {
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   font-style: italic;
 }
 figure img, .picture img {
@@ -686,11 +702,12 @@ figure.__l::after, .picture.__l::after {
   top: 0;
   left: -0.5rem;
   transform: translate(-50%);
-  border-left: dotted #003399 2px;
+  border-left: dotted hsl(220, 100%, 30%) 2px;
   height: 100%;
 }
 figure img, .picture img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
@@ -701,7 +718,8 @@ figure img, .picture img {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
   width: 100%;
   margin: 0.75rem 0 0 0;
 }
@@ -709,7 +727,8 @@ figure img, .picture img {
   min-height: 100%;
 }
 .picture-gallery div img, .img-gallery div img, .gallery div img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
@@ -732,7 +751,7 @@ aside {
 }
 
 h1, .H1 {
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -743,22 +762,22 @@ h1, .H1 {
 
 h2, .H2 {
   margin-top: 1.25rem;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   font-size: 1.5rem;
   font-weight: 700;
-  border-bottom: 2px solid #ccddff;
+  border-bottom: 2px solid hsl(220, 100%, 90%);
 }
 
 h3, .H3 {
   margin-top: 1rem;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   font-size: 1rem;
   font-weight: 600;
 }
 
 h4, .H4 {
   margin-top: 0.75rem;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   font-size: 1rem;
   font-weight: 400;
 }
@@ -779,20 +798,22 @@ h2 + figure, h3 + figure, h4 + figure,
 }
 
 u {
-  text-decoration: underline solid 1px #003399;
+  -webkit-text-decoration: underline solid 1px hsl(220, 100%, 30%);
+          text-decoration: underline solid 1px hsl(220, 100%, 30%);
 }
 u.dotted {
-  text-decoration: underline dotted 1px #003399;
+  -webkit-text-decoration: underline dotted 1px hsl(220, 100%, 30%);
+          text-decoration: underline dotted 1px hsl(220, 100%, 30%);
 }
 
 b, strong {
   font-weight: 500;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
 }
 
 em {
   font-style: normal;
-  background-color: #ffea00;
+  background-color: rgb(255, 234, 0);
   border-radius: 2px;
   padding: 0 0.25em;
 }
@@ -810,12 +831,13 @@ q::after {
   position: absolute;
   font-family: "Material Icons";
   content: "format_quote";
-  color: #003399;
+  color: hsl(220, 100%, 30%);
 }
 
 a {
-  color: #14223d;
-  text-decoration: underline dotted 1px #003399;
+  color: hsl(220, 50%, 16%);
+  -webkit-text-decoration: underline dotted 1px hsl(220, 100%, 30%);
+          text-decoration: underline dotted 1px hsl(220, 100%, 30%);
 }
 
 .small {
@@ -861,36 +883,37 @@ blockquote cite {
 }
 
 .col-2 {
-  columns: 2;
+  -moz-columns: 2;
+       columns: 2;
 }
 
 .dark > .light, .light {
-  background-color: #ccddff;
+  background-color: hsl(220, 100%, 90%);
   color: black;
 }
 .dark > .light h1, .dark > .light .H1, .light h1, .light .H1 {
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
 }
 .dark > .light h2, .dark > .light .H2, .light h2, .light .H2 {
-  color: #003399;
-  border-bottom: 2px dotted #003399;
+  color: hsl(220, 100%, 30%);
+  border-bottom: 2px dotted hsl(220, 100%, 30%);
 }
 .dark > .light h3, .dark > .light .H3, .light h3, .light .H3 {
-  color: #003399;
+  color: hsl(220, 100%, 30%);
 }
 .dark > .light.-grad, .light.-grad {
-  background: linear-gradient(45deg, #6699ff, #ccddff);
+  background: linear-gradient(45deg, #6699ff, hsl(220, 100%, 90%));
 }
 
 .dark {
-  background-color: #14223d;
+  background-color: hsl(220, 50%, 16%);
   color: white;
 }
 .dark h1, .dark .H1, .dark p, .dark li, .dark ul, .dark ol, .dark u, .dark i {
   color: white;
 }
 .dark h1::before {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
   z-index: -1;
 }
 .dark b {
@@ -898,67 +921,67 @@ blockquote cite {
 }
 .dark h2, .dark .H2 {
   color: #FFCC00;
-  border-bottom: 2px solid #ccddff;
+  border-bottom: 2px solid hsl(220, 100%, 90%);
 }
 .dark h3, .dark .H3 {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 .dark.quote p::before {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 .dark.quote i {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 .dark.-grad {
-  background: linear-gradient(45deg, #14223d, #14223d, #003399);
+  background: linear-gradient(45deg, hsl(220, 50%, 16%), hsl(220, 50%, 16%), hsl(220, 100%, 30%));
 }
 
 .dark-accent {
-  background-color: #003399;
+  background-color: hsl(220, 100%, 30%);
   color: white;
 }
 .dark-accent h1, .dark-accent .H1, .dark-accent p, .dark-accent li, .dark-accent ul, .dark-accent ol, .dark-accent u, .dark-accent i {
   color: white;
 }
 .dark-accent h1::before {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
   z-index: -1;
 }
 .dark-accent b {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 .dark-accent h2, .dark-accent .H2 {
   color: #FFCC00;
-  border-bottom: 2px solid #ccddff;
+  border-bottom: 2px solid hsl(220, 100%, 90%);
 }
 .dark-accent h3, .dark-accent .H3 {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 .dark-accent.-grad {
-  background: linear-gradient(-45deg, #ccddff, #003399, #003399);
+  background: linear-gradient(-45deg, hsl(220, 100%, 90%), hsl(220, 100%, 30%), hsl(220, 100%, 30%));
 }
 
 .light-accent {
   background-color: #FFCC00;
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
 }
 .light-accent h1, .light-accent .H1, .light-accent p, .light-accent li, .light-accent ul, .light-accent ol, .light-accent u, .light-accent i {
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
 }
 .light-accent h2, .light-accent .H2, .light-accent .GI {
-  color: #003399;
+  color: hsl(220, 100%, 30%);
 }
 
 .t-dark {
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
 }
 
 .t-light {
-  color: #ccddff;
+  color: hsl(220, 100%, 90%);
 }
 
 .t-dark-accent {
-  color: #003399;
+  color: hsl(220, 100%, 30%);
 }
 
 .t-light-accent {
@@ -974,7 +997,7 @@ blockquote cite {
 }
 .A4::after {
   content: counter(p);
-  background-color: #003399;
+  background-color: hsl(220, 100%, 30%);
   color: white;
   border-radius: 100px;
   position: absolute;
@@ -1001,7 +1024,9 @@ body {
   font-weight: inherit;
   width: 3rem;
   display: inline-block;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   color: inherit;
 }
 
@@ -1014,7 +1039,7 @@ h1::before {
   content: counter(h1);
   position: absolute;
   opacity: 0.25;
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
   left: -1.5cm;
   top: -3pc;
   line-height: 8rem;
@@ -1032,14 +1057,13 @@ h1::before {
   }
   body .A4, body .A4-nonum {
     margin: 0.5cm auto;
-    box-shadow: #424242 1px 0px 10px;
+    box-shadow: rgb(66, 66, 66) 1px 0px 10px;
   }
 }
 @media screen and (min-width: 1191px) {
   .scrollLegend .A4, .scrollLegend .A4-nonum {
     transform: translateX(10%);
   }
-
   #menuRight {
     display: block;
     position: fixed;
@@ -1048,7 +1072,7 @@ h1::before {
     width: 3rem;
   }
   #menuRight .UI-circle {
-    background-color: #003399;
+    background-color: hsl(220, 100%, 30%);
     color: white;
     width: 3rem;
     height: 3rem;
@@ -1060,7 +1084,6 @@ h1::before {
     cursor: pointer;
     margin-bottom: 0.5rem;
   }
-
   #legend {
     display: block;
     direction: rtl;
@@ -1082,8 +1105,9 @@ h1::before {
     margin: 0.25rem 0;
     transition: transform 0.25s ease;
     text-decoration: none;
-    color: #14223d;
+    color: hsl(220, 50%, 16%);
     display: block;
+    width: -moz-fit-content;
     width: fit-content;
     max-width: 250px;
     white-space: nowrap;
@@ -1091,7 +1115,7 @@ h1::before {
   }
   #legend .H1 {
     font-weight: 400;
-    background-color: #003399;
+    background-color: hsl(220, 100%, 30%);
     color: white;
     width: 250px;
     font-size: 12px;
@@ -1099,7 +1123,7 @@ h1::before {
   }
   #legend .H2 {
     font-weight: 400;
-    background-color: #ccddff;
+    background-color: hsl(220, 100%, 90%);
     font-size: 12px;
     margin-top: 0.5rem;
     padding-left: 2rem;
@@ -1131,13 +1155,13 @@ table th {
 }
 
 .outline-dark {
-  border: 2px solid #14223d;
+  border: 2px solid hsl(220, 50%, 16%);
 }
 .outline-dark-accent {
-  border: 2px solid #003399;
+  border: 2px solid hsl(220, 100%, 30%);
 }
 .outline-light {
-  border: 2px solid #ccddff;
+  border: 2px solid hsl(220, 100%, 90%);
 }
 .outline-light-accent {
   border: 2px solid #FFCC00;
@@ -1152,10 +1176,12 @@ table th {
   margin-top: 0.75rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 .-columns img, ._columns img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
@@ -1167,7 +1193,7 @@ table th {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  border-left: dotted #003399 2px;
+  border-left: dotted hsl(220, 100%, 30%) 2px;
   height: 100%;
 }
 .-columns p, ._columns p {
@@ -1175,19 +1201,22 @@ table th {
 }
 
 .t-columns, .columns {
-  columns: 2;
-  column-gap: 1em;
+  -moz-columns: 2;
+       columns: 2;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
 }
 .t-columns.__l, .columns.__l {
-  column-rule: dotted #003399 2px;
+  -moz-column-rule: dotted hsl(220, 100%, 30%) 2px;
+       column-rule: dotted hsl(220, 100%, 30%) 2px;
 }
 
 .bg-green {
-  background-color: #82cf59;
+  background-color: hsl(99, 55%, 58%);
 }
 
 .bg-light {
-  background-color: #ccddff;
+  background-color: hsl(220, 100%, 90%);
 }
 
 .bg-light-accent {
@@ -1210,13 +1239,14 @@ table th {
   padding-left: 1.25rem;
 }
 .indent.__l {
-  border-left: dotted #003399 2px;
+  border-left: dotted hsl(220, 100%, 30%) 2px;
 }
 
 .timeline {
   display: grid;
   grid-template-columns: 3rem auto;
-  column-gap: 3rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
   row-gap: 1rem;
   position: relative;
 }
@@ -1241,14 +1271,14 @@ table th {
   padding: 1rem 0;
   place-self: center;
   align-self: start;
-  background-color: #003399;
+  background-color: hsl(220, 100%, 30%);
   border-radius: 50%;
   text-align: center;
   width: 3rem;
   line-height: 1rem;
 }
 .timeline .title {
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   text-align: left;
   place-self: start;
   line-height: 3rem;
@@ -1263,7 +1293,7 @@ table th {
   content: "";
   display: block;
   position: absolute;
-  border: 0.5rem solid #003399;
+  border: 0.5rem solid hsl(220, 100%, 30%);
   border-radius: 50%;
   left: 0;
   top: 1.5px;
@@ -1276,7 +1306,7 @@ table th {
   min-height: 5rem;
   width: 1rem;
   writing-mode: vertical-lr;
-  background-color: #ccddff;
+  background-color: hsl(220, 100%, 90%);
   padding: 1rem 0.1rem;
   position: relative;
   border: none;
@@ -1288,7 +1318,7 @@ table th {
   content: "";
   border-left: calc(0.5rem + 5px) solid white;
   border-right: calc(0.5rem + 5px) solid white;
-  border-top: 1rem solid #ccddff;
+  border-top: 1rem solid hsl(220, 100%, 90%);
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -1298,7 +1328,7 @@ table th {
   content: "";
   position: absolute;
   height: 100%;
-  border-right: 2px solid #003399;
+  border-right: 2px solid hsl(220, 100%, 30%);
   top: 0;
   left: 1.5rem;
   transform: translateX(-50%);
@@ -1321,7 +1351,8 @@ table th {
   grid-template-columns: 1fr 1fr;
   padding: 1.5cm;
   grid-template-rows: 150px 1fr;
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
   row-gap: 1rem;
   text-align: left;
 }
@@ -1337,7 +1368,7 @@ table th {
   text-align: left;
 }
 .CV .card .H1 {
-  color: #14223d;
+  color: hsl(220, 50%, 16%);
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1352,7 +1383,7 @@ table th {
 }
 .CV .card .H2 {
   margin-top: 0.25rem;
-  color: #003399;
+  color: hsl(220, 100%, 30%);
   font-size: 1.25rem;
   font-weight: 400;
 }
@@ -1374,14 +1405,16 @@ table th {
   margin-left: 1.25rem;
 }
 .CV .portret {
-  object-position: top;
+  -o-object-position: top;
+     object-position: top;
 }
 .CV strong {
   font-weight: 600;
 }
 .CV a {
   color: white;
-  text-decoration: solid underline white 1px;
+  -webkit-text-decoration: solid underline white 1px;
+          text-decoration: solid underline white 1px;
 }
 .CV .ratings {
   color: black;
@@ -1397,12 +1430,12 @@ table th {
   height: 0.8rem;
   width: 0.8rem;
   border-radius: 50%;
-  border: 1.5px solid #003399;
+  border: 1.5px solid hsl(220, 100%, 30%);
   margin: 0 5px;
   transform: translateY(1px);
 }
 .CV .ratings .fill {
-  background-color: #003399;
+  background-color: hsl(220, 100%, 30%);
 }
 .CV .ratings .fill-half {
   background-color: #7EA2CB;
@@ -1422,7 +1455,8 @@ table th {
   height: 100%;
 }
 .CV img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
   display: inline-block;
@@ -1455,7 +1489,7 @@ table th {
 .CV .white {
   cursor: default;
   border-radius: 6.5px;
-  border: solid 2px #003399;
+  border: solid 2px hsl(220, 100%, 30%);
   padding: 5px 10px;
   line-height: 40px;
   word-spacing: 5px;
@@ -1469,30 +1503,31 @@ table th {
   line-height: 0;
   color: white;
   cursor: default;
-  border: solid #003399 1px;
+  border: solid hsl(220, 100%, 30%) 1px;
   border-radius: 5px;
   padding: 5px 10px;
   line-height: 40px;
   word-spacing: 5px;
   margin-right: 5px;
   white-space: nowrap;
-  background-color: #003399;
+  background-color: hsl(220, 100%, 30%);
 }
 
 @media screen {
   .responsive {
-    background: #14223d url("../Assets/bg.jpg") fixed;
+    background: hsl(220, 50%, 16%) url("../Assets/bg.jpg") fixed;
     background-size: cover;
   }
   .responsive .CV {
     box-shadow: none;
     margin: 0 auto;
+    height: -moz-fit-content;
     height: fit-content;
   }
 }
 @media screen and (max-width: 800px) {
   .responsive {
-    background-color: #14223d;
+    background-color: hsl(220, 50%, 16%);
   }
   .responsive .CV {
     display: flex;
@@ -1528,6 +1563,4 @@ table th {
 .legend .H3 {
   color: black;
   font-weight: 400;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
