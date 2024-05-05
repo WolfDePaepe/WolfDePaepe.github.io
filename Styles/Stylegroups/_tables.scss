@@ -1,17 +1,53 @@
 @use 'vars' as *;
 
-table{
-    text-align: left;
-    font-size: 0.9rem;
-    width: 100%;
 
-    th{
-        font-weight: 600;
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    padding: 0.1rem 0.2rem; 
+}
+th{
+    color: $dark-accent;
+}
+td.overflow{
+    max-width: 1rem; overflow: visible;
+}
+thead + thead::before{
+    content: '';
+    display: table-row;
+    height: 1.5em;
+}
+// Title - total
+thead.title th{
+    font-weight: 300;
+    color:black;
+}
+thead.total th, thead.total div{
+    border-bottom: solid 2px $dark-accent;
+    border-top: solid 2px $dark-accent;
+    background-color: $light;
+}
+// Subtitle - subtotal
+.subtitle, .subtotal{
+    border-bottom: solid 2px $dark-accent;
+    & th{
+        font-weight: 400;
     }
 }
-.red{
-    color: red;
+.subtotal{
+    border-top: solid 2px $dark-accent;
 }
-.green{
-    color: green;
+tr.color:nth-of-type(2n) td{
+    background-color: hsla(220, 100%, 90%, 0.25);
+}
+td.EUR{
+    position: relative;
+    padding-left: 1em;
+    &::before{
+        content: '€';
+        position: absolute;
+        left: 0;
+    }
 }
