@@ -420,7 +420,7 @@ html {
   color: hsl(220, 100%, 30%);
   line-height: 1.2em;
   text-transform: lowercase;
-  content: "flightsmode";
+  content: "flight";
 }
 .I-plane, .I-golf, .I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag, .I-flag-fill, .I-priority, .I-quote, q, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-education, .I-engineering, .I-code, .I-interests {
   list-style-type: none;

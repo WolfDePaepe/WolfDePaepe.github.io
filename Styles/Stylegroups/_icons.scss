@@ -158,7 +158,7 @@
     }
     &-plane::before{
         @include icon;
-        content: 'flightsmode';
+        content: 'flight';
     }
     &-plane, &-golf, &-bike, &-walk, &-flight, &-train, &-hotel, &-task, &-person, &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
         list-style-type: none;
