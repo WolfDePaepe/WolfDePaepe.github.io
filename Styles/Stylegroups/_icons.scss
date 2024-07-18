@@ -160,7 +160,19 @@
         @include icon;
         content: 'flight';
     }
-    &-plane, &-golf, &-bike, &-walk, &-flight, &-train, &-hotel, &-task, &-person, &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
+    &-food::before{
+        @include icon;
+        content: 'restaurant';
+    }
+    &-cafe::before{
+        @include icon;
+        content: 'local_cafe';
+    }
+    &-bar::before{
+        @include icon;
+        content: 'local_bar';
+    }
+    &-bar, &-cafe, &-food, &-plane, &-golf, &-bike, &-walk, &-flight, &-train, &-hotel, &-task, &-person, &-book, &-done, &-done-all, &-close, &-h-rule, &-flag,&-flag-fill, &-priority, &-quote, &-groups, &-location, &-music, &-date, &-movie, &-lamp, &-earth, &-document, &-question, &-history, &-question, &-education, &-engineering, &-code, &-interests{
         list-style-type: none;
         position: relative;
         padding: 0;
