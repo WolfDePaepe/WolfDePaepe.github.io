@@ -42,7 +42,7 @@ thead.total th, thead.total div{
 tr.color:nth-of-type(2n) td{
     background-color: hsla(220, 100%, 90%, 0.25);
 }
-td.EUR{
+.EUR{
     position: relative;
     padding-left: 1em;
     &::before{
