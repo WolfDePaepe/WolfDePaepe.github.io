@@ -1,0 +1,132 @@
+/* ----------------------------------------------
+ Inline 
+---------------------------------------------- */
+.tag{
+    display: inline-block;
+    padding: .25em .7em;
+    border-radius: 1em;
+    color: black;
+    font-size: 0.75rem;
+    text-transform: uppercase;    
+    margin: 0.5rem 0rem 0rem 0;
+    line-height: 1rem;
+    border: 1.5px solid var(--dark-accent);
+    background-color: white;
+
+    &.theme-green{
+        border-color: var(--green);
+        background-color: var(--green-light);
+        color: black;
+    }
+    &.theme-red{
+        border-color: var(--red);
+        background-color: var(--red-light);
+        color: black;
+    }
+    /* &.dark{
+        background-color: var(--dark);
+        &::before{
+            color: var(--light);
+        }
+    }
+    &.dark-accent{
+        background-color: var(--dark-accent);
+        &::before{
+            color: var(--light);
+        }
+    } */
+}
+
+/* ----------------------------------------------
+ Block
+---------------------------------------------- */
+.card, .I-card{
+    padding: 1.25rem;
+    border-radius: var(--border-radius);
+    margin: 0.75rem 0;
+    position: relative;
+
+    :first-child{
+        margin-top: 0;
+    }
+}
+.I-card{
+    padding: 1.25rem 4rem;
+    min-height: 3rem;
+
+    &::before{
+        font-size: 3rem;
+        left:0.5rem;
+        top:0.25rem;
+    }
+}
+
+/* ----------------------------------------------
+ Images
+---------------------------------------------- */
+figure, .picture{
+    margin-top:0.75rem;
+    float: right;
+    float: inline-end;
+    width: calc(50% - 0.5rem);
+    margin-left: 1rem;
+    position: relative;
+    transform: translateY(3px);
+
+    figcaption{
+        color: var(--dark-accent);
+        font-style: italic;
+    }
+    img{
+        display: block;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: var(--border-radius);
+        display: inline-block;
+    }
+
+    &.__l::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -0.5rem;
+        transform: translate(-50%);
+        border-left: dotted var(--dark-accent) 2px;
+        height: 100%;
+    }
+}
+.picture-gallery, .img-gallery, .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 1rem;
+    width: 100%;
+    margin:0.75rem 0 0 0;
+
+    div{
+        flex-basis: auto;
+        min-height:100%;
+
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            border-radius: var(--border-radius);
+            display: inline-block;
+        }
+    }
+}
+.picture-gallery + .picture-gallery{
+    margin-top: 1rem;
+}
+aside{
+    position: absolute;
+    left: .5cm;
+    max-width: 2cm;
+    height:auto;
+    max-height:10cm;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+}

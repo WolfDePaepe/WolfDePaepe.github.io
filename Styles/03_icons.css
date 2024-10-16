@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v203/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsI.woff2) format('woff2');
+}
+.GI {
+    font-family: 'Material Symbols Outlined';
+}
+.I-done::before {
+    content: "done";
+    color: green;
+}
+.I-close::before {
+    content: "close";
+    color: red;
+}
+.I-h-rule::before {
+    content: "horizontal_rule";
+    color: orange;
+}
+.I-flag::before {
+    content: "outlined_flag";
+}
+.I-flag-fill::before {
+    content: "flag";
+}
+.I-done-all::before {
+    content: "done_all";
+    color: green;
+}
+.I-priority::before {
+    content: "priority_high";
+    color: red;
+}
+.I-quote::before {
+    content: "format_quote";
+}
+.I-groups::before {
+    content: "groups";
+}
+.I-location::before {
+    content: 'location_on';
+}
+.I-music::before {
+    content: 'music_note';
+}
+.I-date::before {
+    content: 'event';
+    /* top:10%; */
+}
+.I-movie::before {
+    content: 'live_tv';
+}
+.I-lamp::before {
+    content: 'emoji_objects';
+}
+.I-earth::before {
+    content: 'Public';
+}
+.I-document::before {
+    content: 'Document';
+}
+.I-question::before {
+    content: 'Question_mark';
+}
+.I-history::before {
+    content: 'history';
+}
+.I-education::before {
+    content: 'history_edu';
+}
+.I-interests::before {
+    content: 'interests';
+}
+.I-code::before {
+    content: 'code';
+}
+.I-engineering::before {
+    content: 'engineering';
+}
+.I-book::before {
+    content: 'auto_stories';
+}
+.I-person::before {
+    content: 'person';
+}
+.I-task::before {
+    content: 'task_alt';
+}
+.I-hotel::before {
+    content: 'hotel';
+}
+.I-train::before {
+    content: 'train';
+}
+.I-flight::before {
+    content: 'flight';
+}
+.I-walk::before {
+    content: 'directions_walk';
+}
+.I-bike::before {
+    content: 'directions_bike';
+}
+.I-golf::before {
+    content: 'golf_course';
+}
+.I-plane::before {
+    content: 'flight';
+}
+.I-food::before {
+    content: 'restaurant';
+}
+.I-cafe::before {
+    content: 'local_cafe';
+}
+.I-bar::before {
+    content: 'local_bar';
+}
+
+.I-bar, .I-cafe, .I-food, .I-plane, .I-golf, .I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag,.I-flag-fill, .I-priority, .I-quote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-question, .I-education, .I-engineering, .I-code, .I-interests{
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin-inline-start: 1.25rem;
+
+    &::before{
+        display: inline;
+        inset-inline-start: -1.25em;
+        inset-block-start: 0;
+        position: absolute;
+        font-family: 'Material Symbols Outlined', 'Material Symbols Outlined';
+        font-style: normal;
+        color: var(--dark-accent);
+        line-height: 1.2em;
+        text-transform: lowercase;
+    }
+    &li{
+        margin-left: 0;
+    }
+    &.I-big, .I_big{
+        padding-left: 3rem;
+        margin-bottom: 2.5rem;
+        line-height: 1;
+    
+        &::before{
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+            left:0;
+            top: 0;
+        }
+    }
+    &.I-right, .I_right{
+        padding-left: 0;
+        padding-right:1.2rem;
+
+        &::before{
+            right:0;
+        }
+    }
+    &.tag{
+        padding-left: 1.25rem;
+
+        &::before{left: 0.35rem;top: 50%;transform: translateY(-50%);}
+    }
+}
+.I_dark::before{color: var(--dark);}
+        
+.I_light::before{color: var(--light);}
+
+.I_dark-accent::before{color: var(--dark-accent)}
+
+.I_light-accent::before{color: var(--light-accent)}
+
+.F-RU::before{
+    content: '🇷🇺 ';
+    white-space: nowrap;
+}
+.F-FR::before{
+    content: '🇫🇷 ';
+    white-space: nowrap;
+}
+.F-PL::before{
+    content: '🇵🇱 ';
+    white-space: nowrap;
+}
+.F-IR::before{
+    content: '🇮🇷 ';
+    white-space: nowrap;
+}
+.F-IL::before{
+    content: '🇮🇱  ';
+    white-space: nowrap;
+}
+.F-NL::before{
+    content: '🇳🇱 ';
+    white-space: nowrap;
+}
+.F-DE::before{
+    content: '🇩🇪 ';
+    white-space: nowrap;
+}
+.F-IT::before{
+    content: '🇮🇹 ';
+    white-space: nowrap;
+}
+.F-EU::before{
+    content: '🇪🇺 ';
+    white-space: nowrap;
+}
+.F-BE::before{
+    content: '🇧🇪 ';
+    white-space: nowrap;
+}
+.F-LU::before{
+    content: '🇱🇺 ';
+    white-space: nowrap;
+}
+.F-BY::before{
+    content: '🇧🇾 ';
+    white-space: nowrap;
+}
+.F-DK::before{
+    content: '🇩🇰 ';
+    white-space: nowrap;
+}
+.F-IE::before{
+    content: '🇮🇪 ';
+    white-space: nowrap;
+}
+.F-UK::before{
+    content: '🇬🇧 ';
+    white-space: nowrap;
+}
+.F-GR::before{
+    content: '🇬🇷 ';
+    white-space: nowrap;
+}
+.F-ES::before{
+    content: '🇪🇸 ';
+    white-space: nowrap;
+}
+.F-PT::before{
+    content: '🇵🇹 ';
+    white-space: nowrap;
+}
+.F-SE::before{
+    content: '🇸🇪 ';
+    white-space: nowrap;
+}
+.F-UA::before{
+    content: '🇺🇦 ';
+    white-space: nowrap;
+}
+.F-UN::before{
+    content: '🇺🇳 ';
+    white-space: nowrap;
+}
+.F-x::before{
+    content: 'x ';
+    white-space: nowrap;
+}
+.F-x::before{
+    content: 'x ';
+    white-space: nowrap;
+}

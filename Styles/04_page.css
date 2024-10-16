@@ -1,0 +1,23 @@
+/* ----------------------------------------------
+ A4 page setup .F numbering
+---------------------------------------------- */
+.A4, .A4-nonum {
+    width: var(--page-width);
+    height: var(--page-height);
+    position: relative;
+    padding: var(--page-padding);
+    overflow: hidden;
+    margin: .5cm auto;
+    background-color: var(--background-color);
+    box-shadow: 0 0 5px 0 grey;
+}
+.A4 > :first-child, .A4-nonum > :first-child{
+    margin-top: 0;
+}
+.landscape{
+    width: var(--page-height);
+    height: var(--page-width);
+}
+body{
+    background-color: darkgray;
+}

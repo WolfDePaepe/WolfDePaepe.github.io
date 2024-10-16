@@ -1,0 +1,65 @@
+/* ----------------------------------------------
+ tables
+---------------------------------------------- */
+table{
+    border-collapse: collapse;
+}
+td, th{
+    padding: 0.1rem 0.2rem;
+    text-align: right;
+
+    &:first-child{
+        text-align: left;
+    }
+}
+th{
+    color: var(--dark-accent);
+}
+td.overflow{
+    max-width: 1rem; overflow: visible;
+}
+thead + thead::before{
+    content: '';
+    display: table-row;
+    height: 1.5em;
+}
+/* Title - total */
+.title th{
+    font-weight: 300;
+    color:black;
+}
+.total th, .total div{
+    border-bottom: solid 2px var(--dark-accent);
+    border-top: solid 2px var(--dark-accent);
+    background-color: var(--light);
+}
+/* Subtitle - subtotal */
+.subtitle, .subtotal{
+    border-bottom: solid 2px var(--dark-accent);
+    & th{
+        font-weight: 400;
+    }
+}
+.subtotal{
+    border-top: solid 2px var(--dark-accent);
+}
+tr.color:nth-of-type(2n) td{
+    background-color: hsla(220, 100%, 90%, 0.25);
+}
+.EUR{
+    position: relative;
+    padding-left: 1em;
+
+    &::before{
+        content: '€';
+        position: absolute;
+        left: 0;
+    }
+}
+.alternating{
+    background-color: var(--light-t);
+
+    &:nth-child(2n){
+        background-color: transparent;
+    }
+}

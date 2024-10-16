@@ -1,0 +1,58 @@
+/* .dark{
+    background-color: var(--dark);
+    color: var(--w);
+
+    & h1, .H1,p,li,ul,ol,u,i, a{
+        color: var(--w);
+    }
+    & h1::before{
+        color: var(--light);
+        z-index: -1;
+    }
+    & b{
+        color: var(--light-accent);
+    }
+    & h2, .H2{
+        color: var(--light-accent);
+        border-bottom: 2px solid var(--light);
+    }
+    & h3, .H3{
+        color: var(--light);
+    }
+    & .quote{
+        
+        p::before{
+        color: var(--light);
+        }
+        i{
+            color: var(--light);
+        }   
+    }
+    & .-grad{
+        background:linear-gradient(45deg,var(--dark),var(--dark),var(--dark-accent));
+    }
+} */
+.dark{
+    --b:            white;
+    --w:            var(--dark);
+    --dark:         hsla(220, 100%, 90%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 90%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
+    --background-color: hsla(220, 50%, 16%, 1);
+    background-color: hsla(220, 50%, 16%, 1);
+}
+.light{
+    --b:            black;
+    --w:            hsla(220, 100%, 90%, 1);
+    --dark:         hsla(220, 50%, 16%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 30%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
+    --background-color:hsla(220, 100%, 90%, 1);
+    background-color:hsla(220, 100%, 90%, 1);
+}
