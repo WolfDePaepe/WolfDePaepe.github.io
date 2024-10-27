@@ -35,7 +35,7 @@
 .dark{
     --text-white: black;
     --text-black: white;
-    --w:            var(--dark);
+    --w:            hsla(220, 50%, 16%, 1);
     --dark:         hsla(220, 100%, 90%, 1);
     --dark-t:       hsla(220, 100%, 89%,90%);             
     --dark-accent:  hsla(220, 100%, 90%, 1);
@@ -64,7 +64,7 @@
     body{
         background-color: var(--g);
     }
-    :root, .T-default{
+    :root{
 
         /* Colours */
         --text-white: black;
