@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--text-black)
 }
 
 :root, .T-default{
@@ -19,7 +20,10 @@
 
     /* Colours */
     --w: white;
-    --b: black;
+    --g: #1b1b1b;
+
+    --text-white: white;
+    --text-black: black;
 
     --dark:         hsla(220, 50%, 16%, 1); 
     --dark-t:       hsla(220, 50%, 16%, 1);

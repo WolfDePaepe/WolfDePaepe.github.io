@@ -33,7 +33,8 @@
     }
 } */
 .dark{
-    --b:            white;
+    --text-white: black;
+    --text-black: white;
     --w:            var(--dark);
     --dark:         hsla(220, 100%, 90%, 1);
     --dark-t:       hsla(220, 100%, 89%,90%);             
@@ -43,9 +44,10 @@
     --light-accent: #FFCC00;
     --background-color: hsla(220, 50%, 16%, 1);
     background-color: hsla(220, 50%, 16%, 1);
+
 }
 .light{
-    --b:            black;
+    --g:            black;
     --w:            hsla(220, 100%, 90%, 1);
     --dark:         hsla(220, 50%, 16%, 1);
     --dark-t:       hsla(220, 100%, 89%,90%);             
@@ -55,4 +57,34 @@
     --light-accent: #FFCC00;
     --background-color:hsla(220, 100%, 90%, 1);
     background-color:hsla(220, 100%, 90%, 1);
+}
+
+@media (prefers-color-scheme: dark){
+
+    body{
+        background-color: var(--g);
+    }
+    :root, .T-default{
+
+        /* Colours */
+        --text-white: black;
+        --text-black: white;
+
+        --w: white;
+
+        --dark:         hsla(220, 100%, 90%, 1);
+        --dark-t:       hsla(220, 100%, 89%,90%);             
+        --dark-accent:  hsla(220, 100%, 70%, 1);
+        --light:        hsla(220, 100%, 30%, 1);
+        --light-t:      hsla(220, 100%, 89%,90%);
+    
+        --green:        hsla(140deg, 100%,30%);
+        --green-dark:   hsla(140deg, 50%,30%);
+        --green-light:  hsla(140deg, 100%,90%);
+    
+        --red:          hsla(0deg, 100%,30%);
+        --red-dark:     hsla(0deg, 50%,30%);
+        --red-light:    hsla(0deg, 100%,90%);
+        --background-color: var(--g);
+    }
 }

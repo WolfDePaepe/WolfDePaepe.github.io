@@ -2,7 +2,7 @@
  Sections and banners
 ---------------------------------------------- */
 
-section{
+.A4 > section, .A4-nonum > section{
     width: var(--page-width);
     position: relative;
     left:calc(-1* var(--page-padding));

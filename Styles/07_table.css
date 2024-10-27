@@ -46,7 +46,14 @@ thead + thead::before{
 tr.color:nth-of-type(2n) td{
     background-color: hsla(220, 100%, 90%, 0.25);
 }
-.EUR{
+.alternating{
+    background-color: var(--light-t);
+
+    &:nth-child(2n){
+        background-color: transparent;
+    }
+}
+.€{
     position: relative;
     padding-left: 1em;
 
@@ -56,10 +63,8 @@ tr.color:nth-of-type(2n) td{
         left: 0;
     }
 }
-.alternating{
-    background-color: var(--light-t);
-
-    &:nth-child(2n){
-        background-color: transparent;
+.EUR{
+    &::after{
+        content: ' EUR'
     }
 }
