@@ -47,6 +47,8 @@
 
 }
 .light{
+    --text-white: white;
+    --text-black: black;
     --g:            black;
     --w:            hsla(220, 100%, 90%, 1);
     --dark:         hsla(220, 50%, 16%, 1);
@@ -78,13 +80,13 @@
         --light:        hsla(220, 100%, 30%, 1);
         --light-t:      hsla(220, 100%, 89%,90%);
     
-        --green:        hsla(140deg, 100%,30%);
-        --green-dark:   hsla(140deg, 50%,30%);
-        --green-light:  hsla(140deg, 100%,90%);
+        --green:        rgb(62, 206, 110);
+        --green-dark:   hsla(140deg, 100%,90%);
+        --green-light:  hsla(140deg, 50%,30%);
     
-        --red:          hsla(0deg, 100%,30%);
-        --red-dark:     hsla(0deg, 50%,30%);
-        --red-light:    hsla(0deg, 100%,90%);
+        --red:          rgb(224, 81, 81);
+        --red-dark:     hsla(0deg, 100%,90%);
+        --red-light:    hsla(0deg, 50%,30%);
         --background-color: var(--g);
     }
 }

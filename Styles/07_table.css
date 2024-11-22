@@ -26,7 +26,7 @@ thead + thead::before{
 /* Title - total */
 .title th{
     font-weight: 300;
-    color:black;
+    color:var(--text-black);
 }
 .total th, .total div{
     border-bottom: solid 2px var(--dark-accent);
@@ -67,4 +67,8 @@ tr.color:nth-of-type(2n) td{
     &::after{
         content: ' EUR'
     }
+}
+.amount, .€, .EUR{
+    white-space: nowrap;
+    text-align: right;
 }
