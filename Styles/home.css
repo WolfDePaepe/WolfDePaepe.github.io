@@ -41,8 +41,9 @@ main{
         position: absolute;
         top:25cqw;
         left:25cqw;
+        color: var(--light);
     }
-    & img{
+    & img, svg{
         position: absolute;
         top:50%;
         left:50%;
@@ -51,6 +52,18 @@ main{
         max-width: 50cqw;
         aspect-ratio: 1;
     }
+}
+
+.circle > svg#logo-svg{
+    position: absolute;
+    top:52%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 60cqw ;
+    width:  60cqw;
+    max-width: 60cqw;
+    max-height: 60cqw;
+    aspect-ratio: 1;
 }
 .subgrid{
     justify-self: stretch;
@@ -61,4 +74,27 @@ main{
     gap: .5rem;
     align-content: space-evenly;
     justify-content: space-evenly;
+}
+#logo-svg {
+    fill:transparent;
+    object-fit:fill;
+    animation: fill 0.5s ease-out 1s;
+    animation-fill-mode:forwards;
+}
+
+#logo-svg path {
+    stroke-dasharray: 5000px;
+    stroke-dashoffset: 5000px;
+    animation: lines-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes lines-anim{
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes fill {
+    to {
+        fill: #FFCC29;
+    }
 }

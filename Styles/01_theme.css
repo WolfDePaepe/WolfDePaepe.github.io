@@ -33,8 +33,8 @@
     }
 } */
 .dark{
-    --text-white: black;
-    --text-black: white;
+    --text-white:   black;
+    --text-black:   white;
     --w:            hsla(220, 50%, 16%, 1);
     --dark:         hsla(220, 100%, 90%, 1);
     --dark-t:       hsla(220, 100%, 89%,90%);             
@@ -47,8 +47,8 @@
 
 }
 .light{
-    --text-white: white;
-    --text-black: black;
+    --text-white:   white;
+    --text-black:   black;
     --g:            black;
     --w:            hsla(220, 100%, 90%, 1);
     --dark:         hsla(220, 50%, 16%, 1);
@@ -56,11 +56,24 @@
     --dark-accent:  hsla(220, 100%, 30%, 1);
     --light:        hsla(220, 100%, 30%, 1);
     --light-t:      hsla(220, 100%, 89%,90%);
-    --light-accent: #FFCC00;
+    --light-accent: hsla(48, 100%, 50%, 1);
     --background-color:hsla(220, 100%, 90%, 1);
     background-color:hsla(220, 100%, 90%, 1);
 }
-
+.dark-accent{
+    --text-white:   black;
+    --text-black:   white;
+    --g:            black;
+    --w:            hsla(220, 100%, 90%, 1);
+    --dark:         hsla(220, 100%, 90%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 30%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
+    --background-color:hsla(220, 100%, 90%, 1);
+    background-color:hsla(220, 100%, 30%, 1);
+}
 @media (prefers-color-scheme: dark){
 
     body{

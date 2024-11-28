@@ -1,125 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles\style.css">
 
-    <title>CV Wolf</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./Styles/00_vars.css">
+    <link rel="stylesheet" href="./Styles/01_theme.css">
+    <link rel="stylesheet" href="./Styles/02_text.css">
+    <link rel="stylesheet" href="./Styles/03_icons.css">
+    <!-- <link rel="stylesheet" href="./Styles/04_page.css">  -->
+    <!-- <link rel="stylesheet" href="./Styles/05_counter.css"> -->
+    <!-- <link rel="stylesheet" href="./Styles/06_section.css"> -->
+    <link rel="stylesheet" href="./Styles/07_table.css">
+    <link rel="stylesheet" href="./Styles/08_elements.css">
+    <link rel="stylesheet" href="./Styles/home.css">
+
+
+    <link rel="stylesheet" href="./Styles/home.css">
+
+    <style>
+        :root{
+            --page-padding: 2cm
+        }
+    </style>
+    
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon">
+    <!-- <script src="./app.js" defer></script> -->
+    <title>Home</title>
 </head>
-<body class="responsive">
-    <div class="A4-nonum dark CV" style="display: none;">
-        <div class="split-card content-block">
-            <figure>
-                <img src="./Assets/hidden.webp" alt="" class="portret">
-            </figure>
-            <div style="flex-basis:10px; flex-grow:1;">
-                <p class="H1" style="margin-top: 0;">Wolf De Paepe</p>
-                <p style="text-align: justify;">
-                    I am a motivated student in business engineering with a passion for efficiency, finance, economics and geopolitics. I like to be challenged and keep learning new things.
-                </p>
-            </div>
-            <div class="contact">
-                <p class="H1" style="margin-top: 0;">Contact</p>
-                <p><a href="mailto:wolf.de.paepe@gmail.com">wolf.de.paepe@gmail.com</a></p>
-                <a href="https://www.linkedin.com/in/wolf-de-paepe-0b384a199">Linkedin</a> 
-            </div>
-        </div>  
-        <div id="left">
-            <div class="card content-block">
-                <p class="H1 I-big I-dark">Education</p>
-                <p class="H2">Studies</p>
-                <p>
-                    Bachelor Business Engineering <small class="">[2019 - 2021]</small><br>
-                </p>
-                <p>
-                    Master Business Engineering - Finance <small class="">[2021 - current]</small><br>
-                    <strong>Ghent University</strong>, Ghent, Belgium 
-                     
-                </p>
-                <p class="H2">Languages</p>
-                <div class="ratings">
-                    <div class="F-BE">Dutch</div><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><br>
-                    <div class="F-UK">English</div><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill-half"></span><br>
-                    <div class="F-FR">French</div><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle "></span><span class="circle "></span><br>
-                    <div class="F-SE" style="margin: 0;">Swedish</div><span class="circle fill"></span><span class="circle "></span><span class="circle "></span><span class="circle "></span><span class="circle "></span><br>
-                    <small style="position:relative;top: -2px">(I am currently learning Swedish)</small><br>
-                    <div class="F-DE" style="margin-top: 5px;margin-bottom:0;">German</div><span class="circle fill"></span><span class="circle "></span><span class="circle "></span><span class="circle "></span><span class="circle "></span><br>
-                </div>
-            </div>
-            
-            <div class="card content-block">
-                <p class="H1 I-dark I-big" >Personal</p>
-                <p class="H2">Hobbies and interests</p>
-                <span class="white">Investing</span>
-                <span class="white">Programming</span>
-                <span class="white">Ecological economics</span>
-                <span class="white">History</span>
-                <span class="white">Geopolitics</span>
-                <span class="white">Dancing</span>
-                <p class="H2">Volunteering</p>
-                <p>
-                    Ballroom and Latin <strong>dancing</strong> at GUDc<br>
-                </p>
-                <p>
-                    Engaged member of <strong>Rotaract Gent-Prinsenhof</strong>
-                </p>
-                <p>
-                    Programming and <strong>webdesign</strong>
-                </p>
-                <p>
-                    <strong>Traveling</strong> and organising voyages
-                </p>
-                <p>
-                    <strong>Investing</strong> and keeping up with current events in global news
-                </p>
-            </div>
-        </div>
-        <div id="right">
-            <div class="card content-block right">
-                <p class=" H1 I-dark I-big">Skills</p>
-                <p class="H2">Office applications</p>
-                <div class="ratings -margin">
-                    <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google-Docs-logo-transparent.2e16d0ba.fill-200x200.png" style= "height:1.2rem;width:1.2rem;margin-right:.2rem; position:relative;top:3px"alt="" class="logo"><div style="width: 150px; margin-bottom:5px">Google Workspace</div><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><br>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_(2019%E2%80%93present).svg/1200px-Microsoft_Office_logo_(2019%E2%80%93present).svg.png" style= "height:1.2rem;width:1.2rem;margin-right:.2rem; position:relative;top:3px"alt="" class="logo"><div style="width: 150px; margin-bottom:0">Microsoft Office</div><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><span class="circle fill"></span><br>
-                </div>
-                <!-- <p>Excellent knowledge of <strong>Microsoft office</strong> and <strong>Google workspace</strong> applications.</p> -->
-                <p>
-                    Autohotkey to automatize simple tasks and optimize workflow.
-                </p>
-                <p class="H2">Programming and coding</p>
-                <p>Intermediate knowledge of:</p>
-                <span class="white" style="padding-left: 0;"><span class="blue">Java</span>JavaFX</span>
-                <span class="white" style="padding-left: 0;"><span class="blue">C#</span>ASP.NET</span>
-                <span class="white" style="padding-left: 0;"><span class="blue">SQL</span>MySQL Microsoft-SQL</span>
-                <span class="white">R</span>
-                <span class="white">Python</span>
-                <span class="white" style="padding-left: 0;"><span class="blue">JavaScript</span>TypeScript</span>
-                <p>Very good knowledge of:</p>
-                <span class="white" style="padding-left: 0;"><span class="blue">Webdesign</span>HTML5  CSS3 SCSS/SASS</span>
-            </div>
-            
-            <div class="card content-block right">
-                <p class="H1 I-dark I-big">Experience</p>
-                <p class="H2">Student jobs <small style="font-size: 1rem;">(part-time)</small></p>
-                <p>2019, 2020: <i>Administrative  employee</i> with Fosfor design hub</p>
-                <p>2018, 2019, 2020: <i>Junior IT</i> with Xandres</p>
-                <p class="H2">Student unions and volunteering</p>
-                <p>
-                    2021-2022: <i>Social commissioner</i> at Rotaract Gent-Prinsenhof
-                    <small>(A community service organization)</small>
-                </p>
-                <p>
-                    2019-2022: <i>Webmaster</i> at GUDC <small>(Ghent University Dance club)</small>
-                </p>
-            </div>
-        </div>
-    </div>
+<body class="dark">
+    <main>
+        <h1>Home </h1>
+        <section id="links">
+            <a class="circle" style="background-color: var(--light);" href="./Ljubljana.html">
+                <svg id="logo-svg" viewBox="0 0 906 631" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M95.0706 152.12L221.658 486.265C213.219 492.911 215.053 489.219 204.413 499.557C199.276 505.095 195.24 509.526 191.204 517.28C183.498 532.418 180.196 549.033 183.865 568.232C197.441 640.969 296.51 650.569 326.23 585.955C339.439 557.156 334.669 527.618 314.489 503.249C311.92 500.296 308.985 498.08 307.15 495.496L421.262 317.9C433.738 320.485 438.508 324.546 454.285 323.808C468.962 323.438 474.466 319.746 485.84 316.054L513.726 360.361C536.842 396.544 561.793 437.528 584.908 472.604C589.678 479.988 595.182 487.742 599.218 494.757C589.678 506.203 581.973 509.895 575.369 532.049C570.232 550.51 572.066 568.971 579.405 585.217C608.391 650.2 706.359 641.708 721.77 569.34C727.64 543.495 718.467 516.541 701.589 499.557C694.617 492.542 687.646 489.588 684.344 486.265L810.931 152.12C830.378 152.489 845.055 158.027 869.638 141.781C921.007 108.551 913.669 29.5379 856.062 7.01541C787.081 -19.9378 718.467 62.0295 772.404 128.489C777.908 135.505 784.513 139.197 792.585 145.104L665.631 479.25C641.414 477.035 638.112 476.296 616.097 484.05C613.528 481.835 610.96 476.665 609.125 473.342C593.348 450.081 574.635 419.436 559.224 395.067C554.821 388.052 503.452 309.408 501.985 303.87C510.791 298.701 520.698 282.086 524.734 268.055C537.943 221.533 502.352 169.473 448.414 172.058C414.291 173.534 390.441 196.057 380.901 221.902C369.16 252.917 380.167 286.885 404.017 307.193L347.145 396.175C333.568 416.482 318.525 441.959 304.582 462.635C301.646 467.066 292.84 481.835 289.905 484.419C271.559 478.512 262.386 474.819 240.371 479.25L113.05 144.735C126.626 138.458 140.936 122.582 147.173 107.075C154.512 87.875 154.512 63.8756 145.706 46.1529C127.727 8.86152 87.7323 -7.38424 50.3064 7.01541C-8.40072 29.1687 -15.0053 109.659 36.3635 141.781C55.4433 153.966 69.7532 155.443 95.0706 152.12Z" stroke="#FFCC29" stroke-width="2" />
+                </svg>
+            </a>
+            <a class="circle" href="./Warschau.html">
+                <div class="GI">travel</div>
+                <h3>Warschau</h3>
+            </a>
+            <a class="circle" href="./Ljubljana.html">
+                <div class="GI">travel</div>
+                <h3>Ljubljana</h3>
+            </a>
+        </section>
+    </main>
+
 </body>
 </html>

@@ -49,6 +49,18 @@
     :first-child{
         margin-top: 0;
     }
+    &.wave.dark{
+        background-image: url('style-assets/wave-light-accent.svg');
+        background-size: cover;
+    }
+    &.wave.dark-accent{
+        background-image: url('style-assets/wave-light.svg');
+        background-size: cover;
+    }
+    &.wave.light{
+        background-image: url('style-assets/wave-dark-accent.svg');
+        background-size: cover;
+    }
 }
 .I-card{
     padding: 1.25rem 4rem;
