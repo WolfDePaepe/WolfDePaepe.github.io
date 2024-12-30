@@ -1,0 +1,68 @@
+.stop,.dag{
+    position: relative;
+    padding: 1rem 0 1rem 1.25cm;
+    
+    & aside{
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 0 0 2rem 0;
+    }
+
+    & li + li{
+        margin-top: .25rem;
+    }
+}
+.dag{
+    padding-top: 0;
+}
+.stop>:first-child, .dag > :first-child{
+    margin-top: 0;
+}
+.stop::before{
+    content: '';
+    border: 4px solid black;
+    background: white;
+    display: inline-block;
+    height: calc(1rem - 6px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    z-index: 1;
+}
+.stop::after, .dag::after{
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: 4px;
+    height: calc(100% + 1rem);
+    width: calc(1rem - 6px);
+    background-color: gray;
+    border-radius: 100vh;
+}
+.dag{
+    border-top: 2px dotted black;
+}
+.blue::after{
+    background-color: #003399;
+}
+.yellow::after{
+    background-color: #ffcc29;
+}
+.red::after{
+    background-color: red;
+}
+.right{
+    float: right; 
+}
+li>.picture-gallery{
+    gap: .5rem;
+    margin-top: 0;
+}
+li > .picture-gallery + .picture-gallery{
+    margin-top: .5rem;
+}

@@ -5,13 +5,13 @@
     display: inline-block;
     padding: .25em .7em;
     border-radius: 1em;
-    color: black;
+    color: var(--text-black);
     font-size: 0.75rem;
     text-transform: uppercase;    
     margin: 0.5rem 0rem 0rem 0;
     line-height: 1rem;
-    border: 1.5px solid var(--dark-accent);
-    background-color: white;
+    border: 1.5px solid;
+    border-color: var(--dark-accent);
 
     &.theme-green{
         border-color: var(--green);
@@ -23,24 +23,16 @@
         background-color: var(--red-light);
         color: black;
     }
-    /* &.dark{
-        background-color: var(--dark);
-        &::before{
-            color: var(--light);
-        }
+
+    &::before{
+        color: var(--dark-accent);
     }
-    &.dark-accent{
-        background-color: var(--dark-accent);
-        &::before{
-            color: var(--light);
-        }
-    } */
 }
 
 /* ----------------------------------------------
  Block
 ---------------------------------------------- */
-.card, .I-card{
+.card, .I-card, blockquote{
     padding: 1.25rem;
     border-radius: var(--border-radius);
     margin: 0.75rem 0;
@@ -62,7 +54,7 @@
         background-size: cover;
     }
 }
-.I-card{
+.I-card, blockquote{
     padding: 1.25rem 4rem;
     min-height: 3rem;
 
@@ -72,7 +64,6 @@
         top:0.25rem;
     }
 }
-
 /* ----------------------------------------------
  Images
 ---------------------------------------------- */

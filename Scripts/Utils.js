@@ -22,7 +22,7 @@ export function _addClass(htmlElement, className)
     htmlElement.classList.add(className);
 }
 
-export function _setaAtributes(htmlElement ,attrObjArray)
+export function _setAtributes(htmlElement ,attrObjArray)
 {
     for(var key in attrObjArray)
     {

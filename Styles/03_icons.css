@@ -33,7 +33,7 @@
     content: "priority_high";
     color: red;
 }
-.I-quote::before {
+.I-quote::before, blockquote::before {
     content: "format_quote";
 }
 .I-groups::before {
@@ -119,7 +119,7 @@
     content: 'local_bar';
 }
 
-.I-bar, .I-cafe, .I-food, .I-plane, .I-golf, .I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag,.I-flag-fill, .I-priority, .I-quote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-question, .I-education, .I-engineering, .I-code, .I-interests{
+.I-bar, .I-cafe, .I-food, .I-plane, .I-golf, .I-bike, .I-walk, .I-flight, .I-train, .I-hotel, .I-task, .I-person, .I-book, .I-done, .I-done-all, .I-close, .I-h-rule, .I-flag,.I-flag-fill, .I-priority, .I-quote, blockquote, .I-groups, .I-location, .I-music, .I-date, .I-movie, .I-lamp, .I-earth, .I-document, .I-question, .I-history, .I-question, .I-education, .I-engineering, .I-code, .I-interests{
     list-style-type: none;
     position: relative;
     padding: 0;
@@ -130,7 +130,7 @@
         inset-inline-start: -1.25em;
         inset-block-start: 0;
         position: absolute;
-        font-family: 'Material Symbols Outlined', 'Material Symbols Outlined';
+        font-family: 'Material Symbols Outlined';
         font-style: normal;
         color: var(--dark-accent);
         line-height: 1.2em;

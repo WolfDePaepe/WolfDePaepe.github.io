@@ -32,7 +32,11 @@ h4, .H4{
     font-size: 1rem;
     font-weight: 400;
 }
-
+h5{
+    color: black;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
 /* Paragraphs and lists */
 p, ol, ul{
     margin:0.75rem 0 0 0;
