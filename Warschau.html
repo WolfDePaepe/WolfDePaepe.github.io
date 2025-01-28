@@ -23,6 +23,7 @@
     <!-- <link rel="stylesheet" href="./Styles/06_section.css"> -->
      <link rel="stylesheet" href="./Styles/07_table.css">
      <link rel="stylesheet" href="./Styles/08_elements.css">
+     <link rel="stylesheet" href="./Styles/10_route.css">
     <!-- <link rel="stylesheet" href="./Styles/home.css"> -->
     <title>Warschau</title>
     <!-- <script src="./UI.js" defer type="module"></script> -->
@@ -30,7 +31,7 @@
     <link rel="shortcut icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fflight-icon-37.png&f=1&nofb=1&ipt=54d0ae43a838d645dd25ffbe66ea8fe0837acb806f500213f3ebf9beb2dc8be9&ipo=images" type="image/x-icon">
 </head>
 
-<body>
+<body class="route">
     <a id="nav" href="./Ljubljana.html">
         <span class="GI">compare_arrows</span>
         Overzicht Ljubljana
@@ -60,7 +61,7 @@
             </ul>
             <!-- <aside><span class="I-plane" style="top: -1rem;">BA</span></aside> -->
         </div>
-        <div class="stop DB">
+        <div class="stop red">
             <h3>Warschau</h3>
             <ul>
                 <li>Bus naar hotel <span class="price">1</span></li>
@@ -98,14 +99,14 @@
                 <li class="I-hotel">Overnachting <span class="price">50</span></li>
             </ul>
         </div>
-        <div class="dag DB">
+        <div class="dag red">
             <h5></h5>
             <ul>
                 Mogelijke activiteiten:
                 <li><a href="https://pkin.pl/en/home/">Bezoek Paleis van Cultuur en Wetenschap</a> <span class="right">6</span>
                     <div class="picture-gallery">
                         <div style="min-width: 48%;">
-                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.prachtigpolen.nl%2Fafbeeldingen%2Fwarschau%2Fhighlights%2Fpaleis-van-cultuur-en-wetenschap-warschau-desktop.jpg&f=1&nofb=1&ipt=344fc31ed7251322180c9eb9b56ab94dedbe9820c0a1809e1e049405b845fc5c&ipo=images" alt="">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftraveladdicts.net%2Fwp-content%2Fuploads%2F2009%2F06%2FPoland-Palace-of-Culture-and-Science-Warsaw-Marriott-view.jpg&f=1&nofb=1&ipt=f37284f81c890074b7e7013ef95d939054eee42299383cd93f1200f00b53ca47&ipo=images" alt="">
                         </div>
                         <div style="min-width: 48%;">
                             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs.inyourpocket.com%2Fgallery%2F246212.jpg&f=1&nofb=1&ipt=eb53679a423e0b1a27eab4c47b0314c51ef7e64f39045532aec03fba158c92ff&ipo=images" alt="">
@@ -127,7 +128,7 @@
                 <li class="I-hotel">Overnachting <span class="price">50</span></li>
             </ul>
         </div>
-        <div class="dag DB">
+        <div class="dag red">
             <h5></h5>
             <h3>Daguitstap nationaal park Kampinos</h3>
             <ul>
@@ -151,7 +152,7 @@
                 <li class="I-hotel">Overnachting <span class="price">50</span></li>
             </ul>
         </div>
-        <div class="dag DB">
+        <div class="dag red">
             <h5></h5>
             <ul>
                 <li class="I-plane">LJU 12:15 → 14:25 CRL <span class="price">50</span></li>
@@ -186,7 +187,7 @@
             let date = new Date(startDate)
             date.setDate(date.getDate() + index);
             console.log(index, date)
-            dateElement.innerHTML = `<span style="min-width:7rem; display:inline-block">${weekdagen[date.getDay()]}</span> ${date.toISOString().split('T')[0]}`
+            dateElement.innerHTML = `<span style="min-width:5rem; display:inline-block">${weekdagen[date.getDay()]}</span> ${date.toISOString().split('T')[0]}`
         })
         const prices = [...document.querySelectorAll('.price')];
         const totalPrice = prices.reduce((acc, val) => {

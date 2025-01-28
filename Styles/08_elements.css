@@ -38,7 +38,7 @@
     margin: 0.75rem 0;
     position: relative;
 
-    :first-child{
+    & :first-child{
         margin-top: 0;
     }
     &.wave.dark{

@@ -44,11 +44,6 @@ p,li{
 .dag{
     border-top: 2px dotted var(--dark);
 }
-h5{
-    color: var(--text-black);
-    font-weight: 300;
-    letter-spacing: 2px;
-}
 .blue::after{
     background-color: #003399;
 }
@@ -129,44 +124,49 @@ a{
     }
 }
 @media screen and (max-width:600px){
-    .A4,.A4-nonum{
-        width: 100%;
-        margin: 0 0 !important;
-        box-shadow: none;
-        height: max-content;
-        padding: 5vw;
-    }
-    .stop,.dag, .final{
-        padding: 1rem 0 1rem 1rem;
-    }
-    .H1{
-        font-size: 2rem;
-    }
-    .H3{
-        font-size: 1.5rem;
-    }
-    aside{
-        display: none;
-    }
-    .picture-gallery{
-        flex-direction: column;
-
-        & div{
-            max-height: 10rem;
+    .route{
+        & .A4,.A4-nonum{
+            width: 100%;
+            margin: 0 0 !important;
+            box-shadow: none;
+            height: max-content;
+            padding: 5vw;
+            --background-color: black;
+        }
+        & .stop,.dag, .final{
+            padding-left: 1.5rem;
+            padding-block: 2rem;
+        }
+        & .H1{
+            font-size: 2rem;
+        }
+        & .H3{
+            font-size: 1.5rem;
+        }
+        & aside{
+            display: none;
+        }
+        & .picture-gallery{
+            flex-direction: column;
+    
+            & div{
+                max-height: 10rem;
+            }
         }
     }
 }
 @media (prefers-color-scheme: dark){
 
-    .yellow::after{
-        background-color: #ffd343;
-    }
-    .blue::after{
-        background-color: #1969ff;
-    }
-    .DB::after{
-        background-color: rgb(255, 30, 30);
-
+    .route{
+        & .yellow::after{
+            background-color: #ffd343;
+        }
+        & .blue::after{
+            background-color: #1969ff;
+        }
+        & .red::after{
+            background-color: rgb(255, 30, 30);
+        }
     }
 }
 #nav{
