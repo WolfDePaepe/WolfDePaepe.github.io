@@ -43,6 +43,9 @@
         background-color: gray;
         border-radius: 100vh;
     }
+    .dag:first-child, .stop:first-child{
+        padding-top: 0;
+    }
     & .final{
         margin-top: 1rem;
     }
