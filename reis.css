@@ -1,60 +1,13 @@
 body{
     padding: 5vh 0;
 }
-p,li{
-    text-align: left;
-}
 .A4{
     width: min(100%, 796px);
     margin: .5cm auto;
 }
-.stop,.dag, .final{
-    position: relative;
-    padding: 1rem 0 1rem 1.25cm;
-}
-.dag{
-    padding-top: 0;
-}
+
 .stop>:first-child, .dag > :first-child, .final > :first-child{
     margin-top: 0;
-}
-.stop::before, .final::before{
-    content: '';
-    border: 4px solid black;
-    background: white;
-    display: inline-block;
-    height: calc(1rem - 6px);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    position: absolute;
-    left: -4px;
-    top: 1rem;
-    z-index: 1;
-}
-.stop::after, .dag::after{
-    content: '';
-    position: absolute;
-    top: 1.5rem;
-    left: 0;
-    height: calc(100% + .5rem);
-    width: calc(1rem - 6px);
-    background-color: gray;
-    border-radius: 100vh;
-}
-.dag{
-    border-top: 2px dotted var(--dark);
-}
-.blue::after{
-    background-color: #003399;
-}
-.yellow::after{
-    background-color: #ffcc29;
-}
-.blue::after{
-    background-color: #003399;
-}
-.DB::after{
-    background-color: red;
 }
 aside{
     position: absolute;
@@ -64,56 +17,15 @@ aside{
     text-align: center;
     padding: 0 0 2rem 0;
 }
-.right, .price, .EUR{
-    float: right; 
-    font-family: monospace;
-    position: relative;
-    /* right: -1.75cm; */
-    font-size: 0.8rem;
-    margin-left: .25rem;
-
-    &::after{
-        content: ' EUR';
-    }
-}
-.right{
-    /* color: var(--dark-accent); */
-    font-style: italic;
-
-    &::before{
-        font-style: normal;
-        content: '(';
-    }
-    &::after{
-        font-style: normal;
-        content: ') EUR';
-    }
-}
-li>.picture-gallery{
-    gap: .5rem;
-    margin-top: 0;
-}
-.picture-gallery + .picture-gallery{
-    margin-top: .5rem;
-}
-li + li{
-    margin-top: .25rem;
-}
-/* <div style="position: absolute; top: 1rem; left: 1rem;">
-    <span class="tag I-"></span>
-</div> */
 a{
     text-underline-offset: 1px;
 }
-.H1{
-    font-size: 5vw; text-align: left;
-}
-.H3{
-    font-size:3vw; text-align: right;
-}
-@media screen and (max-width:796px){
+
+@media screen and (max-width:900px){
+    :root{
+        --background-color: var(--text-white)
+    }
     body{
-        background-color: var(--text-white);
         & .A4,.A4-nonum{
             width: 100%;
             margin: 0 0 !important;
@@ -121,26 +33,25 @@ a{
             height: max-content;
             padding: 5vw;
         }
+
     }
 }
 @media screen and (max-width:600px){
     .route{
         & .A4,.A4-nonum{
             width: 100%;
-            margin: 0 0 !important;
+            /* margin: 0 0 !important; */
             box-shadow: none;
             height: max-content;
             padding: 5vw;
-            --background-color: black;
         }
-        & .stop,.dag, .final{
+        & .stop, .dag, .final{
             padding-left: 1.5rem;
-            padding-block: 2rem;
         }
-        & .H1{
+        & .H1, h1{
             font-size: 2rem;
         }
-        & .H3{
+        & .H2, h2{
             font-size: 1.5rem;
         }
         & aside{
@@ -152,20 +63,6 @@ a{
             & div{
                 max-height: 10rem;
             }
-        }
-    }
-}
-@media (prefers-color-scheme: dark){
-
-    .route{
-        & .yellow::after{
-            background-color: #ffd343;
-        }
-        & .blue::after{
-            background-color: #1969ff;
-        }
-        & .red::after{
-            background-color: rgb(255, 30, 30);
         }
     }
 }

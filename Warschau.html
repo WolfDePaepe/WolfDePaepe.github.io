@@ -38,10 +38,10 @@
     </a>
     <div class="A4">
         <p class="H1">Cultuur Clubreis Warschau</p>
-        <p class="H3">2025</p>
+        <p class="H2">2025</p>
     </div>
     <div class="A4" style="height: fit-content;">
-        <div class="dag blue">
+        <div class="dag">
             <h5></h5>
         </div>
         <div class="stop blue">
@@ -116,9 +116,6 @@
                 <li><a href="https://www.wilanow-palac.pl/">Bezoek aan het Wilanówpaleis</a> van Króla Jana III en de omliggende tuinen<span class="right">8</span>
                     <div class="picture-gallery">
                         <div>
-                            <img src="https://www.wilanow-palac.pl/images/slider/imageset/01_palac_wilanowski.jpg" alt="">
-                        </div>
-                        <div>
                             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwoty.nl%2Fwp-content%2Fuploads%2F2022%2F03%2FWilanowpaleis-Warschau.jpg&f=1&nofb=1&ipt=847207e297c67b3052773c35a18ed50797dba88bd8ca5afd34afad7cf2ec20a0&ipo=images" alt="">
                         </div>
                     </div>
@@ -180,14 +177,14 @@
     </div>
     <script>
         const startDate = '2025-03-27'
-        const weekdagen = ['Zondag','Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag','Zaterdag']
+        const weekdagen = ['ZO','MA', 'DI', 'WO', 'DO', 'VR','ZA']
         console.log(startDate)
         const dateElements = [...document.querySelectorAll('h5')]
         dateElements.forEach((dateElement, index) => {
             let date = new Date(startDate)
             date.setDate(date.getDate() + index);
             console.log(index, date)
-            dateElement.innerHTML = `<span style="min-width:5rem; display:inline-block">${weekdagen[date.getDay()]}</span> ${date.toISOString().split('T')[0]}`
+            dateElement.innerHTML = `<span>${weekdagen[date.getDay()]} ${date.toISOString().split('T')[0]}</span>`
         })
         const prices = [...document.querySelectorAll('.price')];
         const totalPrice = prices.reduce((acc, val) => {

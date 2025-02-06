@@ -1,7 +1,13 @@
 .route{
-    & .stop,.dag{
+    /* 
+    DIVISIONS
+    Stop:  stop icon + route line
+    Day:   only route line
+    Final: only stop
+    */
+    & .stop, .dag, .final{
         position: relative;
-        padding: 1rem 0 1rem 1.25cm;
+        padding: 0 0 2rem 1.25cm;
         
         & aside{
             position: absolute;
@@ -29,29 +35,58 @@
         border-radius: 50%;
         position: absolute;
         left: 0;
-        top: 1rem;
+        top: 0;
         z-index: 1;
-
     }
     & .stop::after, .dag::after{
         content: '';
         position: absolute;
-        top: 1.5rem;
+        top: 0;
         left: 4px;
-        height: calc(100% + 1rem);
+        height: calc(100% + 8px);
         width: calc(1rem - 6px);
-        background-color: gray;
+        background-color: transparent;
         border-radius: 100vh;
     }
     .dag:first-child, .stop:first-child{
         padding-top: 0;
     }
-    & .final{
-        margin-top: 1rem;
+    & h5{
+        color: var(--text-black);
+        text-align: center;
+        position:relative;
+        z-index: 10;
+
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            border-top: 2px dotted var(--text-black);
+            z-index: -1;
+        }
+        & span{
+            background-color: var(--background-color);
+            display: inline-block;
+            text-align:center;
+            font-family: monospace;
+            font-size: .8rem;
+            padding: 1ex;
+        }
     }
-    & .dag{
-        border-top: 2px dotted var(--text-black);
+    /* Text */
+    & .H1, h1{
+        font-size: 3rem;
     }
+    & .H2, h2{
+        border: none;
+        font-size: 2rem;
+    }
+    & p, li{
+        text-align: left;
+    }
+    /* Utils */
     & .blue::after{
         background-color: #003399;
     }
@@ -61,8 +96,43 @@
     & .red::after{
         background-color: red;
     }
-    & .right{
+    @media (prefers-color-scheme: dark){
+        .route{
+            & .yellow::after{
+                background-color: #ffd343;
+            }
+            & .blue::after{
+                background-color: #1969ff;
+            }
+            & .red::after{
+                background-color: rgb(255, 30, 30);
+            }
+        }
+    }
+    & .right, .price, .EUR{
         float: right; 
+        font-family: monospace;
+        position: relative;
+        /* right: -1.75cm; */
+        font-size: 0.8rem;
+        margin-left: .25rem;
+    
+        &::after{
+            content: ' EUR';
+        }
+    }
+    & .right{
+        /* color: var(--dark-accent); */
+        font-style: italic;
+    
+        &::before{
+            font-style: normal;
+            content: '(';
+        }
+        &::after{
+            font-style: normal;
+            content: ') EUR';
+        }
     }
     & li>.picture-gallery{
         gap: .5rem;
@@ -71,13 +141,5 @@
     & li > .picture-gallery + .picture-gallery{
         margin-top: .5rem;
     }
-    & h5{
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: var(--background-color);
-        padding: 0 1em;
-        color: var(--text-black);
-    }
+
 }
