@@ -96,19 +96,6 @@
     & .red::after{
         background-color: red;
     }
-    @media (prefers-color-scheme: dark){
-        .route{
-            & .yellow::after{
-                background-color: #ffd343;
-            }
-            & .blue::after{
-                background-color: #1969ff;
-            }
-            & .red::after{
-                background-color: rgb(255, 30, 30);
-            }
-        }
-    }
     & .right, .price, .EUR{
         float: right; 
         font-family: monospace;
@@ -141,5 +128,17 @@
     & li > .picture-gallery + .picture-gallery{
         margin-top: .5rem;
     }
-
+}
+@media (prefers-color-scheme: dark){
+    .route{
+        & .yellow::after{
+            background-color: #ffd343;
+        }
+        & .blue::after{
+            background-color: #1969ff;
+        }
+        & .red::after{
+            background-color: rgb(255, 30, 30);
+        }
+    }
 }
