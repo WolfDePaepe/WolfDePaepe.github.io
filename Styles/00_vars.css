@@ -5,7 +5,9 @@
     color: var(--text-black)
 }
 
-:root, .T-default{
+:root{
+    color-scheme: light dark;
+
     /* General */
     /* font-size:11pt; */
     font-family: 'Inter', sans-serif;
@@ -22,22 +24,22 @@
     --w: white;
     --g: #1b1b1b;
 
-    --text-white: white;
-    --text-black: black;
+    --text-white: light-dark(white,black);
+    --text-black: light-dark(black,white);
 
-    --dark:         hsla(220, 50%, 16%, 1); 
-    --dark-t:       hsla(220, 50%, 16%, 1);
-    --dark-accent:  hsla(220, 100%, 30%, 1);
-    --light:        hsla(220, 100%, 90%, 1);
-    --light-t:      hsla(220, 100%, 89%,90%);
-    --light-accent: #FFCC00;
+    --dark:             light-dark( hsla(220,  50%, 16%,   1), hsla(220, 100%, 90%,   1)); 
+    --dark-t:           light-dark( hsla(220,  50%, 16%,   1), hsla(220, 100%, 89%, 90%));
+    --dark-accent:      light-dark( hsla(220, 100%, 30%,   1), hsla(220, 100%, 70%,   1));
+    --light:            light-dark( hsla(220, 100%, 90%,   1), hsla(220, 100%, 30%,   1));
+    --light-t:          light-dark( hsla(220, 100%, 89%, 90%), hsla(220, 100%, 89%, 90%));
+    --light-accent:     light-dark( hsla( 48, 100%, 50%,   1), rgb(0, 142, 90));
 
-    --green:        hsla(140deg, 100%,30%);
-    --green-dark:   hsla(140deg, 50%,30%);
-    --green-light:  hsla(140deg, 100%,90%);
+    --green:                        hsla(140, 100%, 30%);
+    --green-dark:       light-dark( hsla(140,  50%, 30%), hsla(140, 100%, 90%));
+    --green-light:      light-dark( hsla(140, 100%, 90%), hsla(140, 50% , 30%));
 
-    --red:          hsla(0deg, 100%,30%);
-    --red-dark:     hsla(0deg, 50%,30%);
-    --red-light:    hsla(0deg, 100%,90%);
-    --background-color: white;
+    --red:                          hsla(  0, 100%, 30%);
+    --red-dark:         light-dark( hsla(  0,  50%, 30%), hsla(  0, 100%, 90%));
+    --red-light:        light-dark( hsla(  0, 100%, 90%), hsla(  0,  50%, 30%));
+    --background-color: light-dark( white, #1b1b1b);
 }
