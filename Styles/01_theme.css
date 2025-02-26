@@ -1,40 +1,6 @@
-/* .dark{
-    background-color: var(--dark);
-    color: var(--w);
-
-    & h1, .H1,p,li,ul,ol,u,i, a{
-        color: var(--w);
-    }
-    & h1::before{
-        color: var(--light);
-        z-index: -1;
-    }
-    & b{
-        color: var(--light-accent);
-    }
-    & h2, .H2{
-        color: var(--light-accent);
-        border-bottom: 2px solid var(--light);
-    }
-    & h3, .H3{
-        color: var(--light);
-    }
-    & .quote{
-        
-        p::before{
-        color: var(--light);
-        }
-        i{
-            color: var(--light);
-        }   
-    }
-    & .-grad{
-        background:linear-gradient(45deg,var(--dark),var(--dark),var(--dark-accent));
-    }
-} */
- body{
+body{
     background-color: var(--background-color);
- }
+}
 .dark{
     --text-white:   black;
     --text-black:   white;
@@ -75,28 +41,4 @@
     --light-accent: #FFCC00;
     --background-color:hsla(220, 100%, 30%, 1);
     background-color:hsla(220, 100%, 30%, 1);
-}
-@media (prefers-color-scheme: dark){
-    :root{
-        /* Colours */
-        --text-white: black;
-        --text-black: white;
-
-        --w: white;
-
-        --dark:         hsla(220, 100%, 90%, 1);
-        --dark-t:       hsla(220, 100%, 89%,90%);             
-        --dark-accent:  hsla(220, 100%, 70%, 1);
-        --light:        hsla(220, 100%, 30%, 1);
-        --light-t:      hsla(220, 100%, 89%,90%);
-    
-        --green:        rgb(62, 206, 110);
-        --green-dark:   hsla(140deg, 100%,90%);
-        --green-light:  hsla(140deg, 50%,30%);
-    
-        --red:          rgb(224, 81, 81);
-        --red-dark:     hsla(0deg, 100%,90%);
-        --red-light:    hsla(0deg, 50%,30%);
-        --background-color: var(--g);
-    }
 }

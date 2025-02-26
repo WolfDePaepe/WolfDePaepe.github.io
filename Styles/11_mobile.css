@@ -1,0 +1,50 @@
+@media screen and (max-width:900px){
+    body{
+        background-color: var(--background-color);
+        & .A4,.A4-nonum{
+            background-color: var(--background-color);
+            width: 100%;
+            margin: 0 0 !important;
+            box-shadow: none;
+            height: max-content;
+            padding: 5vw;
+
+            &::before, &::after{
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width:600px){
+    h1::before{
+        display: none;
+    }
+
+    .A4,.A4-nonum{
+        width: 100%;
+        /* margin: 0 0 !important; */
+        box-shadow: none;
+        height: max-content;
+        padding: 5vw;
+    }
+    .stop, .dag, .final{
+        padding-left: 1.5rem;
+    }
+    .H1, h1{
+        font-size: 2rem;
+    }
+    .H2, h2{
+        font-size: 1.5rem;
+    }
+    aside{
+        display: none;
+    }
+    .picture-gallery{
+        flex-direction: column;
+
+        & div{
+            max-height: 10rem;
+        }
+    }
+    
+}
