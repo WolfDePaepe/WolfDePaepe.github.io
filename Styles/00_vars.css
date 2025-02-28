@@ -31,8 +31,8 @@
     --dark-t:           light-dark( hsla(220,  50%, 16%,   1), hsla(220, 100%, 89%, 90%));
     --dark-accent:      light-dark( hsla(220, 100%, 30%,   1), hsla(220, 100%, 70%,   1));
     --light:            light-dark( hsla(220, 100%, 90%,   1), hsla(220, 100%, 30%,   1));
-    --light-t:          light-dark( hsla(220, 100%, 89%, 90%), hsla(220, 100%, 89%, 90%));
-    --light-accent:     light-dark( hsla( 48, 100%, 50%,   1), rgb(0, 142, 90));
+    --light-t:          light-dark( hsla(220, 100%, 89%, 90%), hsla(220,  50%, 16%,   1));
+    --light-accent:     light-dark( hsla( 48, 100%, 50%,   1), hsla( 48, 100%, 50%,   1));
 
     --green:                        hsla(140, 100%, 30%);
     --green-dark:       light-dark( hsla(140,  50%, 30%), hsla(140, 100%, 90%));
