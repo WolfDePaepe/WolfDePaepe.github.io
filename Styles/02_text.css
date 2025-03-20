@@ -112,15 +112,16 @@ ul, ol{
     list-style-position: outside;
 
     & li{
-        margin-left: 1.25rem;
+        margin-left: var(--list-margin);
+        padding-left: var(--list-padding);
     }
 }
-ul + li, ol + li{
+ul + li, ol + li, li + li{
     margin-top: 0.25rem;
 }
 ul > ul, ol > ol, ol > ul, ul > ol{
     list-style-position: outside;
-    margin-left: 1.25rem;
+    margin-left: calc(var(--list-margin) + var(--list-padding));
     font-size: 0.8em;
     margin-top: 0;
 }

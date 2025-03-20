@@ -13,6 +13,8 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     text-decoration: 0;
+    --list-margin: 1.5rem;
+    --list-padding: 0.5em;
 
     /* Page setup */
     --page-padding:     2.5cm;

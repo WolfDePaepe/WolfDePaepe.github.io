@@ -1,3 +1,6 @@
+:root{
+    font-size: 16px;
+}
 main{
     width: var(--page-width);
     margin: 4rem auto;
@@ -56,6 +59,21 @@ input:checked + menu{
     }
 }
 
+figure{
+    max-width: var(--page-width);
+    margin-top: 0.75rem;
+
+    & img{
+        max-width: 100%;
+        display: block;
+        border-radius: var(--border-radius);
+    }
+    & figcaption{
+        display: block;
+        text-align: center;
+        font-style: italic;
+    }
+}
 @media screen and (max-width:1080px){
     #logo{
         height: 2.5rem;
