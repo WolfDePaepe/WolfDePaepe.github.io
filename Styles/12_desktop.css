@@ -1,0 +1,13 @@
+@media screen and (min-width:900px){
+    body{
+        background-color: var(--background-color);
+        
+        & .A4,.A4-nonum, main{
+            background-color: var(--background-color);
+            width: min(95vw, 1200px);
+            margin: auto;
+            box-shadow: none;
+            height: max-content;
+        }
+    }
+}
