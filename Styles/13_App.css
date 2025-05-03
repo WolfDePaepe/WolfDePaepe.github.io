@@ -55,6 +55,10 @@ header{
 .Button-final{
     background-color: var(--light-t);
 }
+.Button-small{
+    padding: .25em .5em;
+    border-radius: .25em;
+}
 #Page > menu{
     list-style-type: none;
     border: 2px solid var(--light-t);
