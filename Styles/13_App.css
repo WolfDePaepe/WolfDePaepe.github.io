@@ -1,0 +1,69 @@
+/* *:not(#App, body, html){
+    border: 1px dotted red;
+} */
+
+body,html{
+    height: 100%;
+}
+#App, #app{
+    background-color: var(--background-color);
+    min-height: 100%;
+    width: min(100%, 175rem);
+    margin: auto;
+    padding: 0 2rem 2rem 2rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    padding: 1rem 0;
+    gap: 1rem;
+
+    & nav{
+        display: flex;
+        gap: 1rem;
+
+        & a{
+            padding: .5em 1em;
+            border-radius: 100vw;
+            text-decoration: none;
+        }
+    }
+
+    & .logo{
+        max-height: 5rem;
+    }
+}
+#Page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.Button, .Button-final{
+    text-decoration: none;
+    &:active, &.active{
+        background-color: var(--light);
+    }
+}
+.Button-final{
+    background-color: var(--light-t);
+}
+#Page > menu{
+    list-style-type: none;
+    border: 2px solid var(--light-t);
+    padding: 1rem;
+    border-radius: 1rem;
+    position: sticky;
+    top: 7rem;
+
+    & :first-child{
+        margin-top: 0;
+    }
+}

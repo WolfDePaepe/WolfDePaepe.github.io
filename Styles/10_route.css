@@ -22,7 +22,7 @@
             margin-top: .25rem;
         }
     }
-    & .stop>:first-child, .dag > :first-child{
+    & .stop>:first-child, .dag > :first-child, .final:first-child{
         margin-top: 0;
     }
     & .stop::before, .final::before{
