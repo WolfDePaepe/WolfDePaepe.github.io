@@ -38,14 +38,14 @@ header{
         max-height: 5rem;
     }
 }
-#Page{
+/* #Page{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     gap: 1rem;
     align-items: flex-start;
-}
+} */
 .Button, .Button-final{
     text-decoration: none;
     &:active, &.active{
