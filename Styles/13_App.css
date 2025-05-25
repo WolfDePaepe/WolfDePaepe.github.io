@@ -38,27 +38,6 @@ header{
         max-height: 5rem;
     }
 }
-/* #Page{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: flex-start;
-} */
-.Button, .Button-final{
-    text-decoration: none;
-    &:active, &.active{
-        background-color: var(--light);
-    }
-}
-.Button-final{
-    background-color: var(--light-t);
-}
-.Button-small{
-    padding: .25em .5em;
-    border-radius: .25em;
-}
 #Page > menu{
     list-style-type: none;
     border: 2px solid var(--light-t);
@@ -71,3 +50,106 @@ header{
         margin-top: 0;
     }
 }
+/* ------------------------------------------------- */
+/*                      Buttons                      */
+/* ------------------------------------------------- */
+
+/* button{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    transition: 
+        color              .15s ease-in-out,
+        background-color   .15s ease-in-out,
+        border-color       .15s ease-in-out,
+        box-shadow         .15s ease-in-out
+    ;
+    padding: .25em .5em;
+    border-radius: .25em;
+
+    &:hover {
+        background-color: color(from inherit hsl h s calc(l - .25));
+    }
+} */
+
+.Button, .Button-final{
+    text-decoration: none;
+    &:active, &.active{
+        background-color: var(--light);
+    }
+}
+.Button-final{
+    background-color: var(--light-t);
+}
+.Button-small, .btn-s{
+    padding: .25em .5em;
+    border-radius: .25em;
+}
+.btn-xs{
+    padding: 0.125em;
+    line-height:1rem
+}
+/* button{
+    background-color: var(--dark-accent);
+    color: var(--text-white);
+    border: none;
+    padding: .4em .6em .5em .6em;
+    border-radius: .5em;
+    font-size: 1rem;
+    transition: all .2s ease;
+
+    & .GI{
+
+        transform: translateY(-.2em);
+        position: relative;
+        bottom: -.25ex;
+        color: var(--light);
+        margin-right: 0.5em;
+    }
+
+    &:hover, &:focus{
+        background-color: var(--light);
+        color: var(--text-dark);
+        & .GI{
+            color: var(--dark-accent);
+        }
+    }
+    &:active{
+        color: var(--dark-accent)
+    }
+}
+button.red{
+    background-color: var(--red);
+
+    & .GI{
+        color: var(--red-light);
+    }
+
+    &:hover, &:focus{
+        background-color: var(--red-light);
+        & .GI{
+            color: var(--red-dark);
+        }
+    }
+    &:active{
+        color: var(--red-dark)
+    }
+}
+button.green{
+    background-color: var(--green);
+
+    & .GI{
+        color: var(--green-light);
+    }
+
+    &:hover, &:focus{
+        background-color: var(--green-light);
+        & .GI{
+            color: var(--green-dark);
+        }
+    }
+    &:active{
+        color: var(--green-dark)
+    }
+} */
