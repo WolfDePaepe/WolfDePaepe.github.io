@@ -265,3 +265,13 @@
     content: 'x ';
     white-space: nowrap;
 }
+.F-SU::before{
+    content: '';
+    width: 1em;
+    display: inline-block;
+    height: .75em;
+    border-radius: .1em;
+    background-image: url('../Assets/SU.svg');
+    background-size: cover;
+    background-position: 0;
+}
