@@ -70,6 +70,10 @@ em{
     border-radius: 2px;
     padding: 0 .25em;
 }
+sup, sub{
+    color: inherit;
+    text-transform: none;
+}
 /* q{
     @extend .I-quote; 
 
