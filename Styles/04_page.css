@@ -10,6 +10,21 @@
     margin: .5cm auto;
     background-color: var(--background-color);
     box-shadow: 0 0 5px 0 grey;
+
+    & header, footer{
+        position: absolute;
+        height: var(--page-padding);
+        width: 100%;
+        padding: 1cm;
+    }
+    & footer{
+        bottom: 0;
+        left: 0;
+    }
+    & header{
+        top: 0;
+        left: 0;
+    }
 }
 .A4 > :first-child, .A4-nonum > :first-child{
     margin-top: 0;
@@ -20,4 +35,10 @@
 }
 body{
     background-color: darkgray;
+}
+@media print {
+    .A4, .A4-nonum{
+        margin: 0;
+        box-shadow: none;
+    }
 }
