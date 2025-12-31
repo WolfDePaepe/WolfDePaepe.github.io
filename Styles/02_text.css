@@ -7,11 +7,13 @@ h1, .H1{
     color: var(--dark);
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 1.25rem;
 
     text-transform: uppercase;
     word-spacing: 0.1em;
     letter-spacing: 0.05em;
     position: relative;
+    text-box: trim-both cap alphabetic;
 }
 h2, .H2{
     margin-top: 1.25rem;

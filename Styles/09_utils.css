@@ -57,6 +57,9 @@
     &.__l {
         column-rule: dotted var(--dark-accent) 2px;
     }
+    & :first-child{
+        margin-top: 0;
+    }
 }
 .bg-green{
     background-color: hsl(99, 55%, 58%);
