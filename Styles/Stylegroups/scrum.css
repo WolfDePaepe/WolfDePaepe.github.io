@@ -1,0 +1,111 @@
+
+:root{
+    --Epic: hsl(270, 50%, 50%);
+    --EpicL: hsl(270, 25%, 92%);
+    --EpicD:hsl(270, 100%, 20%);
+
+    --MMPI: hsl(171, 51%, 47%);
+    --MMPIL:hsl(170, 44%, 89%);
+    --MMPID:hsl(169, 33%, 20%);
+
+    --Feature: hsl(111, 45%, 58%);
+    --FeatureL: hsl(113, 31%, 90%);
+    --FeatureD: hsl(114, 45%, 16%);
+
+    --UserStory: hsl(195, 64%, 50%);
+    --UserStoryL: hsl(195, 56%, 87%);
+    --UserStoryD: hsl(194, 67%, 18%);
+}
+
+.MMPI, .Feature, .UserStory, .Epic{
+    padding-inline: 1rem;
+    margin-bottom: 1em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    &b{
+        padding: .25em .5em;
+        border-radius: 5px;
+    }
+    
+    & b{
+        color: var(--text-black);
+        font-family: monospace;
+    }
+    & div{
+        margin-top: .75rem;
+        font-size: 0.9em;
+        padding-block: .25rem;
+    }
+}
+.Epic{
+    border-left: 3px solid var(--Epic);
+    color: light-dark(var(--EpicD), var(--EpicL));
+    background-color: light-dark(var(--EpicL), var(--EpicD));
+
+    &b{
+        color:var(--Epic);
+        background-color: var(--EpicL);
+    }
+}
+.MMPI{
+    border-left: 3px solid var(--MMPI);
+    color: light-dark(var(--MMPID), var(--MMPIL));
+    background-color: light-dark(var(--MMPIL), var(--MMPID));
+    /* background-color: color(from var(--MMPIL) hsl h s 50%); */
+    
+    &b{
+        color:var(--MMPI);
+        background-color: var(--MMPID);
+    }
+}
+.Feature{
+    border-left: 3px solid var(--Feature);
+    color: light-dark(var(--FeatureD), var(--FeatureL));
+    background-color: light-dark(var(--FeatureL), var(--FeatureD));
+    
+    &b{
+        color:var(--Feature);
+        background-color: var(--FeatureD);
+    }
+}
+.UserStory{
+    border-left: 3px solid var(--UserStory);
+    color: light-dark(var(--UserStoryD), var(--UserStoryL));
+    background-color: light-dark(var(--UserStoryL), var(--UserStoryD));
+
+    &b{
+        color:var(--UserStory);
+        background-color: var(--UserStoryD);
+    }
+}
+
+span.MMPI, span.Feature, span.UserStory, span.Epic{
+    padding: .15em 1ex;
+    font-size: .8em;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: -.1em;
+
+    &.Epic{
+        color: light-dark(var(--EpicD), var(--EpicL));
+        background-color: light-dark(var(--EpicL), var(--EpicD));
+    }
+    &.MMPI{
+        color: light-dark(var(--MMPID), var(--MMPIL));
+        background-color: light-dark(var(--MMPIL), var(--MMPID));
+    }
+    &.Feature{
+        color: light-dark(var(--FeatureD), var(--FeatureL));
+        background-color: light-dark(var(--FeatureL), var(--FeatureD));
+    }
+    &.UserStory{
+        color: light-dark(var(--UserStoryD), var(--UserStoryL));
+        background-color: light-dark(var(--UserStoryL), var(--UserStoryD));
+    }
+    & a{
+        color: inherit;
+    }
+}
+
