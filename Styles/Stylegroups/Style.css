@@ -117,7 +117,7 @@ header{
     , url('https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoiYmVsZml1c2JyYW5kXC9maWxlXC9tb2tna041Zm5MVmJxODJpWGZUaS5qcGcifQ:belfiusbrand:Ed8r0NnKpoiyIWyeVVny9ethtwTz7Svfx1zqamikgbE?width=2400') center right;
     background-size: cover, cover;
 }
-button, input, .button{
+button, input, .button, select{
     background-color: var(--background-color);
     color: var(--text-black);
     border: none;
