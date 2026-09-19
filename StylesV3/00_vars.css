@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-black)
+}
+
+@property --color-1 { syntax: '<color>'; inherits: true; initial-value: oklch(0.100 0.046 262.0); }
+@property --color-2 { syntax: '<color>'; inherits: true; initial-value: oklch(0.200 0.092 262.0); }
+@property --color-3 { syntax: '<color>'; inherits: true; initial-value: oklch(0.300 0.139 262.0); }
+@property --color-4 { syntax: '<color>'; inherits: true; initial-value: oklch(0.400 0.185 262.0); }
+@property --color-5 { syntax: '<color>'; inherits: true; initial-value: oklch(0.500 0.231 262.0); }
+@property --color-6 { syntax: '<color>'; inherits: true; initial-value: oklch(0.600 0.217 262.0); }
+@property --color-7 { syntax: '<color>'; inherits: true; initial-value: oklch(0.700 0.157 262.0); }
+@property --color-8 { syntax: '<color>'; inherits: true; initial-value: oklch(0.800 0.101 262.0); }
+@property --color-9 { syntax: '<color>'; inherits: true; initial-value: oklch(0.900 0.048 262.0); }
+
+@property --blue-1 { syntax: '<color>'; inherits: true; initial-value: oklch(0.100 0.046 262.0); }
+@property --blue-2 { syntax: '<color>'; inherits: true; initial-value: oklch(0.200 0.092 262.0); }
+@property --blue-3 { syntax: '<color>'; inherits: true; initial-value: oklch(0.300 0.139 262.0); }
+@property --blue-4 { syntax: '<color>'; inherits: true; initial-value: oklch(0.400 0.185 262.0); }
+@property --blue-5 { syntax: '<color>'; inherits: true; initial-value: oklch(0.500 0.231 262.0); }
+@property --blue-6 { syntax: '<color>'; inherits: true; initial-value: oklch(0.600 0.217 262.0); }
+@property --blue-7 { syntax: '<color>'; inherits: true; initial-value: oklch(0.700 0.157 262.0); }
+@property --blue-8 { syntax: '<color>'; inherits: true; initial-value: oklch(0.800 0.101 262.0); }
+@property --blue-9 { syntax: '<color>'; inherits: true; initial-value: oklch(0.900 0.048 262.0); }
+
+@property --color1-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.105 0.052 262.0 / 90%); }
+@property --color2-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.200 0.103 262.0 / 90%); }
+@property --color3-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.300 0.156 262.0 / 90%); }
+@property --color4-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.400 0.207 262.0 / 90%); }
+@property --color5-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.460 0.259 262.0 / 90%); }
+@property --color6-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.572 0.243 262.0 / 90%); }
+@property --color7-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.675 0.176 262.0 / 90%); }
+@property --color8-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.775 0.113 262.0 / 90%); }
+@property --color9-t { syntax: '<color>'; inherits: true; initial-value: oklch(0.885 0.053 262.0 / 90%); }
+
+@property --green-1 { syntax: '<color>'; inherits: true; initial-value: oklch(0.100 0.046 168.0); }
+@property --green-2 { syntax: '<color>'; inherits: true; initial-value: oklch(0.200 0.092 168.0); }
+@property --green-3 { syntax: '<color>'; inherits: true; initial-value: oklch(0.300 0.139 168.0); }
+@property --green-4 { syntax: '<color>'; inherits: true; initial-value: oklch(0.400 0.185 168.0); }
+@property --green-5 { syntax: '<color>'; inherits: true; initial-value: oklch(0.500 0.231 168.0); }
+@property --green-6 { syntax: '<color>'; inherits: true; initial-value: oklch(0.600 0.217 168.0); }
+@property --green-7 { syntax: '<color>'; inherits: true; initial-value: oklch(0.700 0.157 168.0); }
+@property --green-8 { syntax: '<color>'; inherits: true; initial-value: oklch(0.800 0.101 168.0); }
+@property --green-9 { syntax: '<color>'; inherits: true; initial-value: oklch(0.900 0.048 168.0); }
+
+@property --red-1 { syntax: '<color>'; inherits: true; initial-value: oklch(0.100 0.046 21.0); }
+@property --red-2 { syntax: '<color>'; inherits: true; initial-value: oklch(0.200 0.092 21.0); }
+@property --red-3 { syntax: '<color>'; inherits: true; initial-value: oklch(0.300 0.139 21.0); }
+@property --red-4 { syntax: '<color>'; inherits: true; initial-value: oklch(0.400 0.185 21.0); }
+@property --red-5 { syntax: '<color>'; inherits: true; initial-value: oklch(0.500 0.231 21.0); }
+@property --red-6 { syntax: '<color>'; inherits: true; initial-value: oklch(0.600 0.217 21.0); }
+@property --red-7 { syntax: '<color>'; inherits: true; initial-value: oklch(0.700 0.157 21.0); }
+@property --red-8 { syntax: '<color>'; inherits: true; initial-value: oklch(0.800 0.101 21.0); }
+@property --red-9 { syntax: '<color>'; inherits: true; initial-value: oklch(0.900 0.048 21.0); }
+
+
+:root{
+    color-scheme: light dark;
+
+    /* General */
+    /* font-size:11pt; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-decoration: 0;
+    --list-margin: 1.5rem;
+    --list-padding: 0.5em;
+
+    /* Page setup */
+    --page-padding:     2.5cm;
+    --page-width:       794px; 
+    --page-height:      1122px; 
+    --border-radius:    .5rem;
+
+    /* Colours */
+    --w: white;
+    --g: #1b1b1b;
+
+    --text-white: light-dark(white,black);
+    --text-black: light-dark(black,white);
+
+    --background-color: light-dark( white, #1b1b1b);
+
+    --accent-yellow:oklch(0.865 0.177 90.4);
+    
+    --color-1: oklch(0.100 0.046 262.0);
+    --color-2: oklch(0.200 0.092 262.0);
+    --color-3: oklch(0.300 0.139 262.0);
+    --color-4: oklch(0.400 0.185 262.0);
+    --color-5: oklch(0.500 0.231 262.0);
+    --color-6: oklch(0.600 0.217 262.0);
+    --color-7: oklch(0.700 0.157 262.0);
+    --color-8: oklch(0.800 0.101 262.0);
+    --color-9: oklch(0.900 0.048 262.0);
+
+    --dark:         light-dark(var(--color-2),var(--color-9));
+    --dark-accent:  light-dark(var(--color-4),var(--color-6));
+    --light:        light-dark(var(--color-9),var(--color-1));
+    --dark-t:       light-dark(var(--color4-t),var(--color6-t));;             
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
+
+    --blue-1: oklch(0.100 0.046 262.0);
+    --blue-2: oklch(0.200 0.092 262.0);
+    --blue-3: oklch(0.300 0.139 262.0);
+    --blue-4: oklch(0.400 0.185 262.0);
+    --blue-5: oklch(0.500 0.231 262.0);
+    --blue-6: oklch(0.600 0.217 262.0);
+    --blue-7: oklch(0.700 0.157 262.0);
+    --blue-8: oklch(0.800 0.101 262.0);
+    --blue-9: oklch(0.900 0.048 262.0);
+
+    --color1-t: oklch(0.105 0.052 262.0 / 90%);
+    --color2-t: oklch(0.200 0.103 262.0 / 90%);
+    --color3-t: oklch(0.300 0.156 262.0 / 90%);
+    --color4-t: oklch(0.400 0.207 262.0 / 90%);
+    --color5-t: oklch(0.460 0.259 262.0 / 90%);
+    --color6-t: oklch(0.572 0.243 262.0 / 90%);
+    --color7-t: oklch(0.675 0.176 262.0 / 90%);
+    --color8-t: oklch(0.775 0.113 262.0 / 90%);
+    --color9-t: oklch(0.885 0.053 262.0 / 90%);
+
+    --green-1: oklch(0.100 0.046 168.0);
+    --green-2: oklch(0.200 0.092 168.0);
+    --green-3: oklch(0.300 0.139 168.0);
+    --green-4: oklch(0.400 0.185 168.0);
+    --green-5: oklch(0.500 0.231 168.0);
+    --green-6: oklch(0.600 0.217 168.0);
+    --green-7: oklch(0.700 0.157 168.0);
+    --green-8: oklch(0.800 0.101 168.0);
+    --green-9: oklch(0.900 0.048 168.0);
+
+    
+    --red-1: oklch(0.100 0.046 21.0);
+    --red-2: oklch(0.200 0.092 21.0);
+    --red-3: oklch(0.300 0.139 21.0);
+    --red-4: oklch(0.400 0.185 21.0);
+    --red-5: oklch(0.500 0.231 21.0);
+    --red-6: oklch(0.600 0.217 21.0);
+    --red-7: oklch(0.700 0.157 21.0);
+    --red-8: oklch(0.800 0.101 21.0);
+    --red-9: oklch(0.900 0.048 21.0);
+}

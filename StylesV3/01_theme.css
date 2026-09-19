@@ -1,0 +1,74 @@
+/* body{
+    background-color: var(--background-color);
+}
+.dark{
+    --text-white:   black;
+    --text-black:   white;
+    --w:            hsla(220, 50%, 16%, 1);
+    --dark:         hsla(220, 100%, 90%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 70%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
+    --background-color: hsla(220, 50%, 16%, 1);
+    background-color: hsla(220, 50%, 16%, 1);
+}
+.light{
+    --text-white:   white;
+    --text-black:   black;
+    --g:            black;
+    --w:            hsla(220, 100%, 90%, 1);
+    --dark:         hsla(220, 50%, 16%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 30%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: hsla(48, 100%, 50%, 1);
+    --background-color:hsla(220, 100%, 90%, 1);
+    background-color:hsla(220, 100%, 90%, 1);
+}
+.dark-accent{
+    --text-white:   black;
+    --text-black:   white;
+    --g:            black;
+    --w:            hsla(220, 100%, 90%, 1);
+    --dark:         hsla(220, 100%, 90%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 90%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
+    --background-color:hsla(220, 100%, 30%, 1);
+    background-color:hsla(220, 100%, 30%, 1);
+} */
+
+/* --------------------------------------------------------------------------
+   Sections
+   --------------------------------------------------------------------------
+   Wrap content in <section class="NAME"> to render it on its own named page.
+   Each section needs two parts:
+     1. an @page NAME rule that styles the page itself (background, margins,
+        running headers/footers, ...);
+     2. a section.NAME rule with `page: NAME` that assigns the content to it.
+   Switching to a named page forces a page break before and after the
+   section, so whatever follows returns to the default page automatically.
+   -------------------------------------------------------------------------- */
+
+@page light {
+    background: var(--color-9);
+}
+
+section.light {
+    page: light;
+    --text-white:   white;
+    --text-black:   black;
+    --g:            black;
+    --w:            hsla(220, 100%, 90%, 1);
+    --dark:         hsla(220, 50%, 16%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 30%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: hsla(48, 100%, 50%, 1);
+}

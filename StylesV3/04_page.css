@@ -1,0 +1,74 @@
+@page {
+    size: A4;
+    margin: 2cm 1.5cm 2.2cm 1.5cm;
+
+    @bottom-center {
+        content: counter(page) " / " counter(pages);
+        font-family: var(--font-sans);
+        font-size: 9pt;
+        color: var(--muted);
+    }
+}
+
+/* Wider inner margin for binding */
+@page:right {
+    margin-left: 2.5cm;
+
+    /* @top-right {
+        content: string(doc-title);
+        font-family: var(--font-sans);
+        font-size: 9pt;
+        color: var(--muted);
+    } */
+}
+
+@page:left {
+    margin-right: 2.5cm;
+
+    @top-left {
+        content: string(chapter-title);
+        font-family: var(--font-sans);
+        font-size: 9pt;
+        color: var(--muted);
+    }
+}
+
+/* No running header on the first page */
+@page:first {
+    @top-left  { content: none; }
+    @top-right { content: none; }
+}
+
+h1{
+    string-set: doc-title content(text);
+}
+
+h2 {
+    break-before: page;           /* each top-level section starts a new page */
+    string-set: chapter-title content(text);
+}
+
+/* Keep a heading with at least the start of what follows */
+h3 + *, h4 + *, h5 + *, h6 + * {
+    break-before: avoid;
+    page-break-before: avoid;
+}
+
+/* Cross-references to headings: append page number */
+/* a[href^="#"]:not(.footnote-ref):not(.footnote-back)::after {
+    content: " (p. " target-counter(attr(href), page) ")";
+    font-size: 0.85em;
+    color: light-dark(var(--color-2),var(--color-8));
+} */
+
+tr {
+    break-inside: avoid;
+}
+
+.pagedjs_page{
+    margin: 2rem auto;
+    background-color: var(--background-color);
+}
+html{
+    background-color: light-dark(#dfdfdf , #010110);
+}

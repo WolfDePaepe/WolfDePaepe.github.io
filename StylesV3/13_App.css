@@ -1,0 +1,189 @@
+/* *:not(#App, body, html){
+    border: 1px dotted red;
+} */
+
+body,html{
+    height: 100%;
+}
+#App, #app, .App{
+    background-color: var(--background-color);
+    min-height: 100%;
+    width: min(100%, 175rem);
+    margin: auto;
+    padding: 0 2rem 2rem 2rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    padding: 1rem 0;
+    gap: 1rem;
+    z-index: 9;
+
+    & nav{
+        display: flex;
+        gap: 1rem;
+
+        & a{
+            padding: .5em 1em;
+            border-radius: 100vw;
+            text-decoration: none;
+        }
+    }
+
+    & .logo{
+        max-height: 5rem;
+    }
+}
+#Page > menu{
+    list-style-type: none;
+    border: 2px solid var(--light-t);
+    padding: 1rem;
+    border-radius: 1rem;
+    position: sticky;
+    top: 7rem;
+
+    & :first-child{
+        margin-top: 0;
+    }
+}
+/* ------------------------------------------------- */
+/*                      Buttons                      */
+/* ------------------------------------------------- */
+
+/* button{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    transition: 
+        color              .15s ease-in-out,
+        background-color   .15s ease-in-out,
+        border-color       .15s ease-in-out,
+        box-shadow         .15s ease-in-out
+    ;
+    padding: .25em .5em;
+    border-radius: .25em;
+
+    &:hover {   
+        background-color: color(from inherit hsl h s calc(l - .25));
+    }
+} */
+
+.Button, .Button-final{
+    text-decoration: none;
+    &:active, &.active{
+        background-color: var(--light);
+    }
+}
+.Button-final{
+    background-color: var(--light-t);
+}
+
+button{
+    background-color: var(--dark-accent);
+    color: var(--text-black);
+    border: none;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: 1rem;
+    transition: all .125s ease;
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+    display:inline-block;
+
+    &.GI{
+        /* transform: translateY(-.2em); */
+        position: relative;
+        bottom: -.25ex;
+        color: var(--light);
+        padding: .125em;
+        border-radius: .25em;
+    }
+
+    &:hover{
+        background-color: var(--light);
+        color: var(--text-dark);
+        & .GI{
+            color: var(--dark-accent);
+        }
+    }
+}
+button.red{
+    background-color: var(--red);
+    color: var(--text-black);
+
+
+    & .GI{
+        color: var(--red-light);
+    }
+
+    &:hover{
+        background-color: var(--red-light);
+        & .GI{
+            color: var(--red-dark);
+        }
+    }
+    &:active{
+        color: var(--red-dark)
+    }
+}
+button.green{
+    background-color: var(--green);
+    color: var(--text-black);
+
+    & .GI{
+        color: var(--green-light);
+    }
+
+    &:hover{
+        background-color: var(--green-light);
+        & .GI{
+            color: var(--green-dark);
+        }
+    }
+    &:active{
+        color: var(--green-dark)
+    }
+}
+/* ------------------------------------------------- */
+/*                      Modals                       */
+/* ------------------------------------------------- */
+/* .modal{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    top: 100px;
+    left:0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 0;
+}
+.modal-dialog{
+    position: relative;
+    max-width: 95vw;
+    pointer-events: none;
+    margin-inline: auto;
+    background-color: var(--background-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    top: 10vh;
+    z-index: 999;
+} */
+ dialog{
+    position: fixed;
+    top: 5em;
+    left: 20%;
+    z-index: 10000;
+    background-color: var(--dark);
+ }
+/* dialog::backdrop {
+  background-color: blue;
+  opacity: 1;
+  z-index: ;
+} */
