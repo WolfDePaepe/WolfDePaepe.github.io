@@ -60,6 +60,7 @@
 }
 
 section.light {
+    background: var(--color-9);
     page: light;
     --text-white:   white;
     --text-black:   black;
@@ -71,4 +72,22 @@ section.light {
     --light:        hsla(220, 100%, 30%, 1);
     --light-t:      hsla(220, 100%, 89%,90%);
     --light-accent: hsla(48, 100%, 50%, 1);
+}
+
+@page dark {
+    background: var(--color-1);
+}
+
+section.dark {
+    background: var(--color-1);
+    page: dark;
+    --text-white:   black;
+    --text-black:   white;
+    --w:            hsla(220, 50%, 16%, 1);
+    --dark:         hsla(220, 100%, 90%, 1);
+    --dark-t:       hsla(220, 100%, 89%,90%);             
+    --dark-accent:  hsla(220, 100%, 70%, 1);
+    --light:        hsla(220, 100%, 30%, 1);
+    --light-t:      hsla(220, 100%, 89%,90%);
+    --light-accent: #FFCC00;
 }

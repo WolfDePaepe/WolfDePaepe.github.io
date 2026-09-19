@@ -1,6 +1,7 @@
 @page {
     size: A4;
     margin: 2cm 1.5cm 2.2cm 1.5cm;
+    color-scheme: light;
 
     @bottom-center {
         content: counter(page) " / " counter(pages);
@@ -68,7 +69,4 @@ tr {
 .pagedjs_page{
     margin: 2rem auto;
     background-color: var(--background-color);
-}
-html{
-    background-color: light-dark(#dfdfdf , #010110);
 }
